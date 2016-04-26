@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://taolicd.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://taolicd.github.io" />
-<updated>2016-04-25T22:45:08-07:00</updated>
+<updated>2016-04-25T22:51:22-07:00</updated>
 <id>http://taolicd.github.io/</id>
 <author>
   <name>Tao Li</name>
@@ -124,9 +124,9 @@ easily converted to HTML by a parser for web display.&lt;/p&gt;
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I finally decided to give LaTex a try as a tool for resume writing. I got some templates from the internet and played around. The result is not bad.:-)&lt;/p&gt;
+    &lt;p&gt;I finally decided to give LaTex a try as a tool for resume writing. I got some templates from the Internet and played around. The result is quite acceptable.&lt;/p&gt;
 
-&lt;p&gt;After I created the laTex file, I then used pandoc to generate a Word version.&lt;/p&gt;
+&lt;p&gt;After creating the LaTex file, I used &lt;a href=&quot;http://pandoc.org/&quot;&gt;pandoc&lt;/a&gt; to generate a Word version.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/taolicd/taolicd.github.io/blob/master/download/CV_tao.tex&quot;&gt;My CV in LaTex&lt;/a&gt;&lt;/p&gt;
 

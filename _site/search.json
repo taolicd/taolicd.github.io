@@ -10,6 +10,14 @@
 
   
     ,{
+      "title"			: "AI and middle class jobs",
+      "link"			: "http://taolicd.github.io/latex/AIandinternet/",
+      "excerpt"		: "Recently I started to ponder upon artificial intelligence (AI) and machine learning and how they are impacting our lives. The more books and online postings I read, the more I get concerned about the future job perspectives and quality of life we and our kids will be facing."
+    }
+  
+
+  
+    ,{
       "title"			: "My resume in LaTex",
       "link"			: "http://taolicd.github.io/latex/Randomstuff/",
       "excerpt"		: "I finally decided to give LaTex a try as a tool for resume writing. I got some templates from the internet and played around. The result is not bad.:-)"

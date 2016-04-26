@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Jupyter Notebook page with LaTex syntax"
+title:  "Jupyter/iPython Notebook page with LaTex syntax"
 date:   2016-04-01
 categories:  test
 use_math: true
 ---
 
-The content below is converted from an ipython Jypyter Notebook format to markdown.
+The content below is converted from an iPython Notebook format to Markdown. It is purely for testing purposes to see whether the formulas can be displayed properly. 
 
 
 # Motivating Examples

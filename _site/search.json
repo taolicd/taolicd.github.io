@@ -26,25 +26,9 @@
 
   
     ,{
-      "title"			: "Jupyter Notebook page with LaTex syntax",
+      "title"			: "Jupyter/iPython Notebook page with LaTex syntax",
       "link"			: "http://taolicd.github.io/test/Jupyternotebookwithlatex/",
-      "excerpt"		: "The content below is converted from an ipython Jypyter Notebook format to markdown."
-    }
-  
-
-  
-    ,{
-      "title"			: "Notebook to Markdown conversion test",
-      "link"			: "http://taolicd.github.io/notebook/to/markdown/test/inotebookconversion/",
-      "excerpt"		: "The following is just a test page to convert an existing ipython notebook to markdown and then post it through Jekyll. The source ipython notebook is downloaded from this link"
-    }
-  
-
-  
-    ,{
-      "title"			: "LaTex equation support in Github Markdown",
-      "link"			: "http://taolicd.github.io/latex/LaTex/",
-      "excerpt"		: "This page is to test whether github Markdown with Jekyll genereated content supports Math equations denoted in LaTex."
+      "excerpt"		: "The content below is converted from an iPython Notebook format to Markdown. It is purely for testing purposes to see whether the formulas can be displayed properly."
     }
   
 

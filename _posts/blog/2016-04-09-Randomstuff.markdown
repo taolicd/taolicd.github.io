@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "My resume in LaTex"
+date:   2016-04-09
+categories:  LaTex
+use_math: false
+---
+
+I finally decided to give LaTex a try as a tool for resume writing. I got some templates from the internet and played around. The result is not bad.:-) 
+
+After I created the laTex file, I then used pandoc to generate a Word version.
+
+[My CV in LaTex](https://github.com/taolicd/taolicd.github.io/blob/master/download/CV_tao.tex)
+
+[My CV in PDF](https://github.com/taolicd/taolicd.github.io/blob/master/download/CV_tao.pdf)
+
+[My CV in Word](https://github.com/taolicd/taolicd.github.io/blob/master/download/CV_tao.docx)
+
+

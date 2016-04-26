@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Apache Spark"
+date:   2016-03-28
+categories:  Spark
+---
+
+
+I started to poke around Apache Spark and was amazed how easy to set it up and get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error if I try to use Spark in notebook.

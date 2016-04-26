@@ -1,0 +1,2806 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Notebook to Markdown conversion test &#8211; Welcome to Tao's blog</title>
+<meta name="description" content="The following is just a test page to convert an existing ipython notebook to markdown and then post it through Jekyll. The source ipython notebook is downloaded from this link
+
+">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Notebook to Markdown conversion test">
+<meta name="twitter:description" content="The following is just a test page to convert an existing ipython notebook to markdown and then post it through Jekyll. The source ipython notebook is downloaded from this link
+
+">
+<meta name="twitter:site" content="@taolicd">
+<meta name="twitter:creator" content="@taolicd">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/site-logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Notebook to Markdown conversion test">
+<meta property="og:description" content="The following is just a test page to convert an existing ipython notebook to markdown and then post it through Jekyll. The source ipython notebook is downloaded from this link
+
+">
+<meta property="og:url" content="http://localhost:4000/notebook/to/markdown/test/inotebookconversion/">
+<meta property="og:site_name" content="Welcome to Tao's blog">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/notebook/to/markdown/test/inotebookconversion/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Welcome to Tao's blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		    <li><a href="http://localhost:4000/about/" >About</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/blog/" >Blog</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/search/" >Search</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+  		<a href="http://localhost:4000/" class="site-logo" rel="home" title="Welcome to Tao's blog"><img src="http://localhost:4000/images/site-logo.png" width="200" height="200" alt="Welcome to Tao's blog logo" class="animated fadeInDown"></a>
+      
+      <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">Welcome to Tao's blog</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">Technical Writer in San Jose</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          
+        </ul>
+        
+          <h1 class="entry-title">Notebook to Markdown conversion test</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://localhost:4000/images/bio-photo.jpg" class="bio-photo" alt="Tao Li bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Tao Li</span></span>
+        <span class="entry-date date published"><time datetime="2016-03-30T00:00:00-07:00"><i class="fa fa-calendar-o"></i> March 30, 2016</time></span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p>The following is just a test page to convert an existing ipython notebook to markdown and then post it through Jekyll. The source ipython notebook is downloaded from <a href="https://github.com/agconti/kaggle-titanic/blob/master/Titanic.ipynb">this link</a></p>
+
+<h3 id="kaggle-competition--titanic-machine-learning-from-disaster">Kaggle Competition | Titanic Machine Learning from Disaster</h3>
+
+<blockquote>
+  <p>The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.  This sensational tragedy shocked the international community and led to better safety regulations for ships.</p>
+</blockquote>
+
+<blockquote>
+  <p>One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew.  Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.</p>
+</blockquote>
+
+<blockquote>
+  <p>In this contest, we ask you to complete the analysis of what sorts of people were likely to survive.  In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.</p>
+</blockquote>
+
+<blockquote>
+  <p>This Kaggle Getting Started Competition provides an ideal starting place for people who may not have a lot of experience in data science and machine learning.”</p>
+</blockquote>
+
+<p>From the competition <a href="http://www.kaggle.com/c/titanic-gettingStarted">homepage</a>.</p>
+
+<h3 id="goal-for-this-notebook">Goal for this Notebook:</h3>
+<p>Show a simple example of an analysis of the Titanic disaster in Python using a full complement of PyData utilities. This is aimed for those looking to get into the field or those who are already in the field and looking to see an example of an analysis done with Python.</p>
+
+<h4 id="this-notebook-will-show-basic-examples-of">This Notebook will show basic examples of:</h4>
+<p>#### Data Handling
+*   Importing Data with Pandas
+*   Cleaning Data
+*   Exploring Data through Visualizations with Matplotlib</p>
+
+<h4 id="data-analysis">Data Analysis</h4>
+<ul>
+  <li>Supervised Machine learning Techniques:
+    +   Logit Regression Model 
+    +   Plotting results
+    +   Support Vector Machine (SVM) using 3 kernels
+    +   Basic Random Forest
+    +   Plotting results</li>
+</ul>
+
+<h4 id="valuation-of-the-analysis">Valuation of the Analysis</h4>
+<ul>
+  <li>K-folds cross validation to valuate results locally</li>
+  <li>Output the results from the IPython Notebook to Kaggle</li>
+</ul>
+
+<h4 id="required-libraries">Required Libraries:</h4>
+<ul>
+  <li><a href="http://www.numpy.org/">NumPy</a></li>
+  <li><a href="http://ipython.org/">IPython</a></li>
+  <li><a href="http://pandas.pydata.org/">Pandas</a></li>
+  <li><a href="http://scikit-learn.org/stable/">SciKit-Learn</a></li>
+  <li><a href="http://www.scipy.org/">SciPy</a></li>
+  <li><a href="http://statsmodels.sourceforge.net/">StatsModels</a></li>
+  <li><a href="http://patsy.readthedocs.org/en/latest/">Patsy</a></li>
+  <li><a href="http://matplotlib.org/">Matplotlib</a></li>
+</ul>
+
+<p><strong><em>To run this notebook interactively, get it from my Github <a href="https://github.com/agconti/kaggle-titanic">here</a>. The competition’s website is located on <a href="http://www.kaggle.com/c/titanic-gettingStarted">Kaggle.com</a>.</em></strong></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">statsmodels.api</span> <span class="kn">as</span> <span class="nn">sm</span>
+<span class="kn">from</span> <span class="nn">statsmodels.nonparametric.kde</span> <span class="kn">import</span> <span class="n">KDEUnivariate</span>
+<span class="kn">from</span> <span class="nn">statsmodels.nonparametric</span> <span class="kn">import</span> <span class="n">smoothers_lowess</span>
+<span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">Series</span><span class="p">,</span> <span class="n">DataFrame</span>
+<span class="kn">from</span> <span class="nn">patsy</span> <span class="kn">import</span> <span class="n">dmatrices</span>
+<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">svm</span>
+<span class="kn">from</span> <span class="nn">KaggleAux</span> <span class="kn">import</span> <span class="n">predict</span> <span class="k">as</span> <span class="n">ka</span> <span class="c"># see github.com/agconti/kaggleaux for more details</span>
+</code></pre>
+</div>
+
+<h3 id="data-handling">Data Handling</h3>
+<p>#### Let’s read our data in using pandas:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"data/train.csv"</span><span class="p">)</span> 
+</code></pre>
+</div>
+
+<p>Show an overview of our data:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">df</span> 
+</code></pre>
+</div>
+
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0  </th>
+      <td>   1</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                           Braund, Mr. Owen Harris</td>
+      <td>   male</td>
+      <td> 22</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>        A/5 21171</td>
+      <td>   7.2500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>1  </th>
+      <td>   2</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td> Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td> female</td>
+      <td> 38</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>         PC 17599</td>
+      <td>  71.2833</td>
+      <td>         C85</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>2  </th>
+      <td>   3</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                            Heikkinen, Miss. Laina</td>
+      <td> female</td>
+      <td> 26</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td> STON/O2. 3101282</td>
+      <td>   7.9250</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>3  </th>
+      <td>   4</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>      Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td> female</td>
+      <td> 35</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>           113803</td>
+      <td>  53.1000</td>
+      <td>        C123</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>4  </th>
+      <td>   5</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                          Allen, Mr. William Henry</td>
+      <td>   male</td>
+      <td> 35</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           373450</td>
+      <td>   8.0500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>5  </th>
+      <td>   6</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                                  Moran, Mr. James</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           330877</td>
+      <td>   8.4583</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>6  </th>
+      <td>   7</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>                           McCarthy, Mr. Timothy J</td>
+      <td>   male</td>
+      <td> 54</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>            17463</td>
+      <td>  51.8625</td>
+      <td>         E46</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>7  </th>
+      <td>   8</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                    Palsson, Master. Gosta Leonard</td>
+      <td>   male</td>
+      <td>  2</td>
+      <td> 3</td>
+      <td> 1</td>
+      <td>           349909</td>
+      <td>  21.0750</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>8  </th>
+      <td>   9</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td> Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)</td>
+      <td> female</td>
+      <td> 27</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>           347742</td>
+      <td>  11.1333</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>9  </th>
+      <td>  10</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>               Nasser, Mrs. Nicholas (Adele Achem)</td>
+      <td> female</td>
+      <td> 14</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>           237736</td>
+      <td>  30.0708</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>10 </th>
+      <td>  11</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                   Sandstrom, Miss. Marguerite Rut</td>
+      <td> female</td>
+      <td>  4</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>          PP 9549</td>
+      <td>  16.7000</td>
+      <td>          G6</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>11 </th>
+      <td>  12</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>                          Bonnell, Miss. Elizabeth</td>
+      <td> female</td>
+      <td> 58</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           113783</td>
+      <td>  26.5500</td>
+      <td>        C103</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>12 </th>
+      <td>  13</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                    Saundercock, Mr. William Henry</td>
+      <td>   male</td>
+      <td> 20</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>        A/5. 2151</td>
+      <td>   8.0500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>13 </th>
+      <td>  14</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                       Andersson, Mr. Anders Johan</td>
+      <td>   male</td>
+      <td> 39</td>
+      <td> 1</td>
+      <td> 5</td>
+      <td>           347082</td>
+      <td>  31.2750</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>14 </th>
+      <td>  15</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>              Vestrom, Miss. Hulda Amanda Adolfina</td>
+      <td> female</td>
+      <td> 14</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           350406</td>
+      <td>   7.8542</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>15 </th>
+      <td>  16</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>                  Hewlett, Mrs. (Mary D Kingcome) </td>
+      <td> female</td>
+      <td> 55</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           248706</td>
+      <td>  16.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>16 </th>
+      <td>  17</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                              Rice, Master. Eugene</td>
+      <td>   male</td>
+      <td>  2</td>
+      <td> 4</td>
+      <td> 1</td>
+      <td>           382652</td>
+      <td>  29.1250</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>17 </th>
+      <td>  18</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>                      Williams, Mr. Charles Eugene</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           244373</td>
+      <td>  13.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>18 </th>
+      <td>  19</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td> Vander Planke, Mrs. Julius (Emelia Maria Vande...</td>
+      <td> female</td>
+      <td> 31</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>           345763</td>
+      <td>  18.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>19 </th>
+      <td>  20</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                           Masselmani, Mrs. Fatima</td>
+      <td> female</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             2649</td>
+      <td>   7.2250</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>20 </th>
+      <td>  21</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>                              Fynney, Mr. Joseph J</td>
+      <td>   male</td>
+      <td> 35</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           239865</td>
+      <td>  26.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>21 </th>
+      <td>  22</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>                             Beesley, Mr. Lawrence</td>
+      <td>   male</td>
+      <td> 34</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           248698</td>
+      <td>  13.0000</td>
+      <td>         D56</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>22 </th>
+      <td>  23</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                       McGowan, Miss. Anna "Annie"</td>
+      <td> female</td>
+      <td> 15</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           330923</td>
+      <td>   8.0292</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>23 </th>
+      <td>  24</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>                      Sloper, Mr. William Thompson</td>
+      <td>   male</td>
+      <td> 28</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           113788</td>
+      <td>  35.5000</td>
+      <td>          A6</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>24 </th>
+      <td>  25</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                     Palsson, Miss. Torborg Danira</td>
+      <td> female</td>
+      <td>  8</td>
+      <td> 3</td>
+      <td> 1</td>
+      <td>           349909</td>
+      <td>  21.0750</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>25 </th>
+      <td>  26</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td> Asplund, Mrs. Carl Oscar (Selma Augusta Emilia...</td>
+      <td> female</td>
+      <td> 38</td>
+      <td> 1</td>
+      <td> 5</td>
+      <td>           347077</td>
+      <td>  31.3875</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>26 </th>
+      <td>  27</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                           Emir, Mr. Farred Chehab</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             2631</td>
+      <td>   7.2250</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>27 </th>
+      <td>  28</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>                    Fortune, Mr. Charles Alexander</td>
+      <td>   male</td>
+      <td> 19</td>
+      <td> 3</td>
+      <td> 2</td>
+      <td>            19950</td>
+      <td> 263.0000</td>
+      <td> C23 C25 C27</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>28 </th>
+      <td>  29</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                     O'Dwyer, Miss. Ellen "Nellie"</td>
+      <td> female</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           330959</td>
+      <td>   7.8792</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>29 </th>
+      <td>  30</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                               Todoroff, Mr. Lalio</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           349216</td>
+      <td>   7.8958</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>861</th>
+      <td> 862</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>                       Giles, Mr. Frederick Edward</td>
+      <td>   male</td>
+      <td> 21</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>            28134</td>
+      <td>  11.5000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>862</th>
+      <td> 863</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td> Swift, Mrs. Frederick Joel (Margaret Welles Ba...</td>
+      <td> female</td>
+      <td> 48</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>            17466</td>
+      <td>  25.9292</td>
+      <td>         D17</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>863</th>
+      <td> 864</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                 Sage, Miss. Dorothy Edith "Dolly"</td>
+      <td> female</td>
+      <td>NaN</td>
+      <td> 8</td>
+      <td> 2</td>
+      <td>         CA. 2343</td>
+      <td>  69.5500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>864</th>
+      <td> 865</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>                            Gill, Mr. John William</td>
+      <td>   male</td>
+      <td> 24</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           233866</td>
+      <td>  13.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>865</th>
+      <td> 866</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>                          Bystrom, Mrs. (Karolina)</td>
+      <td> female</td>
+      <td> 42</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           236852</td>
+      <td>  13.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>866</th>
+      <td> 867</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>                      Duran y More, Miss. Asuncion</td>
+      <td> female</td>
+      <td> 27</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>    SC/PARIS 2149</td>
+      <td>  13.8583</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>867</th>
+      <td> 868</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>              Roebling, Mr. Washington Augustus II</td>
+      <td>   male</td>
+      <td> 31</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>         PC 17590</td>
+      <td>  50.4958</td>
+      <td>         A24</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>868</th>
+      <td> 869</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                       van Melkebeke, Mr. Philemon</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           345777</td>
+      <td>   9.5000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>869</th>
+      <td> 870</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                   Johnson, Master. Harold Theodor</td>
+      <td>   male</td>
+      <td>  4</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>           347742</td>
+      <td>  11.1333</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>870</th>
+      <td> 871</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                                 Balkic, Mr. Cerin</td>
+      <td>   male</td>
+      <td> 26</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           349248</td>
+      <td>   7.8958</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>871</th>
+      <td> 872</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>  Beckwith, Mrs. Richard Leonard (Sallie Monypeny)</td>
+      <td> female</td>
+      <td> 47</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>            11751</td>
+      <td>  52.5542</td>
+      <td>         D35</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>872</th>
+      <td> 873</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>                          Carlsson, Mr. Frans Olof</td>
+      <td>   male</td>
+      <td> 33</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>              695</td>
+      <td>   5.0000</td>
+      <td> B51 B53 B55</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>873</th>
+      <td> 874</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                       Vander Cruyssen, Mr. Victor</td>
+      <td>   male</td>
+      <td> 47</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           345765</td>
+      <td>   9.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>874</th>
+      <td> 875</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>             Abelson, Mrs. Samuel (Hannah Wizosky)</td>
+      <td> female</td>
+      <td> 28</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>        P/PP 3381</td>
+      <td>  24.0000</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>875</th>
+      <td> 876</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>                  Najib, Miss. Adele Kiamie "Jane"</td>
+      <td> female</td>
+      <td> 15</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             2667</td>
+      <td>   7.2250</td>
+      <td>         NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>876</th>
+      <td> 877</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                     Gustafsson, Mr. Alfred Ossian</td>
+      <td>   male</td>
+      <td> 20</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             7534</td>
+      <td>   9.8458</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>877</th>
+      <td> 878</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                              Petroff, Mr. Nedelio</td>
+      <td>   male</td>
+      <td> 19</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           349212</td>
+      <td>   7.8958</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>878</th>
+      <td> 879</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                                Laleff, Mr. Kristo</td>
+      <td>   male</td>
+      <td>NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           349217</td>
+      <td>   7.8958</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>879</th>
+      <td> 880</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>     Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)</td>
+      <td> female</td>
+      <td> 56</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>            11767</td>
+      <td>  83.1583</td>
+      <td>         C50</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>880</th>
+      <td> 881</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>      Shelley, Mrs. William (Imanita Parrish Hall)</td>
+      <td> female</td>
+      <td> 25</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>           230433</td>
+      <td>  26.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>881</th>
+      <td> 882</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                                Markun, Mr. Johann</td>
+      <td>   male</td>
+      <td> 33</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           349257</td>
+      <td>   7.8958</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>882</th>
+      <td> 883</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                      Dahlberg, Miss. Gerda Ulrika</td>
+      <td> female</td>
+      <td> 22</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             7552</td>
+      <td>  10.5167</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>883</th>
+      <td> 884</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>                     Banfield, Mr. Frederick James</td>
+      <td>   male</td>
+      <td> 28</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td> C.A./SOTON 34068</td>
+      <td>  10.5000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>884</th>
+      <td> 885</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                            Sutehall, Mr. Henry Jr</td>
+      <td>   male</td>
+      <td> 25</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>  SOTON/OQ 392076</td>
+      <td>   7.0500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>885</th>
+      <td> 886</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>              Rice, Mrs. William (Margaret Norton)</td>
+      <td> female</td>
+      <td> 39</td>
+      <td> 0</td>
+      <td> 5</td>
+      <td>           382652</td>
+      <td>  29.1250</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>886</th>
+      <td> 887</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>                             Montvila, Rev. Juozas</td>
+      <td>   male</td>
+      <td> 27</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           211536</td>
+      <td>  13.0000</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>887</th>
+      <td> 888</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>                      Graham, Miss. Margaret Edith</td>
+      <td> female</td>
+      <td> 19</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           112053</td>
+      <td>  30.0000</td>
+      <td>         B42</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>888</th>
+      <td> 889</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>          Johnston, Miss. Catherine Helen "Carrie"</td>
+      <td> female</td>
+      <td>NaN</td>
+      <td> 1</td>
+      <td> 2</td>
+      <td>       W./C. 6607</td>
+      <td>  23.4500</td>
+      <td>         NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>889</th>
+      <td> 890</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>                             Behr, Mr. Karl Howell</td>
+      <td>   male</td>
+      <td> 26</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           111369</td>
+      <td>  30.0000</td>
+      <td>        C148</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>890</th>
+      <td> 891</td>
+      <td> 0</td>
+      <td> 3</td>
+      <td>                               Dooley, Mr. Patrick</td>
+      <td>   male</td>
+      <td> 32</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           370376</td>
+      <td>   7.7500</td>
+      <td>         NaN</td>
+      <td> Q</td>
+    </tr>
+  </tbody>
+</table>
+<p>891 rows × 12 columns</p>
+</div>
+
+<h3 id="lets-take-a-look">Let’s take a look:</h3>
+
+<p>Above is a summary of our data contained in a <code class="highlighter-rouge">Pandas</code> <code class="highlighter-rouge">DataFrame</code>. Think of a <code class="highlighter-rouge">DataFrame</code> as a Python’s super charged version of the workflow in an Excel table. As you can see the summary holds quite a bit of information. First, it lets us know we have 891 observations, or passengers, to analyze here:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Int64Index: 891 entries, 0 to 890
+</code></pre>
+</div>
+
+<p>Next it shows us all of the columns in <code class="highlighter-rouge">DataFrame</code>. Each column tells us something about each of our observations, like their <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">sex</code> or <code class="highlighter-rouge">age</code>. These colunms  are called a features of our dataset. You can think of the meaning of the words column and feature as interchangeable for this notebook.</p>
+
+<p>After each feature it lets us know how many values it contains. While most of our features have complete data on every observation, like the <code class="highlighter-rouge">survived</code> feature here:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>survived    891  non-null values 
+</code></pre>
+</div>
+
+<p>some are missing information, like the <code class="highlighter-rouge">age</code> feature:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>age         714  non-null values 
+</code></pre>
+</div>
+
+<p>These missing values are represented as <code class="highlighter-rouge">NaN</code>s.</p>
+
+<h3 id="take-care-of-missing-values">Take care of missing values:</h3>
+<p>The features <code class="highlighter-rouge">ticket</code> and <code class="highlighter-rouge">cabin</code> have many missing values and so can’t add much value to our analysis. To handle this we will drop them from the dataframe to preserve the integrity of our dataset.</p>
+
+<p>To do that we’ll use this line of code to drop the features entirely:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>df = df.drop(['ticket','cabin'], axis=1) 
+</code></pre>
+</div>
+
+<p>While this line of code removes the <code class="highlighter-rouge">NaN</code> values from every remaining column / feature:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>df = df.dropna()
+</code></pre>
+</div>
+
+<p>Now we have a clean and tidy dataset that is ready for analysis. Because <code class="highlighter-rouge">.dropna()</code> removes an observation from our data even if it only has 1 <code class="highlighter-rouge">NaN</code> in one of the features, it would have removed most of our dataset if we had not dropped the <code class="highlighter-rouge">ticket</code> and <code class="highlighter-rouge">cabin</code>  features first.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s">'Ticket'</span><span class="p">,</span><span class="s">'Cabin'</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c"># Remove NaN values</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span> 
+</code></pre>
+</div>
+
+<p>For a detailed look at how to use pandas for data analysis, the best resource is Wes Mckinney’s <a href="http://shop.oreilly.com/product/0636920023784.do">book</a>. Additional interactive tutorials that cover all of the basics can be found <a href="https://bitbucket.org/hrojas/learn-pandas">here</a> (they’re free).  If you still need to be convinced about the power of pandas check out this wirlwhind <a href="http://wesmckinney.com/blog/?p=647">look</a> at all that pandas can do.</p>
+
+<h3 id="lets-take-a-look-at-our-data-graphically">Let’s take a Look at our data graphically:</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># specifies the parameters of our graphs</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">6</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">1600</span><span class="p">)</span> 
+<span class="n">alpha</span><span class="o">=</span><span class="n">alpha_scatterplot</span> <span class="o">=</span> <span class="mf">0.2</span> 
+<span class="n">alpha_bar_chart</span> <span class="o">=</span> <span class="mf">0.55</span>
+
+<span class="c"># lets us plot many diffrent shaped graphs together </span>
+<span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="c"># plots a bar graph of those who surived vs those who did not.               </span>
+<span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_bar_chart</span><span class="p">)</span>
+<span class="c"># this nicely sets the margins in matplotlib to deal with a recent bug 1.3.1</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="c"># puts a title on our graph</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Distribution of Survival, (1 = Survived)"</span><span class="p">)</span>    
+
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">Age</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_scatterplot</span><span class="p">)</span>
+<span class="c"># sets the y axis lable</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Age"</span><span class="p">)</span>
+<span class="c"># formats the grid line style of our graphs                          </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s">'major'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s">'y'</span><span class="p">)</span>  
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Survival by Age,  (1 = Survived)"</span><span class="p">)</span>
+
+<span class="n">ax3</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Pclass</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">"barh"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_bar_chart</span><span class="p">)</span>
+<span class="n">ax3</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Class Distribution"</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="n">colspan</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="c"># plots a kernel density estimate of the subset of the 1st class passangers's age</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'kde'</span><span class="p">)</span>    
+<span class="n">df</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'kde'</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Age</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'kde'</span><span class="p">)</span>
+ <span class="c"># plots an axis lable</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Age"</span><span class="p">)</span>    
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Age Distribution within classes"</span><span class="p">)</span>
+<span class="c"># sets our legend for our graph.</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">((</span><span class="s">'1st Class'</span><span class="p">,</span> <span class="s">'2nd Class'</span><span class="p">,</span><span class="s">'3rd Class'</span><span class="p">),</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span> 
+
+<span class="n">ax5</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot2grid</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Embarked</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_bar_chart</span><span class="p">)</span>
+<span class="n">ax5</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Embarked</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()))</span>
+<span class="c"># specifies the parameters of our graphs</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Passengers per boarding location"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.text.Text at 0x119c1dd90&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_10_1.png" alt="png" /></p>
+
+<h3 id="exploratory-visualization">Exploratory Visualization:</h3>
+
+<p>The point of this competition is to predict if an individual will survive based on the features in the data like:</p>
+
+<ul>
+  <li>Traveling Class (called pclass in the data)</li>
+  <li>Sex</li>
+  <li>Age</li>
+  <li>Fare Price</li>
+</ul>
+
+<p>Let’s see if we can gain a better understanding of who survived and died.</p>
+
+<p>First let’s plot a bar graph of those who Survived Vs. Those who did not.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'barh'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"blue"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=.</span><span class="mi">65</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()))</span> 
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Survival Breakdown (1 = Survived, 0 = Died)"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.text.Text at 0x119a90fd0&gt;
+
+
+
+
+&lt;matplotlib.figure.Figure at 0x119931f10&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_12_2.png" alt="png" /></p>
+
+<h3 id="now-lets-tease-more-structure-out-of-the-data">Now let’s tease more structure out of the data,</h3>
+<p>### Let’s break the previous graph down by gender</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+
+<span class="c">#create a plot of two subsets, male and female, of the survived variable.</span>
+<span class="c">#After we do that we call value_counts() so it can be easily plotted as a bar graph. </span>
+<span class="c">#'barh' is just a horizontal bar graph</span>
+<span class="n">df_male</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span>
+<span class="n">df_female</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span>
+
+<span class="n">ax1</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">121</span><span class="p">)</span>
+<span class="n">df_male</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'barh'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Male'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.55</span><span class="p">)</span>
+<span class="n">df_female</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'barh'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2379'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Female'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.55</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Who Survived? with respect to Gender, (raw value counts) "</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> 
+
+<span class="c">#adjust graph to display the proportions of survival by gender</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">122</span><span class="p">)</span>
+<span class="p">(</span><span class="n">df_male</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">df_male</span><span class="o">.</span><span class="nb">sum</span><span class="p">()))</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'barh'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Male'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.55</span><span class="p">)</span>  
+<span class="p">(</span><span class="n">df_female</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">df_female</span><span class="o">.</span><span class="nb">sum</span><span class="p">()))</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'barh'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2379'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Female'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.55</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Who Survived proportionally? with respect to Gender"</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(-1, 2)
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_14_1.png" alt="png" /></p>
+
+<p>Here it’s clear that although more men died and survived in raw value counts, females had a greater survival rate proportionally (~25%), than men (~20%)</p>
+
+<h4 id="great-but-lets-go-down-even-further">Great! But let’s go down even further:</h4>
+<p>Can we capture more of the structure by using Pclass? Here we will bucket classes as lowest class or any of the high classes (classes 1 - 2). 3 is lowest class. Let’s break it down by Gender and what Class they were traveling in.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">1600</span><span class="p">)</span>
+<span class="n">alpha_level</span> <span class="o">=</span> <span class="mf">0.65</span>
+
+<span class="c"># building on the previous code, here we create an additional subset with in the gender subset </span>
+<span class="c"># we created for the survived variable. I know, thats a lot of subsets. After we do that we call </span>
+<span class="c"># value_counts() so it it can be easily plotted as a bar graph. this is repeated for each gender </span>
+<span class="c"># class pair.</span>
+<span class="n">ax1</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">141</span><span class="p">)</span>
+<span class="n">female_highclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">female_highclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'female, highclass'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2479'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_level</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Survived"</span><span class="p">,</span> <span class="s">"Died"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">female_highclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Who Survived? with respect to Gender and Class"</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax2</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">142</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">female_lowclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">female_lowclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'female, low class'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'pink'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_level</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">female_lowclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax3</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">143</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">male_lowclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">male_lowclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'male, low class'</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'lightblue'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_level</span><span class="p">)</span>
+<span class="n">ax3</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax3</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">male_lowclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax4</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">144</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">male_highclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">male_highclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'male, highclass'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">alpha_level</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'steelblue'</span><span class="p">)</span>
+<span class="n">ax4</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax4</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">male_highclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.legend.Legend at 0x10af39ed0&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_16_1.png" alt="png" /></p>
+
+<p>Awesome! Now we have a lot more information on who survived and died in the tragedy. With this deeper understanding, we are better equipped to create better more insightful models. This is a typical process in interactive data analysis. First you start small and understand the most basic relationships and slowly increment the complexity of your analysis as you discover more and more about the data you’re working with. Below is the progression of process laid out together:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">12</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">1600</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mf">0.65</span>
+<span class="c"># Step 1</span>
+<span class="n">ax1</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">341</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"blue"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Step. 1"</span><span class="p">)</span>
+
+<span class="c"># Step 2</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">345</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Male'</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2379'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Female'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Step. 2 </span><span class="se">\n</span><span class="s">Who Survied? with respect to Gender."</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax3</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">346</span><span class="p">)</span>
+<span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">]</span><span class="o">.</span><span class="n">size</span><span class="p">))</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Male'</span><span class="p">)</span>
+<span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">]</span><span class="o">.</span><span class="n">size</span><span class="p">))</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2379'</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">'Female'</span><span class="p">)</span>
+<span class="n">ax3</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Who Survied proportionally?"</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+
+<span class="c"># Step 3</span>
+<span class="n">ax4</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">349</span><span class="p">)</span>
+<span class="n">female_highclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">female_highclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'female highclass'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'#FA2479'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">ax4</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Survived"</span><span class="p">,</span> <span class="s">"Died"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax4</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">female_highclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Who Survived? with respect to Gender and Class"</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax5</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">female_lowclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'female'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">female_lowclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'female, low class'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'pink'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">ax5</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax5</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">female_lowclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax6</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">male_lowclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">==</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">male_lowclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'male, low class'</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s">'lightblue'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">ax6</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax6</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">male_lowclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+
+<span class="n">ax7</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+<span class="n">male_highclass</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">Sex</span> <span class="o">==</span> <span class="s">'male'</span><span class="p">][</span><span class="n">df</span><span class="o">.</span><span class="n">Pclass</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">male_highclass</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s">'bar'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'male highclass'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'steelblue'</span><span class="p">)</span>
+<span class="n">ax7</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">([</span><span class="s">"Died"</span><span class="p">,</span><span class="s">"Survived"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax7</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">male_highclass</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">'best'</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.legend.Legend at 0x11bdf3ed0&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_18_1.png" alt="png" /></p>
+
+<p>I’ve done my best to make the plotting code readable and intuitive, but if you’re looking for a more detailed look on how to start plotting in matplotlib, check out this beautiful notebook <a href="http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb">here</a>.</p>
+
+<p>Now that we have a basic understanding of what we are trying to predict, let’s predict it.
+## Supervised Machine Learning
+#### Logistic Regression:</p>
+
+<p>As explained by Wikipedia:
+&gt;In statistics, logistic regression or logit regression is a type of regression analysis used for predicting the outcome of a categorical dependent variable (a dependent variable that can take on a limited number of values, whose magnitudes are not meaningful but whose ordering of magnitudes may or may not be meaningful) based on one or more predictor variables. That is, it is used in estimating empirical values of the parameters in a qualitative response model. The probabilities describing the possible outcomes of a single trial are modeled, as a function of the explanatory (predictor) variables, using a logistic function. Frequently (and subsequently in this article) “logistic regression” is used to refer specifically to the problem in which the dependent variable is binary—that is, the number of available categories is two—and problems with more than two categories are referred to as multinomial logistic regression or, if the multiple categories are ordered, as ordered logistic regression.
+Logistic regression measures the relationship between a categorical dependent variable and one or more independent variables, which are usually (but not necessarily) continuous, by using probability scores as the predicted values of the dependent variable.[1] As such it treats the same set of problems as does probit regression using similar techniques.</p>
+
+<h4 id="the-skinny-as-explained-by-yours-truly">The skinny, as explained by yours truly:</h4>
+<p>Our competition wants us to predict a binary outcome. That is, it wants to know whether some will die, (represented as a 0), or survive, (represented as 1). A good place to start is to calculate the probability that an individual observation, or person, is likely to be a 0 or 1. That way we would know the chance that someone survives, and could start making somewhat informed perdictions. If we did, we’d get results like this::</p>
+
+<p><img src="https://raw.github.com/agconti/kaggle-titanic/master/images/calc_prob.png" alt="pred" /></p>
+
+<p>(<em>Y axis is the probability that someone survives, X axis is the passenger’s number from 1 to 891.</em>)</p>
+
+<p>While that information is useful it doesn’t let us know whether someone ended up alive or dead. It just lets us know the chance that they will survive or die. We still need to translate these probabilities into the binary decision we’re looking for. But how? We could arbitrarily say that our survival cutoff is anyone with a probability of survival over 50%. In fact, this tactic would actually perform pretty well for our data and would allow you to make decently accurate predictions. Graphically it would look something like this:</p>
+
+<p><img src="https://raw.github.com/agconti/kaggle-titanic/master/images/calc_prob_wline.png" alt="predwline" /></p>
+
+<p>If you’re a betting man like me, you don’t like to leave everything to chance. What are the odds that setting that cutoff at 50% works? Maybe 20% or 80% would work better. Clearly we need a more exact way to make that cutoff. What can save the day? In steps the <strong>Logistic Regression</strong>.</p>
+
+<p>A logistic regression follows the all steps we took above but mathematically calculates the cutoff, or decision boundary (as stats nerds call it), for you. This way it can figure out the best cut off to choose, perhaps 50% or 51.84%, that most accurately represents the training data.</p>
+
+<p>The three cells below show the process of creating our Logitist regression model, training it on the data, and examining its performance.</p>
+
+<p>First, we define our formula for our Logit regression. In the next cell we create a regression friendly dataframe that sets up boolean values for the categorical variables in our formula and lets our regression model know the types of inputs we’re giving it. The model is then instantiated and fitted before a summary of the model’s performance is printed. In the last cell we graphically compare the predictions of our model to the actual values we are trying to predict, as well as the residual errors from our model to check for any structure we may have missed.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># model formula</span>
+<span class="c"># here the ~ sign is an = sign, and the features of our dataset</span>
+<span class="c"># are written as a formula to predict survived. The C() lets our </span>
+<span class="c"># regression know that those variables are categorical.</span>
+<span class="c"># Ref: http://patsy.readthedocs.org/en/latest/formulas.html</span>
+<span class="n">formula</span> <span class="o">=</span> <span class="s">'Survived ~ C(Pclass) + C(Sex) + Age + SibSp  + C(Embarked)'</span> 
+<span class="c"># create a results dictionary to hold our regression results for easy analysis later        </span>
+<span class="n">results</span> <span class="o">=</span> <span class="p">{}</span> 
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># create a regression friendly dataframe using patsy's dmatrices function</span>
+<span class="n">y</span><span class="p">,</span><span class="n">x</span> <span class="o">=</span> <span class="n">dmatrices</span><span class="p">(</span><span class="n">formula</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">return_type</span><span class="o">=</span><span class="s">'dataframe'</span><span class="p">)</span>
+
+<span class="c"># instantiate our model</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">sm</span><span class="o">.</span><span class="n">Logit</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="n">x</span><span class="p">)</span>
+
+<span class="c"># fit our model to the training data</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+
+<span class="c"># save the result for outputing predictions later</span>
+<span class="n">results</span><span class="p">[</span><span class="s">'Logit'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">res</span><span class="p">,</span> <span class="n">formula</span><span class="p">]</span>
+<span class="n">res</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Optimization terminated successfully.
+         Current function value: 0.444388
+         Iterations 6
+</code></pre>
+</div>
+
+<table class="simpletable">
+<caption>Logit Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>     <td>Survived</td>     <th>  No. Observations:  </th>  <td>   712</td>  
+</tr>
+<tr>
+  <th>Model:</th>               <td>Logit</td>      <th>  Df Residuals:      </th>  <td>   704</td>  
+</tr>
+<tr>
+  <th>Method:</th>               <td>MLE</td>       <th>  Df Model:          </th>  <td>     7</td>  
+</tr>
+<tr>
+  <th>Date:</th>          <td>Sun, 20 Dec 2015</td> <th>  Pseudo R-squ.:     </th>  <td>0.3414</td>  
+</tr>
+<tr>
+  <th>Time:</th>              <td>11:27:33</td>     <th>  Log-Likelihood:    </th> <td> -316.40</td> 
+</tr>
+<tr>
+  <th>converged:</th>           <td>True</td>       <th>  LL-Null:           </th> <td> -480.45</td> 
+</tr>
+<tr>
+  <th> </th>                      <td> </td>        <th>  LLR p-value:       </th> <td>5.992e-67</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+          <td></td>            <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P&gt;|z|</th> <th>[95.0% Conf. Int.]</th> 
+</tr>
+<tr>
+  <th>Intercept</th>        <td>    4.5423</td> <td>    0.474</td> <td>    9.583</td> <td> 0.000</td> <td>    3.613     5.471</td>
+</tr>
+<tr>
+  <th>C(Pclass)[T.2]</th>   <td>   -1.2673</td> <td>    0.299</td> <td>   -4.245</td> <td> 0.000</td> <td>   -1.852    -0.682</td>
+</tr>
+<tr>
+  <th>C(Pclass)[T.3]</th>   <td>   -2.4966</td> <td>    0.296</td> <td>   -8.422</td> <td> 0.000</td> <td>   -3.078    -1.916</td>
+</tr>
+<tr>
+  <th>C(Sex)[T.male]</th>   <td>   -2.6239</td> <td>    0.218</td> <td>  -12.060</td> <td> 0.000</td> <td>   -3.050    -2.197</td>
+</tr>
+<tr>
+  <th>C(Embarked)[T.Q]</th> <td>   -0.8351</td> <td>    0.597</td> <td>   -1.398</td> <td> 0.162</td> <td>   -2.006     0.335</td>
+</tr>
+<tr>
+  <th>C(Embarked)[T.S]</th> <td>   -0.4254</td> <td>    0.271</td> <td>   -1.572</td> <td> 0.116</td> <td>   -0.956     0.105</td>
+</tr>
+<tr>
+  <th>Age</th>              <td>   -0.0436</td> <td>    0.008</td> <td>   -5.264</td> <td> 0.000</td> <td>   -0.060    -0.027</td>
+</tr>
+<tr>
+  <th>SibSp</th>            <td>   -0.3697</td> <td>    0.123</td> <td>   -3.004</td> <td> 0.003</td> <td>   -0.611    -0.129</td>
+</tr>
+</table>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># Plot Predictions Vs Actual</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">4</span><span class="p">));</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">121</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="c"># generate predictions from our fitted model</span>
+<span class="n">ypred</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">ypred</span><span class="p">,</span> <span class="s">'bo'</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s">'mo'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=.</span><span class="mi">25</span><span class="p">);</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s">'white'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s">'dashed'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Logit predictions, Blue: </span><span class="se">\n</span><span class="s">Fitted/predicted values: Red'</span><span class="p">);</span>
+
+<span class="c"># Residuals</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">122</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">resid_dev</span><span class="p">,</span> <span class="s">'r-'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s">'white'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s">'dashed'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">resid_dev</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">'Logit Residuals'</span><span class="p">);</span>
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_22_0.png" alt="png" /></p>
+
+<h2 id="so-how-well-did-this-work">So how well did this work?</h2>
+<p>Lets look at the predictions we generated graphically:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">9</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">1600</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">=</span> <span class="o">.</span><span class="mi">2</span>
+
+<span class="c"># Below are examples of more advanced plotting. </span>
+<span class="c"># It it looks strange check out the tutorial above.</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">221</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="n">kde_res</span> <span class="o">=</span> <span class="n">KDEUnivariate</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">predict</span><span class="p">())</span>
+<span class="n">kde_res</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kde_res</span><span class="o">.</span><span class="n">support</span><span class="p">,</span><span class="n">kde_res</span><span class="o">.</span><span class="n">density</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">kde_res</span><span class="o">.</span><span class="n">support</span><span class="p">,</span><span class="n">kde_res</span><span class="o">.</span><span class="n">density</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Distribution of our Predictions"</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">222</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">predict</span><span class="p">(),</span><span class="n">x</span><span class="p">[</span><span class="s">'C(Sex)[T.male]'</span><span class="p">]</span> <span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s">'major'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s">'x'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Predicted chance of survival"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Gender Bool"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"The Change of Survival Probability by Gender (1 = Male)"</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">223</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">predict</span><span class="p">(),</span><span class="n">x</span><span class="p">[</span><span class="s">'C(Pclass)[T.3]'</span><span class="p">]</span> <span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Predicted chance of survival"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Class Bool"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s">'major'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s">'x'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"The Change of Survival Probability by Lower Class (1 = 3rd Class)"</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">224</span><span class="p">,</span> <span class="n">axisbg</span><span class="o">=</span><span class="s">"#DBDBDB"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">predict</span><span class="p">(),</span><span class="n">x</span><span class="o">.</span><span class="n">Age</span> <span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="n">a</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.15</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"The Change of Survival Probability by Age"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Predicted chance of survival"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Age"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.text.Text at 0x10dc26350&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_24_1.png" alt="png" /></p>
+
+<h3 id="now-lets-use-our-model-to-predict-the-test-set-values-and-then-save-the-results-so-they-can-be-outputed-to-kaggle">Now lets use our model to predict the test set values and then save the results so they can be outputed to Kaggle</h3>
+<p>### Read the test data</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">test_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"data/test.csv"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<h3 id="examine-our-dataframe">Examine our dataframe</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">test_data</span>
+</code></pre>
+</div>
+
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0  </th>
+      <td>  892</td>
+      <td> 3</td>
+      <td>                                  Kelly, Mr. James</td>
+      <td>   male</td>
+      <td> 34.5</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             330911</td>
+      <td>   7.8292</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>1  </th>
+      <td>  893</td>
+      <td> 3</td>
+      <td>                  Wilkes, Mrs. James (Ellen Needs)</td>
+      <td> female</td>
+      <td> 47.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>             363272</td>
+      <td>   7.0000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>2  </th>
+      <td>  894</td>
+      <td> 2</td>
+      <td>                         Myles, Mr. Thomas Francis</td>
+      <td>   male</td>
+      <td> 62.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             240276</td>
+      <td>   9.6875</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>3  </th>
+      <td>  895</td>
+      <td> 3</td>
+      <td>                                  Wirz, Mr. Albert</td>
+      <td>   male</td>
+      <td> 27.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             315154</td>
+      <td>   8.6625</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>4  </th>
+      <td>  896</td>
+      <td> 3</td>
+      <td>      Hirvonen, Mrs. Alexander (Helga E Lindqvist)</td>
+      <td> female</td>
+      <td> 22.0</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>            3101298</td>
+      <td>  12.2875</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>5  </th>
+      <td>  897</td>
+      <td> 3</td>
+      <td>                        Svensson, Mr. Johan Cervin</td>
+      <td>   male</td>
+      <td> 14.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>               7538</td>
+      <td>   9.2250</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>6  </th>
+      <td>  898</td>
+      <td> 3</td>
+      <td>                              Connolly, Miss. Kate</td>
+      <td> female</td>
+      <td> 30.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             330972</td>
+      <td>   7.6292</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>7  </th>
+      <td>  899</td>
+      <td> 2</td>
+      <td>                      Caldwell, Mr. Albert Francis</td>
+      <td>   male</td>
+      <td> 26.0</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>             248738</td>
+      <td>  29.0000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>8  </th>
+      <td>  900</td>
+      <td> 3</td>
+      <td>         Abrahim, Mrs. Joseph (Sophie Halaut Easu)</td>
+      <td> female</td>
+      <td> 18.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>               2657</td>
+      <td>   7.2292</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>9  </th>
+      <td>  901</td>
+      <td> 3</td>
+      <td>                           Davies, Mr. John Samuel</td>
+      <td>   male</td>
+      <td> 21.0</td>
+      <td> 2</td>
+      <td> 0</td>
+      <td>          A/4 48871</td>
+      <td>  24.1500</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>10 </th>
+      <td>  902</td>
+      <td> 3</td>
+      <td>                                  Ilieff, Mr. Ylio</td>
+      <td>   male</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             349220</td>
+      <td>   7.8958</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>11 </th>
+      <td>  903</td>
+      <td> 1</td>
+      <td>                        Jones, Mr. Charles Cresson</td>
+      <td>   male</td>
+      <td> 46.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>                694</td>
+      <td>  26.0000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>12 </th>
+      <td>  904</td>
+      <td> 1</td>
+      <td>     Snyder, Mrs. John Pillsbury (Nelle Stevenson)</td>
+      <td> female</td>
+      <td> 23.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              21228</td>
+      <td>  82.2667</td>
+      <td>             B45</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>13 </th>
+      <td>  905</td>
+      <td> 2</td>
+      <td>                              Howard, Mr. Benjamin</td>
+      <td>   male</td>
+      <td> 63.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              24065</td>
+      <td>  26.0000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>14 </th>
+      <td>  906</td>
+      <td> 1</td>
+      <td> Chaffee, Mrs. Herbert Fuller (Carrie Constance...</td>
+      <td> female</td>
+      <td> 47.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>        W.E.P. 5734</td>
+      <td>  61.1750</td>
+      <td>             E31</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>15 </th>
+      <td>  907</td>
+      <td> 2</td>
+      <td>     del Carlo, Mrs. Sebastiano (Argenia Genovesi)</td>
+      <td> female</td>
+      <td> 24.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>      SC/PARIS 2167</td>
+      <td>  27.7208</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>16 </th>
+      <td>  908</td>
+      <td> 2</td>
+      <td>                                 Keane, Mr. Daniel</td>
+      <td>   male</td>
+      <td> 35.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             233734</td>
+      <td>  12.3500</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>17 </th>
+      <td>  909</td>
+      <td> 3</td>
+      <td>                                 Assaf, Mr. Gerios</td>
+      <td>   male</td>
+      <td> 21.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>               2692</td>
+      <td>   7.2250</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>18 </th>
+      <td>  910</td>
+      <td> 3</td>
+      <td>                      Ilmakangas, Miss. Ida Livija</td>
+      <td> female</td>
+      <td> 27.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>   STON/O2. 3101270</td>
+      <td>   7.9250</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>19 </th>
+      <td>  911</td>
+      <td> 3</td>
+      <td>             Assaf Khalil, Mrs. Mariana (Miriam")"</td>
+      <td> female</td>
+      <td> 45.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>               2696</td>
+      <td>   7.2250</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>20 </th>
+      <td>  912</td>
+      <td> 1</td>
+      <td>                            Rothschild, Mr. Martin</td>
+      <td>   male</td>
+      <td> 55.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>           PC 17603</td>
+      <td>  59.4000</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>21 </th>
+      <td>  913</td>
+      <td> 3</td>
+      <td>                         Olsen, Master. Artur Karl</td>
+      <td>   male</td>
+      <td>  9.0</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>            C 17368</td>
+      <td>   3.1708</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>22 </th>
+      <td>  914</td>
+      <td> 1</td>
+      <td>              Flegenheim, Mrs. Alfred (Antoinette)</td>
+      <td> female</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           PC 17598</td>
+      <td>  31.6833</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>23 </th>
+      <td>  915</td>
+      <td> 1</td>
+      <td>                   Williams, Mr. Richard Norris II</td>
+      <td>   male</td>
+      <td> 21.0</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>           PC 17597</td>
+      <td>  61.3792</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>24 </th>
+      <td>  916</td>
+      <td> 1</td>
+      <td>   Ryerson, Mrs. Arthur Larned (Emily Maria Borie)</td>
+      <td> female</td>
+      <td> 48.0</td>
+      <td> 1</td>
+      <td> 3</td>
+      <td>           PC 17608</td>
+      <td> 262.3750</td>
+      <td> B57 B59 B63 B66</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>25 </th>
+      <td>  917</td>
+      <td> 3</td>
+      <td>                           Robins, Mr. Alexander A</td>
+      <td>   male</td>
+      <td> 50.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>          A/5. 3337</td>
+      <td>  14.5000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>26 </th>
+      <td>  918</td>
+      <td> 1</td>
+      <td>                      Ostby, Miss. Helene Ragnhild</td>
+      <td> female</td>
+      <td> 22.0</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>             113509</td>
+      <td>  61.9792</td>
+      <td>             B36</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>27 </th>
+      <td>  919</td>
+      <td> 3</td>
+      <td>                                 Daher, Mr. Shedid</td>
+      <td>   male</td>
+      <td> 22.5</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>               2698</td>
+      <td>   7.2250</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>28 </th>
+      <td>  920</td>
+      <td> 1</td>
+      <td>                           Brady, Mr. John Bertram</td>
+      <td>   male</td>
+      <td> 41.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             113054</td>
+      <td>  30.5000</td>
+      <td>             A21</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>29 </th>
+      <td>  921</td>
+      <td> 3</td>
+      <td>                                 Samaan, Mr. Elias</td>
+      <td>   male</td>
+      <td>  NaN</td>
+      <td> 2</td>
+      <td> 0</td>
+      <td>               2662</td>
+      <td>  21.6792</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td> 1280</td>
+      <td> 3</td>
+      <td>                              Canavan, Mr. Patrick</td>
+      <td>   male</td>
+      <td> 21.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             364858</td>
+      <td>   7.7500</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td> 1281</td>
+      <td> 3</td>
+      <td>                       Palsson, Master. Paul Folke</td>
+      <td>   male</td>
+      <td>  6.0</td>
+      <td> 3</td>
+      <td> 1</td>
+      <td>             349909</td>
+      <td>  21.0750</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td> 1282</td>
+      <td> 1</td>
+      <td>                        Payne, Mr. Vivian Ponsonby</td>
+      <td>   male</td>
+      <td> 23.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>              12749</td>
+      <td>  93.5000</td>
+      <td>             B24</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td> 1283</td>
+      <td> 1</td>
+      <td>    Lines, Mrs. Ernest H (Elizabeth Lindsey James)</td>
+      <td> female</td>
+      <td> 51.0</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>           PC 17592</td>
+      <td>  39.4000</td>
+      <td>             D28</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td> 1284</td>
+      <td> 3</td>
+      <td>                     Abbott, Master. Eugene Joseph</td>
+      <td>   male</td>
+      <td> 13.0</td>
+      <td> 0</td>
+      <td> 2</td>
+      <td>          C.A. 2673</td>
+      <td>  20.2500</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td> 1285</td>
+      <td> 2</td>
+      <td>                              Gilbert, Mr. William</td>
+      <td>   male</td>
+      <td> 47.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>         C.A. 30769</td>
+      <td>  10.5000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td> 1286</td>
+      <td> 3</td>
+      <td>                          Kink-Heilmann, Mr. Anton</td>
+      <td>   male</td>
+      <td> 29.0</td>
+      <td> 3</td>
+      <td> 1</td>
+      <td>             315153</td>
+      <td>  22.0250</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>395</th>
+      <td> 1287</td>
+      <td> 1</td>
+      <td>    Smith, Mrs. Lucien Philip (Mary Eloise Hughes)</td>
+      <td> female</td>
+      <td> 18.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              13695</td>
+      <td>  60.0000</td>
+      <td>             C31</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>396</th>
+      <td> 1288</td>
+      <td> 3</td>
+      <td>                              Colbert, Mr. Patrick</td>
+      <td>   male</td>
+      <td> 24.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             371109</td>
+      <td>   7.2500</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>397</th>
+      <td> 1289</td>
+      <td> 1</td>
+      <td> Frolicher-Stehli, Mrs. Maxmillian (Margaretha ...</td>
+      <td> female</td>
+      <td> 48.0</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>              13567</td>
+      <td>  79.2000</td>
+      <td>             B41</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td> 1290</td>
+      <td> 3</td>
+      <td>                    Larsson-Rondberg, Mr. Edvard A</td>
+      <td>   male</td>
+      <td> 22.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             347065</td>
+      <td>   7.7750</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td> 1291</td>
+      <td> 3</td>
+      <td>                          Conlon, Mr. Thomas Henry</td>
+      <td>   male</td>
+      <td> 31.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>              21332</td>
+      <td>   7.7333</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td> 1292</td>
+      <td> 1</td>
+      <td>                           Bonnell, Miss. Caroline</td>
+      <td> female</td>
+      <td> 30.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>              36928</td>
+      <td> 164.8667</td>
+      <td>              C7</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td> 1293</td>
+      <td> 2</td>
+      <td>                                   Gale, Mr. Harry</td>
+      <td>   male</td>
+      <td> 38.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              28664</td>
+      <td>  21.0000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td> 1294</td>
+      <td> 1</td>
+      <td>                    Gibson, Miss. Dorothy Winifred</td>
+      <td> female</td>
+      <td> 22.0</td>
+      <td> 0</td>
+      <td> 1</td>
+      <td>             112378</td>
+      <td>  59.4000</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td> 1295</td>
+      <td> 1</td>
+      <td>                            Carrau, Mr. Jose Pedro</td>
+      <td>   male</td>
+      <td> 17.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             113059</td>
+      <td>  47.1000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td> 1296</td>
+      <td> 1</td>
+      <td>                      Frauenthal, Mr. Isaac Gerald</td>
+      <td>   male</td>
+      <td> 43.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              17765</td>
+      <td>  27.7208</td>
+      <td>             D40</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>405</th>
+      <td> 1297</td>
+      <td> 2</td>
+      <td>      Nourney, Mr. Alfred (Baron von Drachstedt")"</td>
+      <td>   male</td>
+      <td> 20.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>      SC/PARIS 2166</td>
+      <td>  13.8625</td>
+      <td>             D38</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td> 1298</td>
+      <td> 2</td>
+      <td>                         Ware, Mr. William Jeffery</td>
+      <td>   male</td>
+      <td> 23.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              28666</td>
+      <td>  10.5000</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td> 1299</td>
+      <td> 1</td>
+      <td>                        Widener, Mr. George Dunton</td>
+      <td>   male</td>
+      <td> 50.0</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>             113503</td>
+      <td> 211.5000</td>
+      <td>             C80</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>408</th>
+      <td> 1300</td>
+      <td> 3</td>
+      <td>                   Riordan, Miss. Johanna Hannah""</td>
+      <td> female</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             334915</td>
+      <td>   7.7208</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>409</th>
+      <td> 1301</td>
+      <td> 3</td>
+      <td>                         Peacock, Miss. Treasteall</td>
+      <td> female</td>
+      <td>  3.0</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td> SOTON/O.Q. 3101315</td>
+      <td>  13.7750</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>410</th>
+      <td> 1302</td>
+      <td> 3</td>
+      <td>                            Naughton, Miss. Hannah</td>
+      <td> female</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             365237</td>
+      <td>   7.7500</td>
+      <td>             NaN</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td> 1303</td>
+      <td> 1</td>
+      <td>   Minahan, Mrs. William Edward (Lillian E Thorpe)</td>
+      <td> female</td>
+      <td> 37.0</td>
+      <td> 1</td>
+      <td> 0</td>
+      <td>              19928</td>
+      <td>  90.0000</td>
+      <td>             C78</td>
+      <td> Q</td>
+    </tr>
+    <tr>
+      <th>412</th>
+      <td> 1304</td>
+      <td> 3</td>
+      <td>                    Henriksson, Miss. Jenny Lovisa</td>
+      <td> female</td>
+      <td> 28.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             347086</td>
+      <td>   7.7750</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>413</th>
+      <td> 1305</td>
+      <td> 3</td>
+      <td>                                Spector, Mr. Woolf</td>
+      <td>   male</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>          A.5. 3236</td>
+      <td>   8.0500</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>414</th>
+      <td> 1306</td>
+      <td> 1</td>
+      <td>                      Oliva y Ocana, Dona. Fermina</td>
+      <td> female</td>
+      <td> 39.0</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>           PC 17758</td>
+      <td> 108.9000</td>
+      <td>            C105</td>
+      <td> C</td>
+    </tr>
+    <tr>
+      <th>415</th>
+      <td> 1307</td>
+      <td> 3</td>
+      <td>                      Saether, Mr. Simon Sivertsen</td>
+      <td>   male</td>
+      <td> 38.5</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td> SOTON/O.Q. 3101262</td>
+      <td>   7.2500</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>416</th>
+      <td> 1308</td>
+      <td> 3</td>
+      <td>                               Ware, Mr. Frederick</td>
+      <td>   male</td>
+      <td>  NaN</td>
+      <td> 0</td>
+      <td> 0</td>
+      <td>             359309</td>
+      <td>   8.0500</td>
+      <td>             NaN</td>
+      <td> S</td>
+    </tr>
+    <tr>
+      <th>417</th>
+      <td> 1309</td>
+      <td> 3</td>
+      <td>                          Peter, Master. Michael J</td>
+      <td>   male</td>
+      <td>  NaN</td>
+      <td> 1</td>
+      <td> 1</td>
+      <td>               2668</td>
+      <td>  22.3583</td>
+      <td>             NaN</td>
+      <td> C</td>
+    </tr>
+  </tbody>
+</table>
+<p>418 rows × 11 columns</p>
+</div>
+
+<h3 id="add-our-independent-variable-to-our-test-data-it-is-usually-left-blank-by-kaggle-because-it-is-the-value-you-are-trying-to-predict">Add our independent variable to our test data. (It is usually left blank by Kaggle because it is the value you are trying to predict.)</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">test_data</span><span class="p">[</span><span class="s">'Survived'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.23</span>
+</code></pre>
+</div>
+
+<p>Our binned results data:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">results</span> 
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="err">'Logit':</span><span class="w"> </span><span class="err">[&lt;statsmodels.discrete.discrete_model.BinaryResultsWrapper</span><span class="w"> </span><span class="err">at</span><span class="w"> </span><span class="err">0x10b1e8550&gt;,</span><span class="w">
+  </span><span class="err">'Survived</span><span class="w"> </span><span class="err">~</span><span class="w"> </span><span class="err">C(Pclass)</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">C(Sex)</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">Age</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">SibSp</span><span class="w">  </span><span class="err">+</span><span class="w"> </span><span class="err">C(Embarked)']</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># Use your model to make prediction on our test set. </span>
+<span class="n">compared_resuts</span> <span class="o">=</span> <span class="n">ka</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">test_data</span><span class="p">,</span> <span class="n">results</span><span class="p">,</span> <span class="s">'Logit'</span><span class="p">)</span>
+<span class="n">compared_resuts</span> <span class="o">=</span> <span class="n">Series</span><span class="p">(</span><span class="n">compared_resuts</span><span class="p">)</span>  <span class="c"># convert our model to a series for easy output</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># output and submit to kaggle</span>
+<span class="n">compared_resuts</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s">"data/output/logitregres.csv"</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<h3 id="results-as-scored-by-kaggle-rmse--077033--that-result-is-pretty-good-ect-ect-ect">Results as scored by Kaggle: RMSE = 0.77033  That result is pretty good. ECT ECT ECT</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># Create an acceptable formula for our machine learning algorithms</span>
+<span class="n">formula_ml</span> <span class="o">=</span> <span class="s">'Survived ~ C(Pclass) + C(Sex) + Age + SibSp + Parch + C(Embarked)'</span>
+</code></pre>
+</div>
+
+<h3 id="support-vector-machine-svm">Support Vector Machine (SVM)</h3>
+
+<p><em>“So uhhh, what if a straight line just doesn’t cut it.”</em></p>
+
+<p><strong>Wikipeda:</strong>
+&gt;In machine learning, support vector machines (SVMs, also support vector networks[1]) are supervised learning models with associated learning algorithms that analyze data and recognize patterns, used for classification and regression analysis. The basic SVM takes a set of input data and predicts, for each given input, which of two possible classes forms the output, making it a non-probabilistic binary linear classifier. Given a set of training examples, each marked as belonging to one of two categories, an SVM training algorithm builds a model that assigns new examples into one category or the other. An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall on.
+In addition to performing linear classification, SVMs can efficiently perform non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces.</p>
+
+<h2 id="from-me">From me</h2>
+<p>The logit model we just implemented was great in that it showed exactly where to draw our decision boundary or our ‘survival cut off’.  But if you’re like me, you could have thought, “So uhhh, what if a straight line just doesn’t cut it”. A linear line is okay, but can we do better? Perhaps a more complex decision boundary like a wave, circle, or maybe some sort of strange polygon would describe the variance observed in our sample better than a line.  Imagine if we were predicating survival based on age. It could be a linear decision boundary, meaning  each additional time you’ve gone around the sun you were 1 unit more or less likely to survive. But I think it could be easy to imagine some sort of curve, where a young healthy person would have the best chance of survival, and sadly the very old and very young a like: a poor chance. Now that’s a interesting question to answer. But our logit model can only evaluate a linear decision boundary. How do we get around this? With the usual answer to life the universe and everything;  $MATH$.</p>
+
+<p><strong>The answer:</strong>
+We could transform our logit equation from expressing a linear relationship like so:</p>
+
+<p>$survived  = \beta_0 + \beta_1pclass + \beta_2sex + \beta_3age + \beta_4sibsp + \beta_5parch + \beta_6embarked$</p>
+
+<p>Which we’ll represent for convenience as: 
+$y = x$</p>
+
+<p>to a expressing a linear expression of a non-linear relationship: 
+$\log(y) = \log(x)$</p>
+
+<p>By doing this we’re not breaking the rules. Logit models are <em>only</em> efficient at modeling linear relationships, so we’re just giving it a linear relationship of a non-linear thing.</p>
+
+<p>An easy way to visualize this by looking at a graph an exponential relationship. Like the graph of $x^3$:</p>
+
+<p><img src="https://raw.github.com/agconti/kaggle-titanic/master/images/x3.png" alt="x3" /></p>
+
+<p>Here its obvious that this is not linear. If used it as an equation for our logit model, $y = x^3$; we would get bad results. But if we transformed it by taking the log  of our equation, $\log(y) = \log(x^3)$. We would get a graph like this:</p>
+
+<p><img src="https://raw.github.com/agconti/kaggle-titanic/master/images/loglogx3.png" alt="loglogx3" /></p>
+
+<p>That looks pretty linear to me.</p>
+
+<p>This process of transforming models so that they can be better expressed in a different mathematical plane is exactly what the Support Vector Machine does for us. The math behind how it does that is not trivial, so if your interested; put on your reading glasses and head over <a href="http://dustwell.com/PastWork/IntroToSVM.pdf">here</a>. Below is the process of implementing a SVM model and examining the results after the SVM transforms our equation into three different mathematical plains. The first is linear, and is similar to our logic model. Next is an exponential, polynomial, transformation and finally a blank transformation.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># set plotting parameters</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+
+<span class="c"># create a regression friendly data frame</span>
+<span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">dmatrices</span><span class="p">(</span><span class="n">formula_ml</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">return_type</span><span class="o">=</span><span class="s">'matrix'</span><span class="p">)</span>
+
+<span class="c"># select which features we would like to analyze</span>
+<span class="c"># try chaning the selection here for diffrent output.</span>
+<span class="c"># Choose : [2,3] - pretty sweet DBs [3,1] --standard DBs [7,3] -very cool DBs,</span>
+<span class="c"># [3,6] -- very long complex dbs, could take over an hour to calculate! </span>
+<span class="n">feature_1</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">feature_2</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,[</span><span class="n">feature_1</span><span class="p">,</span> <span class="n">feature_2</span><span class="p">]]</span>  
+
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="c"># needs to be 1 dimenstional so we flatten. it comes out of dmatirces with a shape. </span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>      
+
+<span class="n">n_sample</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">order</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">permutation</span><span class="p">(</span><span class="n">n_sample</span><span class="p">)</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">order</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="n">order</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="c"># do a cross validation</span>
+<span class="n">nighty_precent_of_sample</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="o">.</span><span class="mi">9</span> <span class="o">*</span> <span class="n">n_sample</span><span class="p">)</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:</span><span class="n">nighty_precent_of_sample</span><span class="p">]</span>
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span><span class="p">[:</span><span class="n">nighty_precent_of_sample</span><span class="p">]</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">nighty_precent_of_sample</span><span class="p">:]</span>
+<span class="n">y_test</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="n">nighty_precent_of_sample</span><span class="p">:]</span>
+
+<span class="c"># create a list of the types of kerneks we will use for your analysis</span>
+<span class="n">types_of_kernels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'linear'</span><span class="p">,</span> <span class="s">'rbf'</span><span class="p">,</span> <span class="s">'poly'</span><span class="p">]</span>
+
+<span class="c"># specify our color map for plotting the results</span>
+<span class="n">color_map</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">RdBu_r</span>
+
+<span class="c"># fit the model</span>
+<span class="k">for</span> <span class="n">fig_num</span><span class="p">,</span> <span class="n">kernel</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">types_of_kernels</span><span class="p">):</span>
+    <span class="n">clf</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="n">kernel</span><span class="p">,</span> <span class="n">gamma</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+    <span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">fig_num</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">c</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">color_map</span><span class="p">)</span>
+
+    <span class="c"># circle out the test data</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">X_test</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">X_test</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">s</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">facecolors</span><span class="o">=</span><span class="s">'none'</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+    
+    <span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'tight'</span><span class="p">)</span>
+    <span class="n">x_min</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="nb">min</span><span class="p">()</span>
+    <span class="n">x_max</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+    <span class="n">y_min</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="nb">min</span><span class="p">()</span>
+    <span class="n">y_max</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+
+    <span class="n">XX</span><span class="p">,</span> <span class="n">YY</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="n">x_min</span><span class="p">:</span><span class="n">x_max</span><span class="p">:</span><span class="mi">200</span><span class="n">j</span><span class="p">,</span> <span class="n">y_min</span><span class="p">:</span><span class="n">y_max</span><span class="p">:</span><span class="mi">200</span><span class="n">j</span><span class="p">]</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">decision_function</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">XX</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="n">YY</span><span class="o">.</span><span class="n">ravel</span><span class="p">()])</span>
+
+    <span class="c"># put the result into a color plot</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">Z</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">XX</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">pcolormesh</span><span class="p">(</span><span class="n">XX</span><span class="p">,</span> <span class="n">YY</span><span class="p">,</span> <span class="n">Z</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">color_map</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">contour</span><span class="p">(</span><span class="n">XX</span><span class="p">,</span> <span class="n">YY</span><span class="p">,</span> <span class="n">Z</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s">'k'</span><span class="p">,</span> <span class="s">'k'</span><span class="p">,</span> <span class="s">'k'</span><span class="p">],</span> <span class="n">linestyles</span><span class="o">=</span><span class="p">[</span><span class="s">'--'</span><span class="p">,</span> <span class="s">'-'</span><span class="p">,</span> <span class="s">'--'</span><span class="p">],</span>
+               <span class="n">levels</span><span class="o">=</span><span class="p">[</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">])</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">kernel</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_38_0.png" alt="png" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;matplotlib.figure.Figure at 0x10d4820d0&gt;
+</code></pre>
+</div>
+
+<p><img src="Titanic_files/Titanic_38_2.png" alt="png" /></p>
+
+<p><img src="Titanic_files/Titanic_38_3.png" alt="png" /></p>
+
+<p>Any value in the blue survived while anyone in the read did not. Checkout the graph for the linear transformation. It created its decision boundary right on 50%! That guess from earlier turned out to be pretty good.  As you can see, the remaining decision boundaries are much more complex than our original linear decision boundary. These more complex boundaries may be able to capture more structure in the dataset, if that structure exists, and so might create a more powerful predictive model.</p>
+
+<p>Pick a decision boundary that you like, adjust the code below, and submit the results to Kaggle to see how well it worked!</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># Here you can output which ever result you would like by changing the Kernel and clf.predict lines</span>
+<span class="c"># Change kernel here to poly, rbf or linear</span>
+<span class="c"># adjusting the gamma level also changes the degree to which the model is fitted</span>
+<span class="n">clf</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="s">'poly'</span><span class="p">,</span> <span class="n">gamma</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>                                                            
+<span class="n">y</span><span class="p">,</span><span class="n">x</span> <span class="o">=</span> <span class="n">dmatrices</span><span class="p">(</span><span class="n">formula_ml</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">test_data</span><span class="p">,</span> <span class="n">return_type</span><span class="o">=</span><span class="s">'dataframe'</span><span class="p">)</span>
+
+<span class="c"># Change the interger values within x.ix[:,[6,3]].dropna() explore the relationships between other </span>
+<span class="c"># features. the ints are column postions. ie. [6,3] 6th column and the third column are evaluated. </span>
+<span class="n">res_svm</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ix</span><span class="p">[:,[</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">]]</span><span class="o">.</span><span class="n">dropna</span><span class="p">())</span> 
+
+<span class="n">res_svm</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">res_svm</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s">'Survived'</span><span class="p">])</span>
+<span class="n">res_svm</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s">"data/output/svm_poly_63_g10.csv"</span><span class="p">)</span> <span class="c"># saves the results for you, change the name as you please. </span>
+</code></pre>
+</div>
+
+<h3 id="random-forest">Random Forest</h3>
+
+<p>“Well, What if this line / decision boundary thing doesn’t work at all.”</p>
+
+<p><strong>Wikipedia, crystal clear as always:</strong>
+&gt;Random forests are an ensemble learning method for classification (and regression) that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes output by individual trees.</p>
+
+<p><strong>Once again, the skinny and why it matters to you:</strong></p>
+
+<p>There are always skeptics, and you just might be one about all the fancy lines we’ve created so far. Well for you, here’s another option; the Random Forest. This technique is a form of non-parametric modeling that does away with all those equations we created above, and uses raw computing power and a clever statistical observation to tease the structure out of the data.</p>
+
+<p>An anecdote to explain how this the forest works starts with the lowly gumball jar. We’ve all guess how many gumballs are in that jar at one time or another, and odds are not a single one of us guessed exactly right. Interestingly though, while each of our individual guesses for probably were wrong, the average of all of the guesses, if there were enough, usually comes out to be pretty close to the actual number of gumballs in the jar. Crazy, I know.  This idea is that clever statistical observation that lets random forests work.</p>
+
+<p><strong>How do they work?</strong> A random forest algorithm randomly generates many extremely simple models to explain the variance observed in random subsections of our data.  These models are like our gumball guesses. They are all awful individually. Really awful. But once they are averaged, they can be powerful predictive tools. The averaging step is the secret sauce. While the vast majority of those models were extremely poor; they were all as bad as each other on average. So when their predictions are averaged together, the bad ones average their effect on our model out to zero. The thing that remains, <em>if anything</em>, is one or a handful of those models have stumbled upon the true structure of the data.
+The cell below shows the process of instantiating and fitting a random forest, generating predictions form the resulting model, and then scoring the results.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c"># import the machine learning library that holds the randomforest</span>
+<span class="kn">import</span> <span class="nn">sklearn.ensemble</span> <span class="kn">as</span> <span class="nn">ske</span>
+
+<span class="c"># Create the random forest model and fit the model to our training data</span>
+<span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">dmatrices</span><span class="p">(</span><span class="n">formula_ml</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">return_type</span><span class="o">=</span><span class="s">'dataframe'</span><span class="p">)</span>
+<span class="c"># RandomForestClassifier expects a 1 demensional NumPy array, so we convert</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+<span class="c">#instantiate and fit our model</span>
+<span class="n">results_rf</span> <span class="o">=</span> <span class="n">ske</span><span class="o">.</span><span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="c"># Score the results</span>
+<span class="n">score</span> <span class="o">=</span> <span class="n">results_rf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"Mean accuracy of Random Forest Predictions on the data was: {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Mean accuracy of Random Forest Predictions on the data was: 0.945224719101
+</code></pre>
+</div>
+
+<p>Our random forest performed only slightly better than a thumb wave, meaning that if you randomly assigned 1s and 0s by waving your thumb up and down you would do almost as well on average. It seems that this time our random forest did not stumble on the true structure of the data.</p>
+
+<p>These are just a few of the machine learning techniques that you can apply. Try a few for yourself and move up the leader board!</p>
+
+<p>Ready to see more an example of a more advanced analysis? Check out these notebooks:</p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[Kaggle Competition</td>
+          <td>Blue Book for Bulldozers Quantitative Model](http://nbviewer.ipython.org/github.com/agconti/AGC_BlueBook/master/BlueBook.ipynb#)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="http://nbviewer.ipython.org/github.com/agconti/AGCTrading/master/GOOG%2520V.%2520AAPL%2520Correlation%2520Arb.ipynb">GOOG VS AAPL Correlation Arb</a></li>
+  <li><a href="https://github.com/agconti/US_Dollar_Vehicle_Currency">US Dollar as a Vehicle Currency; an analysis through Italian Trade</a></li>
+</ul>
+
+<h4 id="follow-me-on-githubhttpsgithubcomagconti-and-twitterhttpstwittercomagconti-for-more-books-to-come-soon">Follow me on <a href="https://github.com/agconti">github</a>, and <a href="https://twitter.com/agconti">twitter</a> for more books to come soon!</h4>
+
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/latex/LaTex/" class="btn" title="LaTex equation support in Github Markdown">Previous</a>
+      
+      
+        <a href="http://localhost:4000/test/Jupyternotebookwithlatex/" class="btn" title="Jupyter Notebook page with LaTex syntax">Next</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2016 Tao Li. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="https://twitter.com/taolicd" title="Tao Li on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/tao-li-3767494" title="Tao Li on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	
+	
+	
+	<a href="https://github.com/taolicd" title="Tao Li on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'taolicd'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</body>
+</html>

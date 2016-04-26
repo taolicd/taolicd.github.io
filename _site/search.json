@@ -52,7 +52,7 @@
     ,{
       "title"			: "Apache Spark",
       "link"			: "http://taolicd.github.io/spark/Spark/",
-      "excerpt"		: "I started to poke around Apache Spark and was amazed how easy to set it up and get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error if I try to use Spark in notebook."
+      "excerpt"		: "I started to poke around Apache Spark and was amazed how easy to get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error when I try to use Spark in Ipython notebook."
     }
   
 
@@ -60,7 +60,7 @@
     ,{
       "title"			: "Jekyll _site folder",
       "link"			: "http://taolicd.github.io/jekyll/JekyllTrickyBusiness/",
-      "excerpt"		: "I started to use Jekyll yesterday. One thing that threw me off was I did not realize that the files in the _site folder are not supposed to be edited. I made some changes trying to update some footer and adding some stuff but my changes kept being wiped away. I wish I knew this earlier. :-)"
+      "excerpt"		: "I started to use Jekyll yesterday to host my blog. One thing that tricked me was the files in the _site folder are not supposed to be edited. I made some changes trying to update some footer and adding some stuff but my changes kept being wiped away. I wish I knew this earlier. :-)"
     }
   
 
@@ -68,7 +68,7 @@
     ,{
       "title"			: "Hello from Tao",
       "link"			: "http://taolicd.github.io/blog/welcome/",
-      "excerpt"		: "Hello, This is Tao from San Jose. This is my first blog. Today my daughter got notified that she will be tested for her French level next Monday. She started to get worried and now she is picking up her French books trying to catch up :-)"
+      "excerpt"		: "Hello, This is Tao from San Jose. This is my first blog. Today my daughter got notified that she would be tested for her French level next Monday. She started to get worried and now she is picking up her French books trying to catch up :-)"
     }
   
 

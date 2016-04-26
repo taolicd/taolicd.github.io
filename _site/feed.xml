@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://taolicd.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://taolicd.github.io" />
-<updated>2016-04-25T22:23:26-07:00</updated>
+<updated>2016-04-25T22:45:08-07:00</updated>
 <id>http://taolicd.github.io/</id>
 <author>
   <name>Tao Li</name>
@@ -2938,7 +2938,7 @@ The cell below shows the process of instantiating and fitting a random forest, g
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I started to poke around Apache Spark and was amazed how easy to set it up and get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error if I try to use Spark in notebook.&lt;/p&gt;
+    &lt;p&gt;I started to poke around Apache Spark and was amazed how easy to get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error when I try to use Spark in Ipython notebook.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/spark/Spark/&quot;&gt;Apache Spark&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 28, 2016.&lt;/p&gt;
   </content>
@@ -2957,7 +2957,7 @@ The cell below shows the process of instantiating and fitting a random forest, g
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I started to use Jekyll yesterday. One thing that threw me off was I did not realize that the files in the _site folder are not supposed to be edited. I made some changes trying to update some footer and adding some stuff but my changes kept being wiped away. I wish I knew this earlier. :-)&lt;/p&gt;
+    &lt;p&gt;I started to use Jekyll yesterday to host my blog. One thing that tricked me was the files in the _site folder are not supposed to be edited. I made some changes trying to update some footer and adding some stuff but my changes kept being wiped away. I wish I knew this earlier. :-)&lt;/p&gt;
 
 &lt;p&gt;Other than that, so far so good!&lt;/p&gt;
 
@@ -2978,7 +2978,7 @@ The cell below shows the process of instantiating and fitting a random forest, g
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Hello, This is Tao from San Jose. This is my first blog. Today my daughter got notified that she will be tested for her French level next Monday. She started to get worried and now she is picking up her French books trying to catch up :-)&lt;/p&gt;
+    &lt;p&gt;Hello, This is Tao from San Jose. This is my first blog. Today my daughter got notified that she would be tested for her French level next Monday. She started to get worried and now she is picking up her French books trying to catch up :-)&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/blog/welcome/&quot;&gt;Hello from Tao&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 01, 2016.&lt;/p&gt;
   </content>

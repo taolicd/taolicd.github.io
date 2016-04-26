@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Welcome to Tao's blog</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2016-04-25T19:04:12-07:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://taolicd.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://taolicd.github.io" />
+<updated>2016-04-25T20:20:28-07:00</updated>
+<id>http://taolicd.github.io/</id>
 <author>
   <name>Tao Li</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://taolicd.github.io/</uri>
   <email>taolicd@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[A peek into HTML, XML, XHTML, JSON, and Markdown]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc/" />
-  <id>http://localhost:4000/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc/" />
+  <id>http://taolicd.github.io/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc</id>
   <published>2016-04-23T00:00:00-07:00</published>
   <updated>2016-04-23T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -81,20 +81,20 @@ easily converted to HTML by a parser for web display.&lt;/p&gt;
 &lt;/ul&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc/&quot;&gt;A peek into HTML, XML, XHTML, JSON, and Markdown&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 23, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/xml,/html,json,/markdown,/xhtml/XMLHTMLJSONetc/&quot;&gt;A peek into HTML, XML, XHTML, JSON, and Markdown&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 23, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[AI and middle class jobs]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/latex/AIandinternet/" />
-  <id>http://localhost:4000/latex/AIandinternet</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/latex/AIandinternet/" />
+  <id>http://taolicd.github.io/latex/AIandinternet</id>
   <published>2016-04-17T00:00:00-07:00</published>
   <updated>2016-04-17T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -107,20 +107,20 @@ easily converted to HTML by a parser for web display.&lt;/p&gt;
 &lt;p&gt;I used to believe STEM is where the jobs are going to be. Yes for the highly smart and enlightened few wiz kids, the future is still as bright as it can be. But what about the kids in the middle part of the Bell curve? Where should they be fitting into the new economy? I am really not sure…&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/latex/AIandinternet/&quot;&gt;AI and middle class jobs&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 17, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/latex/AIandinternet/&quot;&gt;AI and middle class jobs&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 17, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[My resume in LaTex]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/latex/Randomstuff/" />
-  <id>http://localhost:4000/latex/Randomstuff</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/latex/Randomstuff/" />
+  <id>http://taolicd.github.io/latex/Randomstuff</id>
   <published>2016-04-09T00:00:00-07:00</published>
   <updated>2016-04-09T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -135,20 +135,20 @@ easily converted to HTML by a parser for web display.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/taolicd/taolicd.github.io/blob/master/download/CV_tao.docx&quot;&gt;My CV in Word&lt;/a&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/latex/Randomstuff/&quot;&gt;My resume in LaTex&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 09, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/latex/Randomstuff/&quot;&gt;My resume in LaTex&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 09, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Jupyter Notebook page with LaTex syntax]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/test/Jupyternotebookwithlatex/" />
-  <id>http://localhost:4000/test/Jupyternotebookwithlatex</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/test/Jupyternotebookwithlatex/" />
+  <id>http://taolicd.github.io/test/Jupyternotebookwithlatex</id>
   <published>2016-04-01T00:00:00-07:00</published>
   <updated>2016-04-01T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -255,20 +255,20 @@ P(E)   = {n \choose k} p^k (1-p)^{ n-k}
 \end{equation*}&lt;/script&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/test/Jupyternotebookwithlatex/&quot;&gt;Jupyter Notebook page with LaTex syntax&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 01, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/test/Jupyternotebookwithlatex/&quot;&gt;Jupyter Notebook page with LaTex syntax&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on April 01, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Notebook to Markdown conversion test]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/notebook/to/markdown/test/inotebookconversion/" />
-  <id>http://localhost:4000/notebook/to/markdown/test/inotebookconversion</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/notebook/to/markdown/test/inotebookconversion/" />
+  <id>http://taolicd.github.io/notebook/to/markdown/test/inotebookconversion</id>
   <published>2016-03-30T00:00:00-07:00</published>
   <updated>2016-03-30T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -2882,20 +2882,20 @@ The cell below shows the process of instantiating and fitting a random forest, g
 &lt;h4 id=&quot;follow-me-on-githubhttpsgithubcomagconti-and-twitterhttpstwittercomagconti-for-more-books-to-come-soon&quot;&gt;Follow me on &lt;a href=&quot;https://github.com/agconti&quot;&gt;github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/agconti&quot;&gt;twitter&lt;/a&gt; for more books to come soon!&lt;/h4&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/notebook/to/markdown/test/inotebookconversion/&quot;&gt;Notebook to Markdown conversion test&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 30, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/notebook/to/markdown/test/inotebookconversion/&quot;&gt;Notebook to Markdown conversion test&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 30, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[LaTex equation support in Github Markdown]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/latex/LaTex/" />
-  <id>http://localhost:4000/latex/LaTex</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/latex/LaTex/" />
+  <id>http://taolicd.github.io/latex/LaTex</id>
   <published>2016-03-29T00:00:00-07:00</published>
   <updated>2016-03-29T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -2921,39 +2921,39 @@ The cell below shows the process of instantiating and fitting a random forest, g
 
 &lt;p&gt;&lt;a href=&quot;http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/&quot;&gt;http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/latex/LaTex/&quot;&gt;LaTex equation support in Github Markdown&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 29, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/latex/LaTex/&quot;&gt;LaTex equation support in Github Markdown&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 29, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Apache Spark]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/spark/Spark/" />
-  <id>http://localhost:4000/spark/Spark</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/spark/Spark/" />
+  <id>http://taolicd.github.io/spark/Spark</id>
   <published>2016-03-28T00:00:00-07:00</published>
   <updated>2016-03-28T00:00:00-07:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I started to poke around Apache Spark and was amazed how easy to set it up and get it running. The issue I am having is how to configure Ipython/Jupyter to work with Spark in Windows. I followed some instructions but so far got a Kernel error if I try to use Spark in notebook.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/spark/Spark/&quot;&gt;Apache Spark&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 28, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/spark/Spark/&quot;&gt;Apache Spark&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 28, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Jekyll _site folder]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/JekyllTrickyBusiness/" />
-  <id>http://localhost:4000/jekyll/JekyllTrickyBusiness</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/jekyll/JekyllTrickyBusiness/" />
+  <id>http://taolicd.github.io/jekyll/JekyllTrickyBusiness</id>
   <published>2016-03-03T00:00:00-08:00</published>
   <updated>2016-03-03T00:00:00-08:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
@@ -2961,26 +2961,26 @@ The cell below shows the process of instantiating and fitting a random forest, g
 
 &lt;p&gt;Other than that, so far so good!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/JekyllTrickyBusiness/&quot;&gt;Jekyll _site folder&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 03, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/jekyll/JekyllTrickyBusiness/&quot;&gt;Jekyll _site folder&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 03, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hello from Tao]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/welcome/" />
-  <id>http://localhost:4000/blog/welcome</id>
+  <link rel="alternate" type="text/html" href="http://taolicd.github.io/blog/welcome/" />
+  <id>http://taolicd.github.io/blog/welcome</id>
   <published>2016-03-01T00:00:00-08:00</published>
   <updated>2016-03-01T00:00:00-08:00</updated>
   <author>
     <name>Tao Li</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://taolicd.github.io</uri>
     <email>taolicd@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Hello, This is Tao from San Jose. This is my first blog. Today my daughter got notified that she will be tested for her French level next Monday. She started to get worried and now she is picking up her French books trying to catch up :-)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/welcome/&quot;&gt;Hello from Tao&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://localhost:4000&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 01, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://taolicd.github.io/blog/welcome/&quot;&gt;Hello from Tao&lt;/a&gt; was originally published by Tao Li at &lt;a href=&quot;http://taolicd.github.io&quot;&gt;Welcome to Tao's blog&lt;/a&gt; on March 01, 2016.&lt;/p&gt;
   </content>
 </entry>
 

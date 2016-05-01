@@ -47,4 +47,4 @@ Apache Spark does not have its own dedicated distributed storage solution.
 
 ## Summary
 
-Hadoop and Spark are not mutually exclusive. You can configure them to work together so you can use Hadoop's HDFS for storage and Spark for computation. 
+Hadoop and Spark are not mutually exclusive. You can configure them to work together to take advantage of Hadoop's HDFS for storage and Spark for computation. 

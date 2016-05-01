@@ -15,7 +15,7 @@ Apache Hadoop is an open source big data framework written in Java for distribut
  * HDFS (Hadoop Distributed File System), which is the storage unit of the system. Each HDFS has one single namenode and a bunch of datanodes. The namenode stores the metadata of the system including the name and addresses of the datanodes. The datanodes are where the actual data is stored. 
  * MapReduce, which is the processing unit of the system. MapReduce is a programming model for distributed parallel processing of data. 
 
-Hadoop has been around since around 2010 and it has become the cornerstone in the big data arena. A slew of supporting tools have emerged to form the Hadoop ecosystem:
+Hadoop has been around since 2010 and it has become the cornerstone in the big data arena. A slew of supporting tools have emerged to form the Hadoop ecosystem:
 
  * Pig Latin, the scripting language used on Hadoop
  * Hive, SQL query on Hadoop

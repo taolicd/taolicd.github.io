@@ -6,7 +6,7 @@ categories:  big data framework
 
 
 ---
-When talking about big data frameworks, most likely people will bring up Apache Hadoop and Apache Spark. This post will explain what they are, their similarities and differences.   
+When talking about big data frameworks, most likely people will bring up Apache Hadoop and Apache Spark. This post will explain what they are and their relationships.   
 
 ## Apache Hadoop
 

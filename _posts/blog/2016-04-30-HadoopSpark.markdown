@@ -35,7 +35,7 @@ Apache Spark is an open source big data framework released in 2014 mainly to tac
 
 Spark reads data from other sources and stores it in resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines. This mechanism greatly improves Spark's speed when doing data processing. Spark is claimed to be up to 100 times faster than Hadoop MapReduce although some people are skeptical about this claim. 
 
-Spark supports programs written in Scala, Python, Java and R. Spark's ecosystem contains the following:
+Spark is written in Scala and it supports programs written in Scala, Python, Java and R. Spark's ecosystem contains the following:
 
  * Spark Shark, SQL on Spark
  * Spark Streaming, for real-time data streaming

@@ -15,13 +15,14 @@ Apache Hadoop is an open source big data framework written in Java for distribut
  * MapReduce, which is the processing unit of the system. MapReduce is a programming model for distributed parallel processing of data. 
 
 Hadoop has been around since around 2010 and it has become the cornerstone in the big data arena. A slew of supporting tools have emerged to form the Hadoop ecosystem:
+
  * Pig Latin, the scripting language used on Hadoop
  * Hive, SQL query on Hadoop
  * YARN, also called MapReduce 2.0, it is the cluster resource management and job scheduling tool 
  * Mahout, machine learning and data mining tool on Hadoop
  * Oozie, workflow management tool
  * Flume, log collector
- * Zookeeper, Coordination tool
+ * Zookeeper, coordination tool
  * Ambari, provisioning, managing and monitoring tool
  * Sqoop, data exchange tool
 
@@ -33,11 +34,12 @@ Apache Spark is an open source big data framework released in 2014 mainly to tac
 
 In essence, Spark reads data from other sources and stores it in resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines. This mechanism greatly improves Spark's speed when doing data processing. 
 
-Spark supports programs written in Scala, Python, Java and R. Spark's ecosystem contains the following;
+Spark supports programs written in Scala, Python, Java and R. Spark's ecosystem contains the following:
+
  * Spark Shark, SQL on Spark
  * Spark Streaming, for real-time data streaming
  * Spark MLLib, machine learning library on Spark
- * GraphX, graph computation
+ * GraphX, graph computation on Spark
  * SparkR, R on Spark
 
 

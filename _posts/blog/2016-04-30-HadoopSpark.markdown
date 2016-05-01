@@ -33,7 +33,7 @@ The major disadvantage with Hadoop is it is batch-driven and therefore not for r
 
 Apache Spark is an open source big data framework released in 2014 mainly to tackle the performance issue with big data computation. Spark has become more and more popular among data scientists who want to get an answer quickly rather than waiting for the batch processing result the next day. 
 
-Spark reads data from other sources and stores it in resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines. This mechanism greatly improves Spark's speed when doing data processing.
+Spark reads data from other sources and stores it in resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines. This mechanism greatly improves Spark's speed when doing data processing. Spark is claimed to be up to 100 times faster than Hadoop MapReduce although some people are skeptical about this claim. 
 
 Spark supports programs written in Scala, Python, Java and R. Spark's ecosystem contains the following:
 

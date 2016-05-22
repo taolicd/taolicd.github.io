@@ -2,7 +2,7 @@
 layout: post
 title:  "AI and middle class jobs"
 date:   2016-04-17
-categories:  LaTex
+categories:  AI/robotics
 
 
 ---

@@ -8,9 +8,9 @@ categories:  machine learning
 ---
 
 
-## Machine learning algorithms
+## Machine learning algorithm categorization
 
-The goal of using a machine learning algorithm is to uncover patterns and be able to use the machine to automate tasks that conventional algorithms hardly can handle. Here are some of the things a machine learning algorithm can help you achieve: 
+The goal of using a machine learning algorithm is to uncover patterns and to use the machine to automate tasks that conventional algorithms hardly can handle. Here are some of the things a machine learning algorithm can help you achieve: 
 
 * categorization/classification 
 * prediction
@@ -22,7 +22,7 @@ Machine learning is broadly categorized into two main categories: supervised lea
 
 ### Supervised learning
 
-Supervised learning means you feed labeled data into the learning algorithm to "teach" the algorithm the pattern so it can learn from the labeled examples. The classic examples of supervised learning include email spam detection,hand-written postal code recognition and traditional regression prediction.
+Supervised learning means you feed labeled/pre-categorized data into the learning algorithm to "teach" the machine the pattern so it can learn from the labeled examples. The classic examples of supervised learning include email spam detection,hand-written postal code recognition and traditional regression prediction.
 
 Typical steps of using a supervised learning algorithm involve the following:
 

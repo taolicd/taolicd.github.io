@@ -38,12 +38,12 @@ For example, suppose you are using a supervised learning algorithm to label emai
 
 ### Unsupervised learning
 
-Unsupervised learning does not involve pre-labeled data. Generally speaking, unsupervised learning is much harder than supervised learning. A typical use case of unsupervised learning is clustering. In a clustering use case, you feed some data with no pre-defined labels into the algorithm, then let the algorithm try to group the data into "clusters" so data with similar properties are grouped under the same cluster. One example of the most common clustering learning algorithm is called [K-means](https://en.wikipedia.org/wiki/K-means_clustering)
+Unsupervised learning does not involve pre-labeled data. Generally speaking, unsupervised learning is much harder than supervised learning. A typical use case of unsupervised learning is clustering. In a clustering use case, you feed some data with no pre-defined labels into the algorithm, then let the algorithm try to group the data into "clusters" so data with similar properties are grouped under the same cluster. One example of the most common clustering learning algorithm is called [K-means](https://en.wikipedia.org/wiki/K-means_clustering).
 
 Another example of unsupervised learning algorithm is neural network, which is beyond the scope of this post. 
 
 
-In the next post, I will attempt to demystify the term "deep learning", the fastest growing field right now that is driving the progress in machine learning.
+In the next post, I will attempt to demystify the term "deep learning", the fastest growing field right now that is driving the magnificent progress in machine learning.
 
 
 

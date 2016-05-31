@@ -28,7 +28,7 @@ Typical steps of using a supervised learning algorithm involve the following:
 
  1.Separate your existing data into two sets: training dataset and testing dataset. The training dataset is used to to feed into the learning algorithm to "train" to the algorithm to recognize the pattern. The testing dataset is the data that is intentionally being "on-hold" and NOT going to be feeding into the algorithm for training. 
 
- 2.Feed the training dataset into the learning algorithm to train the algorithm to recognize the pattern.
+ 2.Feed the training dataset into the learning algorithm to train the algorithm to recognize the pattern. The training dataset defines the parameters of the  learning algorithm. 
 
  3.Now run the testing dataset that you have intentionally put on hold in step 1 on the "trained" algorithm you get from step 2 and compare the results you get from the algorithm with the original labels to see how the algorithm performs. If the  accuracy is good, it means your learning algorithm is doing a good job and ready to use. If not, you need to fine-tune the algorithm and do something different to fix it.  
 

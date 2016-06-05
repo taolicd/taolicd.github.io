@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Machine Learning (part 3)"
-date:   2016-06-05
+date:   2016-06-04
 categories:  machine learning, deep learning
 
 
@@ -20,7 +20,7 @@ Neural networks/deep learning currently provides very promising results to many 
 
 ### The quest for a master algorithm/general-purpose machine
 
-At this moment, all the deep learning algorithms are not yet generic enough, which means the deep learning technique used in the AlgophaGo machine to conquer the Go cannot be used to solve other problems. 
+At this moment, all the deep learning algorithms are not yet generic enough, which means the machine used in AlgophaGo to conquer the Go cannot be used to solve other problems. 
 
 The next big breakthrough in machine learning and AI will come from a more generic algorithm that can tackle a broader range of problems with less customization, which means we will need to create a general-purpose machine that can be easily tuned to specific tasks. 
 

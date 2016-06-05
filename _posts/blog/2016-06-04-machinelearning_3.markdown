@@ -30,6 +30,8 @@ If you are interested in this topic, I highly recommend a book called
 
 Another interesting post related to this topic is [this link from wired](http://www.wired.com/2013/05/neuro-artificial-intelligence/). 
 
+This youtube called [the art of neural network](https://www.youtube.com/watch?v=0qVOUD76JOg) is quite comprehensible for non-machine learner audience. 
+
 #### Trivial
 
 An interesting observation I discovered is at least two pioneers with breakthrough achievements in the deep learning/neural network sphere are from Psychology background. They are Geoffrey Hinton and Andrew Ng's PHD adviser Michael Jordan. Both got a Psychology Bachelor degree first before moving on to computer/AI. This probably gives an indication that people with multi-disciplinary background probably are key in the future breakthroughs of the master algorithm/general-purpose machine.:-)

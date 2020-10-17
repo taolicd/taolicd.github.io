@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jupyter/iPython Notebook page with LaTex syntax"
-date:   2018-04-01
+date:   2019-04-01
 categories:  test
 use_math: true
 ---

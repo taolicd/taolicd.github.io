@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A peek into HTML, XML, XHTML, JSON, and Markdown"
-date:   2018-04-23
+date:   2019-04-23
 categories:  XML, HTML,JSON, Markdown, XHTML
 use_math: false
 comments: true

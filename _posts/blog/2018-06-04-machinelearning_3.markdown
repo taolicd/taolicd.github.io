@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Machine Learning (part 3)"
-date:   2016-06-04
+date:   2018-06-04
 categories:  machine learning, deep learning
 
 

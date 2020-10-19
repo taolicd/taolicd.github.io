@@ -1,10 +1,4 @@
----
-layout: post
-title:  "A Beginner's Guide to APIs"
-date:   2019-08-08
-categories:  APIs, REST APIs
 
----
 # A Beginner's Guide to APIs 
 
 
@@ -27,7 +21,7 @@ Because APIs use data and services from other applications, it is important that
 
 In the example of using Facebook account to log into Yelp, first you are directed to your Facebook login and asked for your Facebook credential. This is the authentication step. After the authentication is successful, you are asked whether you authorize Yelp to use your Facebook login. Upon confirmation, you are logged in using your Facebook credential and redirected to Yelp.
 
-Each software vendor has its own portal to grant access to its API services and monitor API usages. Typically API assumers[^1] need to pay for accessing private data and services. Think of this transaction as checking in a hotel. You pay an agreed fee and you get a hotel room key, which allows you have access to the room and amenities for a certain period based on agreed upon conditions. 
+Each software vendor has its own portal to grant users access to its API services and monitor API usages. Typically API assumers[^1] need to pay for accessing private data and services. Think of this transaction as checking in a hotel. You pay an agreed fee and you get a hotel room key, which allows you have access to the room and amenities for a certain period based on agreed upon conditions. 
 
 There are several API authorization methods. The most common ones are API keys and OAuth. Some APIs support multiple authorization methods. 
 
@@ -37,7 +31,7 @@ An API key is a token that consists of a string of random looking characters. Wi
 
 ###  What is OAuth and where to get one
 
-Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wiki/OAuth). OAuth has version 1.0 and 2.0. OAuth version 1.0 is now obsolete and OAuth version 2.0 is widely adopted. To set up OAuth2 authorization, register as a developer with individual vendors. For example, for accessing twitter data via its APIs, you need to register as a [twitter developer](https://developer.twitter.com/en/docs/authentication/overview). For setting up OAuth2 with Google, see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). 
+Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wiki/OAuth). OAuth has version 1.0 and 2.0. OAuth version 1.0 is now obsolete and OAuth version 2.0 is widely adopted. To set up OAuth2 authorization, register as a developer with individual vendors. For example, for accessing twitter data via its APIs using its OAuth, you need to register as a [twitter developer](https://developer.twitter.com/en/docs/authentication/overview). For setting up OAuth2 with Google, see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). 
 
 ### Public APIs 
 
@@ -48,11 +42,11 @@ Here is a collection of interesting public APIs [https://github.com/public-apis/
 
 ##  What can you use APIs for
 
-Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website using Google's geolocation API. 
+Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer may embed a Google map  on her website using Google's geolocation API. Yelp using Facebook login also belongs to this category. To the end users who browses the website with a Google map or the Yelp user who logs in using Facebook account, this type of API access is system to system and invisible to users. 
 
-APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests.
+APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests. This type of API usage is system to human and the request results are visble to the request senders. 
 
-REST APIs are widely used by web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web with the help of some scripting languages. 
+REST APIs are widely used by web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web. 
 
 ## REST API syntax
 
@@ -104,9 +98,9 @@ GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 Tip: The GET method is the default method in a web browser therefore you do not need to include it.
 
 
-## Chrome Postman
+### Chrome Postman
 
-To try out how REST API works, a handy plugin you can install is Chrome's Postman. The Postman plugin is a tool for you to learn and test API calls. 
+To try out how REST API works, you can install a handy Chrome plugin called Postman. The Postman plugin is a tool for you to learn and test REST API requests. 
 
 
 ## Where to find interesting APIs

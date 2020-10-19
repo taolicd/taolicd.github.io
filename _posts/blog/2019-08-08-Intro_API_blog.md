@@ -99,7 +99,7 @@ Here is an example using Google's Book API for retrieving book info based on an 
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-Tip: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and not need to include the Get keyword. 
+Tip: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and do not need to include the Get keyword. 
 
 
 ### Chrome Postman

@@ -15,7 +15,7 @@ Nowadays we are bombarded with the term API. What is an API anyway?
 
 API stands for Application Programming Interface. It defines a set of protocols and rules to allow software applications to interact with each other. Software developers use APIs to build applications by connecting to other applications and using data and services that are inside other applications. 
 
-For example, you have a Facebook account and you just downloaded Yelp on your mobile. When registering with Yelp, you are presented with the option to create a new Yelp account or log in using your Facebook account. If you choose to log in with your Facebook account, you authorize Yelp's API to access your Facebook login account and use it for your Yelp login. The benefit to you is now there is one less login account to remember.  The benefit to Yelp is now it may further ask you to grant permission to access your Facebook friends. 
+For example, you have a Facebook account and you just downloaded Yelp on your mobile. When registering with Yelp, you are presented with the option to create a new Yelp account or log in using your Facebook account. If you choose to log in with your Facebook account, you authorize Yelp's API to access your Facebook login account and use it for your Yelp login. The benefit to you is you have one less login account to remember.  The benefit to Yelp is it may further ask you to grant permission to access your Facebook friends. 
 
 
 ## Authentication and authorization 
@@ -54,7 +54,7 @@ Here is an example Google Book API, which allows you to get public data for book
 
 Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website with using Google's geolocation API. 
 
-APIs are also heavily used by people with or without any programming experiences. Recently more and more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API calls.
+APIs are also heavily used by people with or without any programming experiences. Recently more and more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests.
 
 REST APIs are widely used by web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web with the help of some scripting languages. 
 

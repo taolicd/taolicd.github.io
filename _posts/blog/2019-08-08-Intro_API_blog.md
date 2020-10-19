@@ -54,7 +54,7 @@ Here is an example Google Book API, which allows you to get public data for book
 
 Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website using Google's geolocation API. 
 
-APIs are also heavily used by people with or without any programming experiences. Recently more and more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests.
+APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests.
 
 REST APIs are widely used by web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web with the help of some scripting languages. 
 
@@ -78,7 +78,7 @@ The most common HTTP methods/verbs include:
 
 **Parameters** specify the conditions you need to complete the action/method. For example, when you use Google to search for a keyword, you are providing the keyword as the parameter and using the GET method to retrieve the relevant resources from the web. GET is the most frequently used method. This is because the majority of web users only retrieve information from the web rather than updating or deleting anything. Some parameters are mandatory, which means if you don't specify them, the API will not work. Different APIs have different rules. Refer to the each vendor's API documentation for details. 
 
-Another important factor to keep in mind is, to perform actions such as POST, PUT and DELETE, most likely you need permission/authorization. This means you need an API key or use OAuth to do these actions. Even the GET method is not always publicly available in many REST APIs. You need to register with the API providers to get authorization. For example, if you want to get data from New York Times, you need to get a New York Times Developer account and get authorization so you can work with their APIs. 
+Another important factor to keep in mind is, to perform actions such as POST, PUT and DELETE, most likely you need permission/authorization. This means you need an API key or use OAuth to do these actions. Even the GET method is not always publicly available in many REST APIs. You need to register with the API providers to get authorization. For example, if you want to get data from New York Times, you need to get a New York Times Developer account so you can work with their APIs. 
 
 In this example REST API syntax, the API key is submitted as part of the parameters:
 
@@ -91,8 +91,8 @@ in which
 * Methods are typically one of the following: GET, POST, PUT, DELETE.
 * `domain/resources` is the resource you are trying to retrieve, create, update, or delete.  
 * `?` is a symbol to indicate the end of the resource specification and the beginning of the parameters. 
-* `&` specify the "and" condition in the parameters.
-* param-value pairs and API_key and value pair specify the actual parameters used for this API call.  
+* `&` specifies the "and" condition in the parameters.
+*  param-value pairs and API_key and value pair specify the actual parameters used for this API request.  
 
 For example, previously we used a Google API for retrieving book info based on ISBN number. It contains the following three parts: 
 

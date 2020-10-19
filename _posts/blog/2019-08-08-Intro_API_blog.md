@@ -25,7 +25,7 @@ Because APIs use data and services from other applications, it is important that
 
  2. Authorization: Authorization means the API is authorized (granted permission) to access the data and services on another application. 
 
-In the example of using Facebook account to access Yelp, first you are directed to your Facebook login and asked for your Facebook login credential. This is the authentication step. After the authentication is successful, you are asked whether you authorize Yelp to use your Facebook login. Upon confirmation, you are logged in using your Facebook credential and redirected to Yelp.
+In the example of using Facebook account to log into Yelp, first you are directed to your Facebook login and asked for your Facebook credential. This is the authentication step. After the authentication is successful, you are asked whether you authorize Yelp to use your Facebook login. Upon confirmation, you are logged in using your Facebook credential and redirected to Yelp.
 
 Each software vendor has its own portal to grant access to its API services and monitor API usages. Typically API assumers[^1] need to pay for accessing private data and services. Think of this transaction as checking in a hotel. You pay an agreed fee and you get a hotel room key, which allows you have access to the room and amenities for a certain period based on agreed upon conditions. 
 

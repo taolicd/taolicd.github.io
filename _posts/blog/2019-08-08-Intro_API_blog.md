@@ -31,11 +31,11 @@ Each software vendor has its own portal to grant access to its API services and 
 
 There are several API authorization methods. The most common ones are API keys and OAuth. Some APIs support multiple authorization methods. 
 
-### What is an API key and where to get one?
+### What is an API key and where to get one
 
 An API key is a token that consists of a string of random looking characters. With this token, you are granted access to certain data and services. To get an API key, you need to register with individual software vendors. For example, Google's popular [geocode](https://developers.google.com/maps/documentation/geolocation/intro) API allows you to access Google's geolocation data. You can register with Google Cloud Platform and get an API key from [Google](https://developers.google.com/maps/documentation/geolocation/get-api-key). For non frequent users, the service is free. If your app needs to call for services more than a certain times a day, you pay a fee. 
 
-###  What is OAuth and where to get one? 
+###  What is OAuth and where to get one
 
 Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wiki/OAuth). OAuth has version 1.0 and 2.0. OAuth version 1.0 is now obsolete and OAuth version 2.0 is widely adopted. To set up OAuth2 authorization, register as a developer with individual vendors. For example, for accessing twitter data via its APIs, you need to register as a [twitter developer](https://developer.twitter.com/en/docs/authentication/overview). For setting up OAuth2 with Google, see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). 
 
@@ -46,7 +46,7 @@ Some APIs do not need authorization. Some require authorization but do not charg
 Here is a collection of interesting public APIs [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). On this page, the Auth column identifies whether authorization is required for using the corresponding API. 
 
 
-##  What can you use APIs for?
+##  What can you use APIs for
 
 Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website using Google's geolocation API. 
 
@@ -109,7 +109,7 @@ Tip: The GET method is the default method in a web browser therefore you do not 
 To try out how REST API works, a handy plugin you can install is Chrome's Postman. The Postman plugin is a tool for you to learn and test API calls. 
 
 
-## Where to find interesting APIs?
+## Where to find interesting APIs
 
 A good place to explore the available web APIs is [programmableweb](http://www.programmableweb.com/apis/directory). The opportunities are endless. Have fun!
 

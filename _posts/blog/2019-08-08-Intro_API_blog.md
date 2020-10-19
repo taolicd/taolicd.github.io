@@ -101,7 +101,7 @@ Here is an example using Google's Book API for retrieving book info based on an 
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-Tip: The GET method is the default method therefore you do not need to include it in a web browser.
+Tip: The GET method is the default method in a web browser therefore you do not need to include it.
 
 
 ## Chrome Postman

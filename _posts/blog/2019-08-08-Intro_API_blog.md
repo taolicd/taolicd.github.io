@@ -15,7 +15,7 @@ Nowadays we are bombarded with the term API. What is an API anyway?
 
 API stands for Application Programming Interface. It defines a set of protocols and rules to allow software applications to interact with each other. Software developers use APIs to build applications by connecting to other applications and using data and services that are inside other applications. 
 
-For example, you have a Facebook account and you just downloaded Yelp on your mobile. When registering with Yelp, you are presented with the option to create a new Yelp account or log in using your Facebook account. If you choose to log in with your Facebook account, you authorize Yelp's API to access your Facebook login account and use it for your Yelp login. The benefit to you is you have one less login account to remember.  The benefit to Yelp is it may further ask you to grant permission to access your Facebook friends. 
+For example, you have a Facebook account and you just downloaded Yelp on your mobile. When registering with Yelp, you are presented with the option to create a new Yelp account or log in using your Facebook account. If you choose to log in with your Facebook account, you authorize Facebook's API to access your Facebook login account and use it for your Yelp login. The benefit to you is you have one less login account to remember.  The benefit to Yelp is it may further ask you to grant permission to access your Facebook friends. 
 
 
 ## Authentication and authorization 
@@ -118,4 +118,4 @@ A good place to explore the available web APIs is [programmableweb](http://www.p
 
 
 [^1]:
-In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you a fee for using the Yelp API. If there is any payment, it is between Yelp and Facebook.
+In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you for using the API. If there is any payment, it is between Yelp and Facebook.

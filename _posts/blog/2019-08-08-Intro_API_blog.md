@@ -41,7 +41,7 @@ Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wi
 
 ### Public APIs 
 
-Some APIs do not need authorization. Some require authorization but do not charge you for accessing the data and services. These are public APIs that give you access to public data and services. Think of public APIs that do not need authorization as parks that people have unrestricted access. They are open to everyone and free. Think of public APIs that require authorization as public libraries. They are open to everyone but you need to register to borrow books. 
+Some APIs do not need authorization. Some require authorization but do not charge you for accessing the data and services. These are public APIs that give you access to public data and services. Think of public APIs that do not need authorization as parks where people have unrestricted access. They are open to everyone and free. Think of public APIs that require authorization as public libraries. They are open to everyone but you need to register to borrow books. 
 
 Here is a collection of interesting public APIs [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). On this page, the Auth column identifies whether authorization is required for using the corresponding API. 
 

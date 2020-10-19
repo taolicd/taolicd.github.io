@@ -48,7 +48,7 @@ Here is a collection of interesting public APIs [https://github.com/public-apis/
 
 ##  What can you use APIs for
 
-Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer may embed a Google map  on her website using Google's geolocation API. Yelp using Facebook login also belongs to this category. To the end users who browses the website with a Google map or the Yelp user who logs in using Facebook account, this type of API access is software to software and invisible to users. 
+Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer may embed a Google map  on her website using Google's geolocation API. Yelp using Facebook login also belongs to this category. To the end user who browses the website with a Google map or the Yelp user who logs in using Facebook account, this type of API usage is software to software and invisible to users. 
 
 APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to send API requests. This type of API usage is human to software and the results are returned to the human requesters. This use case is very popular among web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web. 
 
@@ -99,7 +99,7 @@ Here is an example using Google's Book API for retrieving book info based on an 
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-Tip: The GET method is the default method in a web browser, this is why when you browse a website, you just need to type the URL (universal resource locator) and maybe with added optional parameters and not need to type the Get method. 
+Tip: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and not need to include the Get keyword. 
 
 
 ### Chrome Postman
@@ -113,4 +113,4 @@ A good place to explore the available web APIs is [programmableweb](http://www.p
 
 
 [^1]:
-In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you for using the API. If there is any payment, it is between Yelp and Facebook.
+In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you for using the API usage. If there is any payment, it is between Yelp and Facebook.

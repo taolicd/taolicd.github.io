@@ -1,4 +1,10 @@
+---
+layout: post
+title:  "A Beginner's Guide to APIs"
+date:   2019-08-08
+categories:  APIs, REST APIs
 
+---
 # A Beginner's Guide to APIs 
 
 
@@ -42,11 +48,9 @@ Here is a collection of interesting public APIs [https://github.com/public-apis/
 
 ##  What can you use APIs for
 
-Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer may embed a Google map  on her website using Google's geolocation API. Yelp using Facebook login also belongs to this category. To the end users who browses the website with a Google map or the Yelp user who logs in using Facebook account, this type of API access is system to system and invisible to users. 
+Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer may embed a Google map  on her website using Google's geolocation API. Yelp using Facebook login also belongs to this category. To the end users who browses the website with a Google map or the Yelp user who logs in using Facebook account, this type of API access is software to software and invisible to users. 
 
-APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests. This type of API usage is system to human and the request results are visble to the request senders. 
-
-REST APIs are widely used by web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web. 
+APIs are also heavily used by people with or without any programming experiences. Recently more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to send API requests. This type of API usage is human to software and the results are returned to the human requesters. This use case is very popular among web scraping enthusiasts and data scientists. Web scraping is a technique for gathering information from websites. Data scientists are people who analyze data to gain underlying insights that are not obvious to ordinary people. By using REST APIs, web scrapers and data scientists can get large amount of interesting raw data from the web. 
 
 ## REST API syntax
 
@@ -68,7 +72,7 @@ The most common HTTP methods/verbs include:
 
 **Parameters** specify the conditions you need to complete the action/method. For example, when you use Google to search for a keyword, you are providing the keyword as the parameter and using the GET method to retrieve the relevant resources from the web. GET is the most frequently used method. This is because the majority of web users only retrieve information from the web rather than updating or deleting anything. Some parameters are mandatory, which means if you don't specify them, the API will not work. Different APIs have different rules. Refer to the each vendor's API documentation for details. 
 
-Another important factor to keep in mind is, to perform actions such as POST, PUT and DELETE, most likely you need permission/authorization. This means you need an API key or use OAuth to do these actions. Even the GET method is not always publicly available in many REST APIs. You need to register with the API providers to get authorization. For example, if you want to get data from New York Times, you need to get a New York Times Developer account so you can work with their APIs. 
+Another important factor to keep in mind is, to perform actions such as POST, PUT and DELETE, most likely you need authorization. This means you need an API key or use OAuth to do these actions. Even the GET method is not always publicly available in many REST APIs. You need to register with the API providers to get authorization. For example, if you want to get data from New York Times, you need to get a New York Times Developer account so you can work with their APIs. 
 
 In this example REST API syntax, the API key is submitted as part of the parameters:
 
@@ -80,11 +84,11 @@ http(s)://{domain/resources}?
 in which
 
 * Methods are typically one of the following: GET, POST, PUT, DELETE.
-* `domain/resources` is the resource you are trying to retrieve, create, update, or delete.  
+* `domain/resources` is the resource you are trying to retrieve, create, update, or delete. 
+*  param-value pairs and API_key and value pair specify the actual parameters used for this API request. 
 * `?` is a symbol to indicate the end of the resource specification and the beginning of the parameters. 
 * `&` specifies the "and" condition in the parameters.
-*  param-value pairs and API_key and value pair specify the actual parameters used for this API request.  
-
+ 
 Here is an example using Google's Book API for retrieving book info based on an ISBN number. It contains three parts. No API key is needed in this case because the data is public. 
 
 * method: `GET`
@@ -95,12 +99,12 @@ Here is an example using Google's Book API for retrieving book info based on an 
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-Tip: The GET method is the default method in a web browser therefore you do not need to include it.
+Tip: The GET method is the default method in a web browser, this is why when you browse a website, you just need to type the URL (universal resource locator) and maybe with added optional parameters and not need to type the Get method. 
 
 
 ### Chrome Postman
 
-To try out how REST API works, you can install a handy Chrome plugin called Postman. The Postman plugin is a tool for you to learn and test REST API requests. 
+To try how REST API works, you can install a handy Chrome plugin called Postman. The Postman plugin is a tool for you to learn and test REST API requests. 
 
 
 ## Where to find interesting APIs

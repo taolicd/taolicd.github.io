@@ -4,7 +4,6 @@ title:  "A Beginner's Guide to APIs"
 date:   2019-08-08
 categories:  APIs, REST APIs
 
-
 ---
 # A Beginner's Guide to APIs 
 
@@ -28,7 +27,7 @@ Because APIs use data and services from other applications, it is important that
 
 In the example of using Facebook account to access Yelp, first you are directed to your Facebook login and asked for your Facebook login credential. This is the authentication step. After the authentication is successful, you are asked whether you authorize Yelp to use your Facebook login. Upon confirmation, you are logged in using your Facebook credential and redirected to Yelp.
 
-Each software vendor has its own portal to grant access to its API services and monitor API usages. Typically API assumers[^1] need to pay for accessing private data and services. Think of this as you check in a hotel. You pay an agreed fee and you get the hotel room key, which allows you have access to the room and amenities for a certain period based on agreed upon conditions. 
+Each software vendor has its own portal to grant access to its API services and monitor API usages. Typically API assumers[^1] need to pay for accessing private data and services. Think of this transaction as checking in a hotel. You pay an agreed fee and you get a hotel room key, which allows you have access to the room and amenities for a certain period based on agreed upon conditions. 
 
 There are several API authorization methods. The most common ones are API keys and OAuth. Some APIs support multiple authorization methods. 
 

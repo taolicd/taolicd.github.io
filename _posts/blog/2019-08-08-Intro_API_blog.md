@@ -2,7 +2,7 @@
 layout: post
 title:  "A Beginner's Guide to APIs"
 date:   2019-08-08
-categories:  machine learning, deep learning
+categories:  APIs, REST APIs
 
 
 ---
@@ -46,9 +46,6 @@ Some APIs do not need authorization. Some require authorization but do not charg
 
 Here is a collection of interesting public APIs [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). On this page, the Auth column identifies whether authorization is required for using the corresponding API. 
 
-Here is an example Google Book API, which allows you to get public data for books based on ISBN without authorization. Take a close look at the isbn in this URL [https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699](https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699). You can change the ISBN number to get results for a different book. 
-
-
 
 ##  What can you use APIs for?
 
@@ -83,7 +80,8 @@ Another important factor to keep in mind is, to perform actions such as POST, PU
 In this example REST API syntax, the API key is submitted as part of the parameters:
 
 ```
-{Method} http(s)://{domain/resources}?
+{Method} 
+http(s)://{domain/resources}?
 {param1=value1&param2=value2&...&api_key=your_api_key}
 ```
 in which
@@ -94,7 +92,7 @@ in which
 * `&` specifies the "and" condition in the parameters.
 *  param-value pairs and API_key and value pair specify the actual parameters used for this API request.  
 
-For example, previously we used a Google API for retrieving book info based on ISBN number. It contains the following three parts: 
+Here is an example using Google's Book API for retrieving book info based on an ISBN number. It contains three parts. No API key is needed in this case because the data is public. 
 
 * method: `GET`
 * resource: `wwww.googleapis.com/books/v1/volumes`
@@ -104,7 +102,7 @@ For example, previously we used a Google API for retrieving book info based on I
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-In a web browser, the GET method is the default method and you do not need to include the Get method in a web browser.
+Tip: The GET method is the default method therefore you do not need to include it in a web browser.
 
 
 ## Chrome Postman

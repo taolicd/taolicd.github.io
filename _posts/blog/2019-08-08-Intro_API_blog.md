@@ -34,15 +34,15 @@ There are several API authorization methods. The most common ones are API keys a
 
 ### What is an API key and where to get one?
 
-An API key is a token that consists of a string of random looking characters. With this token, you are granted access to certain data and services. To get an API key, you need to register with individual software vendors. For example, Google's popular [geocode](https://developers.google.com/maps/documentation/geolocation/intro) API allows you to access Google's geolocation data. You can register with Google Cloud Platform and get an API key from [Google](https://developers.google.com/maps/documentation/geolocation/get-api-key). For non frequent users, the service is free. If the app needs to call for services more than a certain times a day, you pay a fee. 
+An API key is a token that consists of a string of random looking characters. With this token, you are granted access to certain data and services. To get an API key, you need to register with individual software vendors. For example, Google's popular [geocode](https://developers.google.com/maps/documentation/geolocation/intro) API allows you to access Google's geolocation data. You can register with Google Cloud Platform and get an API key from [Google](https://developers.google.com/maps/documentation/geolocation/get-api-key). For non frequent users, the service is free. If your app needs to call for services more than a certain times a day, you pay a fee. 
 
 ###  What is OAuth and where to get one? 
 
-Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wiki/OAuth). OAuth has version 1.0 and 2.0. OAuth version 1.0 is now obsolete and OAuth version 2.0 is widely adopted. To set up OAuth2 authorization, register as a developer with individual vendors. For example, for accessing twitter data via its APIs, you can register as a [twitter developer](https://developer.twitter.com/en/docs/authentication/overview). For setting up OAuth2 with Google, see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). 
+Another popular authorization tool is called [OAuth](https://en.wikipedia.org/wiki/OAuth). OAuth has version 1.0 and 2.0. OAuth version 1.0 is now obsolete and OAuth version 2.0 is widely adopted. To set up OAuth2 authorization, register as a developer with individual vendors. For example, for accessing twitter data via its APIs, you need to register as a [twitter developer](https://developer.twitter.com/en/docs/authentication/overview). For setting up OAuth2 with Google, see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). 
 
 ### Public APIs 
 
-Some APIs do not need authorization at all. Some require authorization but do not charge you for accessing the data and services. These are public APIs that give you access to public data and services. Think of public APIs that do not need authorization as parks that people have unrestricted access. They are open to everyone and free. Think of public APIs that require authorization as public libraries. They are open to everyone but you do need to register to be able to borrow books. 
+Some APIs do not need authorization. Some require authorization but do not charge you for accessing the data and services. These are public APIs that give you access to public data and services. Think of public APIs that do not need authorization as parks that people have unrestricted access. They are open to everyone and free. Think of public APIs that require authorization as public libraries. They are open to everyone but you need to register to borrow books. 
 
 Here is a collection of interesting public APIs [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis). On this page, the Auth column identifies whether authorization is required for using the corresponding API. 
 
@@ -52,7 +52,7 @@ Here is an example Google Book API, which allows you to get public data for book
 
 ##  What can you use APIs for?
 
-Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website with using Google's geolocation API. 
+Web developers and app developers are the obvious consumers and creators of APIs. For example, a web developer can embed a Google map  on her website using Google's geolocation API. 
 
 APIs are also heavily used by people with or without any programming experiences. Recently more and more people are using a special type of web APIs called REST APIs. REST stands for Representational State Transfer. When used in the context of web, REST APIs take advantage of the HTTP protocol, which is the protocol for web browsing. This makes things very convenient because you can just use a web browser to try API requests.
 

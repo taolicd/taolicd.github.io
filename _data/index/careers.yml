@@ -4,10 +4,10 @@
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: Senior Technical Writer at SS&C Technologies
+    detail: SS&C Algorithmics Risk Analytics product documentation including writing configuration guides, API references, user guides and release notes
     i18n: company_a_desc
   date:
-    detail: Dec 1. 2019 - present
+    detail: Dec 1 2019 - present
     i18n: company_a_date
   job:
     detail: Senior Technical Writer
@@ -19,10 +19,10 @@
     detail: IBM 
     i18n: company_b
   desc:
-    detail: I worked at IBM 
+    detail: Worked in Toronto from Jan 2012 to June 2013, moved to Silicon Valley since July 2013
     i18n: company_b_desc
   date:
-    detail: Jan 1 2013
+    detail: Jan 1 2012 - Nov 30 2019
     i18n: company_b_date
   job:
     detail: Senior Technical Writer

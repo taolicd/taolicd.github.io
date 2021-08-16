@@ -14,7 +14,7 @@ author:  # change following line to your information.
   name: Tao Li  # Be used at blog posts' author.
   first_name: Tao  # Be used at index page about me section.
   last_name: Li  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/Tao.jpg  # upload your avatar at directory and edit it.
   github_username: taolicd  # Leave blank if you don't have now
   linkedin_id: tao-li-3767494 # Leave blank if you don't have now
   facebook_username: taolicd  # Leave blank if you don't have now
@@ -28,7 +28,7 @@ author:  # change following line to your information.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: An avid reader with a curious mind # Describe yourself.
+  desc: I am passionate about learning new technologies. # Describe yourself.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

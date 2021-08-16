@@ -19,7 +19,7 @@
     detail: IBM 
     i18n: company_b
   desc:
-    detail: Worked in Toronto from Jan 2012 to June 2013, moved to Silicon Valley since July 2013
+    detail: Worked in Toronto and then moved to Silicon Valley since July 2013
     i18n: company_b_desc
   date:
     detail: Jan 1 2012 - Nov 30 2019
@@ -28,3 +28,18 @@
     detail: Senior Technical Writer
     i18n: company_b_job
   icon: fa-plus-square
+
+- name:
+    detail: Algorithmics
+    i18n: company_c
+  desc:
+    detail: Toronto
+    i18n: company_c_desc
+  date:
+    detail: October 2005 - Dec 2011
+    i18n: company_c_date
+  job:
+    detail: Technical Writer 
+    i18n: company_c_job
+  icon: fa-plus-square
+

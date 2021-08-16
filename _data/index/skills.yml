@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Tech Documentation, XML/DITA, Git, Docs-As-Code, DevOp Tools, HTML5, Python/Java Code Reading
-percentage: 100, 100, 90, 90, 80, 80, 75
+aspects:  XML/DITA, Markdown/AsciiDoc, Git, DevOps Tools such as Jenkins, HTML/CSS/JavaScript, Python/Java Code Reading, Linux
+percentage: 100, 100, 90, 90, 80, 80, 80

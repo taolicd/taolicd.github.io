@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "A Beginner's Guide to APIs"
-date:   2020-08-08
-categories:  REST API
+date:   2019-08-08
+categories:  APIs, REST APIs
 
 ---
 # A Beginner's Guide to APIs 
@@ -33,7 +33,7 @@ There are several API authorization methods. The most common ones are API keys a
 
 ### What is an API key and where to get one
 
-An API key is a token that consists of a string of random looking characters. With this token, you are granted access to certain data and services. To get an API key, you need to register with individual software vendors. For example, Google's popular [geocode](https://developers.google.com/maps/documentation/geolocation/intro) API allows you to access Google's geolocation data. You can register with Google Cloud Platform and get an API key from [Google](https://developers.google.com/maps/documentation/geolocation/get-api-key). For non frequent users, the service is free. If your app needs to call for services more than a certain times a day, you pay a fee. 
+An API key is a token that consists of a string of random looking characters. With this token, you are granted access to certain data and services. To get an API key, you need to register with individual software vendors. For example, Google's popular [geocode](https://developers.google.com/maps/documentation/geolocation/intro) API allows you to access Google's geolocation data. You can register with Google Cloud Platform and get an API key from [Google](https://developers.google.com/maps/documentation/geolocation/get-api-key). For non frequent users, the service is free. If your app needs to call for services more than a certain times a day, you pay a fee. In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you for using the API usage. If there is any payment, it is between Yelp and Facebook.
 
 ###  What is OAuth and where to get one
 
@@ -102,9 +102,9 @@ GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 Tip: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and do not need to include the Get keyword. 
 
 
-### Chrome Postman
+### Chrome REST client
 
-To try how REST API works, you can install a handy Chrome plugin called Postman. The Postman plugin is a tool for you to learn and test REST API requests. 
+To try how REST API works, you can install a Chrome plugin called [Advanced REST client] (https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo). You can use this tool to learn and test REST API requests. 
 
 
 ## Where to find interesting APIs
@@ -112,5 +112,4 @@ To try how REST API works, you can install a handy Chrome plugin called Postman.
 A good place to explore the available web APIs is [programmableweb](http://www.programmableweb.com/apis/directory). The opportunities are endless. Have fun!
 
 
-[^1]:
-In the case of Yelp using your Facebook login, you don't need to worry about Facebook charging you for using the API usage. If there is any payment, it is between Yelp and Facebook.
+

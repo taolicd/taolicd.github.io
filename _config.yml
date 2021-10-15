@@ -68,7 +68,3 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-#params.okta
-clientId: "0oa1if8y90pk0QCid5d7"
-baseUrl:"https://dev-23101385.okta.com""
-redirectUri: "https://taolicd.gitlab.io/login/"

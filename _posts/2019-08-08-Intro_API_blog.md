@@ -104,7 +104,7 @@ Tip: The GET method is the default method in a web browser, which is why when yo
 
 ### Chrome REST client
 
-To try how REST API works, you can install a Chrome plugin called [Advanced REST client] (https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo). You can use this tool to learn and test REST API requests. 
+To try how REST API works, you can install a Chrome plugin called [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo). You can use this tool to learn and test REST API requests. 
 
 
 ## Where to find interesting APIs

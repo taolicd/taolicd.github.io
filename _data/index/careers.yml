@@ -4,7 +4,7 @@
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: SS&C Algorithmics Risk Analytics documentation including authoring configuration guides, API references, user guides and release notes
+    detail: SS&C Algorithmics Risk Analytics documentation including authoring configuration and deployment guides, API references, user guides, and release notes
     i18n: company_a_desc
   date:
     detail: Dec 1 2019 - present
@@ -19,7 +19,7 @@
     detail: IBM 
     i18n: company_b
   desc:
-    detail: Worked in Toronto and then moved to Silicon Valley since July 2013
+    detail: Worked in Toronto since Jan 1 2012 and moved to Silicon Valley since July 2013
     i18n: company_b_desc
   date:
     detail: Jan 1 2012 - Nov 30 2019

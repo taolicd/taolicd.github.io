@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "A Beginner's Guide to APIs"
-date:   2019-08-08
-categories:  APIs, REST APIs
+date:   2020-08-08
+categories:  REST API
 
 ---
 # A Beginner's Guide to APIs 

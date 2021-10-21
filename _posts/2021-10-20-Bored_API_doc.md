@@ -1,40 +1,33 @@
 ---
 layout: post
-title: "Bored API Quickstart Guide"
+title: "Bored API Quickstart Guide to the Bored API"
 date: 2021-10-20
 categories: REST APIs
 ---
 
-# Quickstart Guide to the Bored API
+## What is the Bored API for
 
-
-
-## What is the Bored API
-
-The Bored API is a web application for submitting queries to find things to do when you need to kill boredom. 
+The [Bored API](www.boredapi.com) is a web API for submitting queries to find things to do to kill boredom. 
 
 
 ## Authentication 
-You do not need an API key to use this API. Just submit a query to the endpoint /api/activity/ to retrieve a suggested activity. 
+You do not need an API key to use this API. Just submit a query to the endpoint `/api/activity/` to retrieve a suggested activity. 
 
 
-## Installation, configuration and deployment 
+## Installation and deployment 
 
-The API was built using  MEVN stack (MongoDB, Express.js, Vue.js, and Node.js) with frontend using Vue.js and Webpack and backend using Node.js and MongoDB. The application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. 
+The API was built using  [MEVN stack](https://www.educative.io/edpresso/what-is-mevn-stack) with Frontend using Vue.js and Webpack and Backend using Node.js and MongoDB. The application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. You can use this hosted API for querying activities. You can also install and deploy your own service. 
 
-
-### Installation
-
-To install and host this project on your own machine, do the following:
+To install and deploy this project on your own machine:
 1. Install Node.js and MongoDB.
 2. Clone the project from https://github.com/drewthoennes/Bored-API.
-3. Start MongoDB instance, change directory into the clone project and run
+3. Start MongoDB instance, change directory to the clone project and run
 
 ```
 npm install
 npm start
 ```
-4. The application is available on https://hostname/8080
+4. The application is started on https://hostname/8080
 
 
 ## Endpoint definitions
@@ -71,17 +64,22 @@ The Bored API has been used in other applications and projects such as
 * [iOS app](https://apps.apple.com/us/app/bored-find-what-to-do/id1475656469)
 
 
-## Appendix
 
 ### Future feature suggestions
+
+* Add API authentication. This will be useful if we decide to support POST, DELETE, UPDATE operations in the future.
+*
+*
+Currently the only action supported is GET. 
 
 
 ### Known issues
 
-### Error code
+Error code is not standardized. 
 
 ### Suggestions for changes
 
+The `accessibility` parameter probably should be changed to a easier and clearer word such as `difficulty`. 
 
 
 

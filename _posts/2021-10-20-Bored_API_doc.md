@@ -18,7 +18,8 @@ You do not need an API key to use this API. Just submit a query to the endpoint 
 
 The Bored API was built using  [MEVN stack](https://www.educative.io/edpresso/what-is-mevn-stack) with frontend using Vue.js and Webpack and backend using Node.js and MongoDB. The application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. You can use this hosted API for querying activities. 
 
-If you want to install and deploy this project on your own host machine, follow the steps below:
+If you want to install and deploy this project on your own host
+, follow the steps below:
 
 1. Install Node.js and MongoDB.
 2. Clone the project from https://github.com/drewthoennes/Bored-API.
@@ -27,7 +28,7 @@ If you want to install and deploy this project on your own host machine, follow 
 npm install
 npm start
 ```
-4. The application is started on https://hostname/8080
+4. The application starts on https://hostname/8080
 
 
 ## Endpoint definitions
@@ -50,6 +51,9 @@ Here is an example Json response:
 
 ```
 
+## Response Status Code
+
+To be implemented in future releases. 
 
 
 ## Use cases
@@ -63,22 +67,35 @@ The Bored API has been used in other applications including
 * [Vue app](https://github.com/emilsgulbis/BoredApp)
 * [iOS app](https://apps.apple.com/us/app/bored-find-what-to-do/id1475656469)
 
+## Glossary
 
-### Future feature suggestions
+Tao's note: The Glossary section is nice to have. This API is straightforward so probably we don't need a Glossary section. 
+
+Here are some examples terms to include:
+
+* API
+* Swagger
+* 
+
+
+## Future feature suggestions
 
 * Add API authentication. This will be useful if we decide to support POST, DELETE, UPDATE operations in the future.
 * Currently the only verb supported is GET. I suggest that we also support other verbs such as PUT, POST, DELETE for autherized users. 
-* Provide other response types such as txt or yaml. 
-* Allow query multiple activities at the same time. 
+* Currently only Json response is available. We can provide other response types such as txt or yaml. 
+* Allow query multiple activities. 
 
 
-### Known issues
+## Known issues
 
-Currently, the application does not return standard HTTP response status codes such as 200 and 404. When a query returns no value, it returns `"error": "No activity found with the specified parameters"`. Ideally we want status code 200 for successful return and status code 404 for error not found. 
+HTTP standard response code is not implemented. 
+Currently, the application does not return standard HTTP response status codes such as 200 and 404. When a query returns no value, it returns `"error": "No activity found with the specified parameters"`. Ideally we want to implement standard HTTP status code such as 200 for successful return and status code 404 for error not found. 
 
-### Other miscellaneous things to discuss
 
-The `accessibility` parameter can be vague and misleading. At first I thought it meant functionality that helps disable or impaired people.  I suggest a more straightforward term such as `difficulty`. 
+
+## Other miscellaneous things to discuss
+
+The `accessibility` parameter can be misleading. At first I thought it meant whether the activity is friendly to disable or impaired people.  I suggest a more straightforward term such as `difficulty`. 
 
 
 

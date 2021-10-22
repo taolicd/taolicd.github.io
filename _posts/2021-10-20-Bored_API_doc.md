@@ -24,7 +24,7 @@ If you do want to install and deploy this project on your own host
 , follow the steps below:
 
 1. Install Node.js and install MongoDB.
-2. Clone the project from https://github.com/drewthoennes/Bored-API.
+2. Clone the project from [https://github.com/drewthoennes/Bored-API] (https://github.com/drewthoennes/Bored-API).
 3. Start MongoDB instance, change directory to the clone project from step 2 and run
 ```
 npm install

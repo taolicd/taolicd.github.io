@@ -2,7 +2,7 @@
 layout: post
 title: "Bored API Quick Start Guide"
 date: 2021-10-21
-categories: API
+categories: APIs
 ---
 
 ---

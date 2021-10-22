@@ -105,7 +105,7 @@ The `accessibility` parameter can be misleading. At first I thought it meant whe
 
 
 
-_Special thanks to [Drew](https://github.com/drewthoennes) for developing and sharing this interesting API with the public._
+_Special thanks to [Drew](https://github.com/drewthoennes) for developing and sharing this interesting web API publicly._
 
 
 

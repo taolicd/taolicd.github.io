@@ -35,7 +35,7 @@ npm start
 
 ## Endpoints
 
-This API supports HTTP method `GET` on one endpoint `/api/activity`.  See [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details. The [swagger.yaml](https://github.com/taolicd/swagger-for-bored-api/blob/master/swagger.yaml) file was created by Tao and the SWagger UI is hosted under Tao's personal GitHub Pages.
+This API supports HTTP method `GET` on one endpoint `/api/activity`.  See [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details. The [swagger.yaml](https://github.com/taolicd/swagger-for-bored-api/blob/master/swagger.yaml) file was created by Tao and the [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) is hosted under Tao's personal GitHub Pages.
 
 ## Example response
 
@@ -65,7 +65,6 @@ key |A unique numeric ID for this activity from [1000000, 9999999]
 accessibility | An index from [0.0, 1.0] describing how easy or challenging the activity is 0 being very easy and 1 extremely challenging
 
 
-
 ## Use cases
 
 The Bored API has been used in other applications including
@@ -76,13 +75,6 @@ The Bored API has been used in other applications including
 * [React app](https://github.com/CDAracena/Im-Bored)
 * [Vue app](https://github.com/emilsgulbis/BoredApp)
 * [iOS app](https://apps.apple.com/us/app/bored-find-what-to-do/id1475656469)
-
-
-## Future feature suggestions
-
-* Currently the only HTTP method supported is GET. I suggest that we also support other methods such as PUT, POST, DELETE for authorized users. This means we need to implement API authentication. 
-* Currently only Json response is available. We can provide other response types such as txt or yaml or xml. 
-* Allow querying for multiple activities. 
 
 
 
@@ -102,14 +94,18 @@ curl -I https://www.boredapi.com/api/activity?price=1
 
 The header returned still shows HTTP status 200 OK. I think it should return 404 not found. 
 
+### 2. Potential future feature suggestions
+* Currently the only HTTP method supported is GET. I suggest that we also support other methods such as PUT, POST, PATCH for authorized users. This means we need to implement API authentication. 
+* Currently only Json response is available. We can provide other response types such as txt or yaml or xml. 
+* Allow querying for multiple activities. 
 
-### 2. The `accessibility` parameter 
+### 3. The `accessibility` parameter 
 
 The `accessibility` parameter can be misleading. At first I thought it meant whether the activity is friendly to people with disabilities.  I suggest a more straightforward term such as `difficulty`. I guess because the term `accessibility` has been in use in the database probably we keep the term as is for simplicity.
 
 
 
-
+_Special thanks to [Drew](https://github.com/drewthoennes) for developing and sharing this interesting API with the public._
 
 
 

@@ -60,9 +60,9 @@ activity | Description of the suggested activity
 type | Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
 participants |The number of people from 1 to many that this activity will involve 
 price | A price index describing the cost of the activity from [0.0, 1.0] with 0 being free and 1 extremely expensive
-link | The URL link related to this activity. This information is optional.
+link | The URL related to this activity. This information is optional.
 key |A unique numeric ID for this activity from [1000000, 9999999]
-accessibility | An index from [0.0, 1.0] describing how easy or challenging the activity is 0 being very easy and 1 extremely challenging
+accessibility | An index from [0.0, 1.0] describing how easy or challenging an activity is with 0 being very easy and 1 extremely challenging
 
 
 ## Use cases
@@ -92,7 +92,7 @@ I get `"error": "No activity found with the specified parameters"` in the Json r
 curl -I https://www.boredapi.com/api/activity?price=1
 ```
 
-The header returned still shows HTTP status 200 OK. I think it should return 404 not found. 
+The header returned shows HTTP status 200 OK. I think it should return 404 not found. 
 
 ### 2. Potential future feature suggestions
 * Currently the only HTTP method supported is GET. I suggest that we also support other methods such as PUT, POST, PATCH for authorized users. This means we need to implement API authentication. 

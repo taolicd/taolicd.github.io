@@ -6,9 +6,9 @@ date: 2021-10-21
 
 ---
 
-This document attempts to document the free web API called Bored API available on https://www.boredapi.com. 
+This document attempts to document the free web API called Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
 
-This document assumes that readers have knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/2019/08/08/Intro_API_blog.html) or search on the Internet for web API introduction content. 
+Readers are expected to have knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
 ---
 

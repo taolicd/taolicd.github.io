@@ -2,7 +2,6 @@
 layout: post
 title:  "A Beginner's Guide to APIs"
 date:   2019-08-08
-categories:  APIs
 
 ---
 # A Beginner's Guide to APIs 

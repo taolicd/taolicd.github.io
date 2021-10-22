@@ -2,13 +2,12 @@
 layout: post
 title: "Bored API Quick Start Guide"
 date: 2021-10-21
-categories: APIs
 ---
 
 ---
 **Target Audience**
 
-This document assumes you have basic knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/apis,/rest/apis/2019/08/08/Intro_API_blog.html) or search on the Internet for web API introduction content. 
+This document assumes you have basic knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/2019/08/08/Intro_API_blog.html) or search on the Internet for web API introduction content. 
 
 ---
 

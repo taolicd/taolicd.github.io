@@ -2,7 +2,6 @@
 layout: post
 title:  "A peek into HTML, XML, XHTML, JSON, and Markdown"
 date:   2019-04-23
-categories:  XML, HTML,JSON, Markdown, XHTML
 use_math: false
 comments: true
 ---
@@ -55,7 +54,7 @@ There are tools to convert between HTML and Markdown. An example is [pandoc](htt
 
 So what are the main differences and similarities among the above five formats?
 
-* All the five formats are human readable and can be hand-crafted using a text editor such as Notepad++. 
+* All five formats are human readable and can be hand-crafted using a text editor such as Notepad++. 
 
 * HTML, XHTML, and Markdown are markup languages and they are used with the intention to be presented on the web. In other words, the target "consumer" of these markup languages is a web browser. Markdown is the lightweight version, HTML is the standard version, and XHTML is the XML-ized version of HTML.  
 

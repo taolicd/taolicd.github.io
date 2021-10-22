@@ -2,7 +2,6 @@
 layout: post
 title:  "Machine Learning (part 3)"
 date:   2019-06-04
-categories:  machine learning, deep learning
 
 
 ---

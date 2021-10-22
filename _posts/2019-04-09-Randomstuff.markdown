@@ -2,7 +2,6 @@
 layout: post
 title:  "My resume in LaTex"
 date:   2019-04-09
-categories:  LaTex
 use_math: false
 ---
 

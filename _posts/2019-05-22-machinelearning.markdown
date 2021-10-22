@@ -2,7 +2,6 @@
 layout: post
 title:  "Machine Learning (part 1)"
 date:   2019-05-22
-categories:  machine learning
 
 
 ---

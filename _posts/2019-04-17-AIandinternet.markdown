@@ -2,7 +2,6 @@
 layout: post
 title:  "AI and middle class jobs"
 date:   2019-04-17
-categories:  AI/robotics
 
 
 ---

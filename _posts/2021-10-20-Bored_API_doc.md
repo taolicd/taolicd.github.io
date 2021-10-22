@@ -2,7 +2,7 @@
 layout: post
 title: "Bored API Quick Start Guide"
 date: 2021-10-20
-categories: REST APIs
+categories: API
 ---
 
 ## What is the Bored API?

@@ -6,7 +6,7 @@ date: 2021-10-21
 
 ---
 
-This document attempts to document the free web API called Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the public web API, Bored API, available on [https://www.boredapi.com](https://www.boredapi.com). 
 
 Readers are expected to have knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
@@ -15,7 +15,7 @@ Readers are expected to have knowledge on web APIs. If not, please refer to [my 
 
 ## What is the Bored API?
 
-The [Bored API](https://www.boredapi.com) is a web API where you submit queries to find suggested things to do. You can  narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, a random activity will be suggested. 
+The [Bored API](https://www.boredapi.com) is a web API where you submit queries and the API returns suggested things to do. You can  narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, a random activity will be suggested. 
 
 
 ## Authentication and authorization
@@ -27,11 +27,10 @@ You do not need an API key or any username/password to use this API.
 The Bored API was built using  [MEVN stack](https://www.educative.io/edpresso/what-is-mevn-stack) with frontend using Vue.js and Webpack and backend using Node.js and MongoDB. The application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. You can use this hosted API for querying activities without deploying your own. 
 
 
-If you do want to install and deploy this project on your own host
-, follow the steps below:
+If you do want to install and deploy this project on your own host, follow the steps below:
 
 1. Install Node.js and install MongoDB.
-2. Clone the project from [https://github.com/drewthoennes/Bored-API] (https://github.com/drewthoennes/Bored-API).
+2. Clone the project from [https://github.com/drewthoennes/Bored-API](https://github.com/drewthoennes/Bored-API).
 3. Start MongoDB instance, change directory to the clone project from step 2 and run
 ```
 npm install
@@ -82,6 +81,7 @@ The Bored API has been used in other applications including
 * [React app](https://github.com/CDAracena/Im-Bored)
 * [Vue app](https://github.com/emilsgulbis/BoredApp)
 * [iOS app](https://apps.apple.com/us/app/bored-find-what-to-do/id1475656469)
+* [Are you bored](https://ajaykarwal.github.io/bored/)
 
 
 
@@ -102,13 +102,13 @@ Currently, the API does not return HTTP response status code 404 for result not 
 The returned header shows HTTP status 200 OK. I think having a return status code 404 for not found probably is more conventional and appropriate.  
 
 ### 2. Potential future feature suggestions
-* Currently the only HTTP method available is `GET`. What about we will allow users to post new activity suggestions in a "segregated" manner? For example, the existing activity entries will be tagged with a new attribute `status=official` and future user submitted activities will be assigned `status` = `user-submitted`. Once in a while the API administrator may go through the entries and change the status from `user-submitted` to `official` for any interesting new suggestions. We will support HTTP method `POST` and maybe even `PUT` or `DELETE` for user-submitted items. To have some control over random user submissions or deletions, we probably need to implement API authentication. For the `GET` method, it will continue to be authentication free and the new `status` attribute will be added as a parameter users can query on. 
+* Currently the only HTTP method available is `GET`. What if we allowed users to post new activity suggestions in a "segregated" manner? For example, the existing activity entries will be tagged with a new attribute `status=official` and future user submitted activities will be assigned `status=user-submitted`. Once in a while the API administrator may go through the entries and change the status from `user-submitted` to `official` for any interesting new suggestions. We will support HTTP method `POST` and maybe even `PUT` or `DELETE` for user-submitted items. To have some control over random user submissions or deletions, we probably need to implement API authentication. For the `GET` method, it will continue to be authentication free and the new `status` attribute will be added as a parameter users can query on. 
 * Currently only Json response is available. We can provide other response types such as txt, yaml, or xml. 
 * Allow querying for multiple activities in one attempt. 
 
 ### 3. The `accessibility` parameter 
 
-   The term `accessibility` can be a bit misleading. At first I thought it meant whether the activity is friendly to people with disabilities.  I suggest a more straightforward term such as `difficulty`. I guess because the term `accessibility` has been in use in the database probably we keep the term as is for simplicity.
+   The term `accessibility` can be a bit misleading. At first I thought it meant whether the activity is friendly to people with disabilities.  I suggest a more straightforward term such as `difficulty`. 
 
 
 ---

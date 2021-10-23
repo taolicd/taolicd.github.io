@@ -6,7 +6,7 @@ date: 2021-10-21
 
 ---
 
-This blog documents the Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the Bored API created by [Drew Thoennes]((https://github.com/drewthoennes)) on [https://www.boredapi.com](https://www.boredapi.com). 
 
 Readers are expected to have some knowledge of web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 

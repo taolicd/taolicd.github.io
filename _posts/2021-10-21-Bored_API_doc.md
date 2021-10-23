@@ -89,7 +89,7 @@ The Bored API has been used in other applications including
 
 ### 1. HTTP response status code
 
-Currently, the API does not return HTTP response status code 404 for result not found. For example, if I run the curl command below
+Currently, the API does not return HTTP response status code 404 for result not found. For example, when I run the curl command below
   ```
   curl https://www.boredapi.com/api/activity?price=1
   ```
@@ -99,7 +99,7 @@ Currently, the API does not return HTTP response status code 404 for result not 
   curl -I https://www.boredapi.com/api/activity?price=1
   ```
 
-The returned header shows HTTP status 200 OK. I think having a return status code 404 for not found probably is more conventional and appropriate.  
+The returned header shows HTTP status 200. I think having a return status code 404 for not found probably is more conventional and appropriate in this case.  
 
 ### 2. Potential future feature suggestions
 * Currently the only HTTP method available is `GET`. What if we allowed users to post new activity suggestions in a "segregated" manner? For example, the existing activity entries will be tagged with a new attribute `status=official` and future user submitted activities will be assigned `status=user-submitted`. Once in a while the API administrator may go through the entries and change the status from `user-submitted` to `official` for any interesting new suggestions. We will support HTTP method `POST` and maybe even `PUT` or `DELETE` for user-submitted items. To have some control over random user submissions or deletions, we probably need to implement API authentication. For the `GET` method, it will continue to be authentication free and the new `status` attribute will be added as a parameter users can query on. 

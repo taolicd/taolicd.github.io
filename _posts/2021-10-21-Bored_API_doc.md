@@ -107,7 +107,7 @@ The returned header shows HTTP status 200. I think having a return status code 4
 
 ### 3. The `accessibility` parameter 
 
-   The term `accessibility` can be a bit misleading. At first I thought it meant whether the activity is friendly to people with disabilities.  I suggest a more straightforward term such as `difficulty`. 
+   The term `accessibility` can be a bit misleading. At first I thought it meant whether the activity was friendly to people with disabilities.  I suggest a more straightforward term such as `difficulty`. 
 
 
 ---

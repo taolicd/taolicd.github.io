@@ -31,10 +31,11 @@ If you do want to install and deploy this project on your own host, follow the s
 1. Install Node.js and install MongoDB.
 2. Clone the project from [https://github.com/drewthoennes/Bored-API](https://github.com/drewthoennes/Bored-API).
 3. Start MongoDB instance, change directory to the clone project from step 2 and run
-```
-npm install
-npm start
-```
+
+      ```
+      npm install
+     npm start
+      ```
 4. The Bored API starts on https://hostname:8080.
 
 
@@ -58,6 +59,16 @@ Here is an example Json response you may get from the API:
 
 ```
 where
+
+activity
+: Description of the suggested activity
+
+type
+: Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
+
+participants
+: The number of people from 1 to many that this activity will involve 
+
 
 key | value 
 --- | --- 

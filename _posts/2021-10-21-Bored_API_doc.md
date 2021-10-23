@@ -6,9 +6,9 @@ date: 2021-10-21
 
 ---
 
-This blog documents the Bored API created by [Drew Thoennes]((https://github.com/drewthoennes)) on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the Bored API created by [Drew Thoennes](https://github.com/drewthoennes) and hosted on [https://www.boredapi.com](https://www.boredapi.com). 
 
-Readers are expected to have some knowledge of web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
+Readers are expected to have some knowledge of web APIs. If not, please refer to my earlier blog [A Beginner's Guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
 ---
 
@@ -41,11 +41,13 @@ If you do want to install and deploy this project on your own host, follow the s
 
 ## Endpoints
 
-This API supports HTTP method `GET` on one endpoint: `/api/activity`.  See [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details. The [swagger.yaml](https://github.com/taolicd/swagger-for-bored-api/blob/master/swagger.yaml) file was created by Tao and the [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) is hosted under Tao's personal GitHub Pages.
+This API supports HTTP method `GET` on one endpoint: `/api/activity`.  Refer to a separate interactive document called [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details on the endpoint and available parameters[^1]. 
+
+[^1]: The [swagger.yaml](https://github.com/taolicd/swagger-for-bored-api/blob/master/swagger.yaml) file was created by Tao and the [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) is hosted under Tao's personal GitHub Pages.
 
 ## Example response
 
-Here is an example Json response you may get from the API:
+Here is an example Json response you may get from this API:
 
 ```
 { "activity": "Learn how the internet works",

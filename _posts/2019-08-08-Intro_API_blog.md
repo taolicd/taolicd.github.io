@@ -104,8 +104,9 @@ GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ## How to interact with a REST API
 
 There are multiple ways you can interact with a REST API:
-* a REST API client: To try out how REST APIs work, you can install a REST API client. Some popular ones include [Postman](https://www.postman.com/) and Chrome [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo).
-* URL command line interface: [cURL](https://curl.se/) is another awesome tool you can use to interact with REST APIs. For more information, see [this blog on codepedia](https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/).
+* Web browser with a REST client plugin: Regular web browsers support GET as the default method for interacting with a REST API. If you need to use other methods such as POST or PUT in a browser, you can install a REST API plugin, for example Chrome [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US) and Firefox [RESTClient](https://addons.mozilla.org/en-US/firefox/addon/restclient/).
+* Separate REST API client: If you want a standalone REST API client, [Postman](https://www.postman.com/) is quite popular. 
+* cURL command line interface: [cURL](https://curl.se/) is another awesome tool you can use to interact with REST APIs. For more information, see [how to test a REST API from curl](https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/) on codepedia.
 * Swagger UI: The Swagger UI provides user-friendly interactive API documentation for visualizing and interacting with REST API resources. For more information, see [swagger.io](https://swagger.io/tools/swagger-ui/). 
 
 

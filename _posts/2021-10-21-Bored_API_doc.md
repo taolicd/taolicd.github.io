@@ -59,7 +59,7 @@ Here is an example Json response you may get from the API:
 
 ```
 where
-`key        `|`  value                                            `
+`key`|`value`
 --- | --- 
 activity | Description of the suggested activity
 type | Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
@@ -80,7 +80,7 @@ The Bored API has been used in other applications including
 * [React app](https://github.com/CDAracena/Im-Bored)
 * [Vue app](https://github.com/emilsgulbis/BoredApp)
 * [iOS app](https://apps.apple.com/us/app/bored-find-what-to-do/id1475656469)
-* [Are you bored](https://ajaykarwal.github.io/bored/)
+* [Are you bored web app](https://ajaykarwal.github.io/bored/)
 
 
 

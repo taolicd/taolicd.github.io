@@ -8,7 +8,7 @@ date: 2021-10-21
 
 This blog documents the public web API, Bored API, available on [https://www.boredapi.com](https://www.boredapi.com). 
 
-Readers are expected to have knowledge on web APIs. If not, please refer to [my other blog](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
+Readers are expected to have knowledge on web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
 ---
 

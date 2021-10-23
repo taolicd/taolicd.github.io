@@ -70,7 +70,7 @@ participants
 : The number of people from 1 to many that this activity will involve 
 
 
-key | value 
+`key        `|`  value                                            `
 --- | --- 
 activity | Description of the suggested activity
 type | Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]

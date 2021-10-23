@@ -98,20 +98,16 @@ Here is an example using Google's Book API for retrieving book info based on an 
 GET https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 ```
 
-Tip: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and do not need to include the Get keyword. 
+**Tip**: The GET method is the default method in a web browser, which is why when you browse a website, you just need to type the URL (universal resource locator) and the optional parameters and do not need to include the GET keyword. 
 
 
-### REST client
+## How to interact with a REST API
 
-To try out how REST APIs work, you can install a Chrome plugin called [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo). 
+There are multiple ways you can interact with a REST API:
+* a REST API client: To try out how REST APIs work, you can install a REST API client. Some popular ones include [Postman](https://www.postman.com/) and Chrome [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo).
+* URL command line interface: [cURL](https://curl.se/) is another awesome tool you can use to interact with REST APIs. For more information, see [this blog on codepedia](https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/).
+* Swagger UI: The Swagger UI provides user-friendly interactive API documentation for visualizing and interacting with REST API resources. For more information, see [swagger.io](https://swagger.io/tools/swagger-ui/). 
 
-### cURL command line interface
-
-cURL is another awesome tool you can use to interact with REST APIs. For more information, see [this blog on codepedia](https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/).
-
-### Swagger UI
-
-The Swagger UI provides user-friendly interactive API documentation for visualizing and interacting with REST API resources. For more information, see [swagger.io](https://swagger.io/tools/swagger-ui/). 
 
 ## Where to find interesting APIs
 

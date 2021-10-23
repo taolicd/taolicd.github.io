@@ -6,7 +6,7 @@ date: 2021-10-21
 
 ---
 
-This blog documents the Bored API created by [Drew Thoennes](https://github.com/drewthoennes) and hosted on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the Bored API created by [Drew Thoennes](https://github.com/drewthoennes) and hosted on [https://www.boredapi.com](https://www.boredapi.com). For the original documentation of this project, click [this documentation link](https://www.boredapi.com/documentation) and visit its [README](https://github.com/drewthoennes/Bored-API) on GitHub.
 
 Readers are expected to have some knowledge of web APIs. If not, please refer to my earlier blog [A Beginner's Guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 

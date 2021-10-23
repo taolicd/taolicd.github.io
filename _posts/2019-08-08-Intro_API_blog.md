@@ -109,7 +109,7 @@ To try out how REST APIs work, you can install a Chrome plugin called [Advanced 
 
 cURL is another awesome tool you can use to interact with REST APIs. For more information, see [this blog on codepedia](https://www.codepedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/).
 
-### OpenAPI and Swagger UI
+### Swagger UI
 
 The Swagger UI provides user-friendly interactive API documentation for visualizing and interacting with REST API resources. For more information, see [swagger.io](https://swagger.io/tools/swagger-ui/). 
 

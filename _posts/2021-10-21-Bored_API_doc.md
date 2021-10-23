@@ -6,7 +6,7 @@ date: 2021-10-21
 
 ---
 
-This blog documents the public web API, Bored API, available on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the public web API Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
 
 Readers are expected to have knowledge on web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
@@ -15,7 +15,7 @@ Readers are expected to have knowledge on web APIs. If not, please refer to my e
 
 ## What is the Bored API?
 
-The [Bored API](https://www.boredapi.com) is a web API where you submit queries and the API returns suggested things to do. You can  narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, a random activity will be suggested. 
+The [Bored API](https://www.boredapi.com) is a web API where you submit queries and the API returns suggested things to do. You can narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, you will get a random suggestion.  
 
 
 ## Authentication and authorization

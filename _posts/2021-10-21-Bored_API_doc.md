@@ -6,16 +6,16 @@ date: 2021-10-21
 
 ---
 
-This blog documents the public web API Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
+This blog documents the Bored API available on [https://www.boredapi.com](https://www.boredapi.com). 
 
-Readers are expected to have knowledge on web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
+Readers are expected to have some knowledge of web APIs. If not, please refer to my earlier blog [A beginner's guide to APIs](https://taolicd.github.io/2019/08/08/Intro_API_blog.html). 
 
 ---
 
 
 ## What is the Bored API?
 
-The [Bored API](https://www.boredapi.com) is a web API where you submit queries and the API returns suggested things to do. You can narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, you will get a random suggestion.  
+The [Bored API](https://www.boredapi.com) is a public web API where you submit queries and the API returns suggested things to do. You can narrow down the scope of suggestions by specifying certain criteria such as activity type or number of participants. If you do not specify any criteria, you will get a random suggestion.  
 
 
 ## Authentication and authorization
@@ -23,8 +23,7 @@ You do not need an API key or any username/password to use this API.
 
 ## Installation and deployment 
 
-
-The Bored API was built using  [MEVN stack](https://www.educative.io/edpresso/what-is-mevn-stack) with frontend using Vue.js and Webpack and backend using Node.js and MongoDB. The application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. You can use this hosted API for querying activities without deploying your own. 
+The Bored API was developed using  [MEVN stack](https://www.educative.io/edpresso/what-is-mevn-stack) with frontend using Vue.js and Webpack and backend using Node.js and MongoDB. The API application on [www.boredapi.com](www.boredapi.com) is hosted on Heroku. You can use this hosted API for querying activities without deploying your own. 
 
 
 If you do want to install and deploy this project on your own host, follow the steps below:

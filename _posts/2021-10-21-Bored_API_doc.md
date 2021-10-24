@@ -32,10 +32,11 @@ If you do want to install and deploy this project on your own host, follow the s
 2. Clone the project from [https://github.com/drewthoennes/Bored-API](https://github.com/drewthoennes/Bored-API).
 3. Start a MongoDB instance, change the directory to the cloned project from step 2 and run
 
-      ```
-      npm install
-     npm start
-      ```
+    ```
+    npm install
+    npm start
+    ```
+    
 4. The Bored API starts on https://hostname:8080.
 
 

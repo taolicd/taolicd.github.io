@@ -94,6 +94,7 @@ The Bored API has been used in other applications including
 ### 1. HTTP response status code
 
 Currently, the API does not return HTTP response status code 404 for result not found. For example, when I run the curl command below
+
   ```
   curl https://www.boredapi.com/api/activity?price=1
   ```

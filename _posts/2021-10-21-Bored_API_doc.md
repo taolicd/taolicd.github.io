@@ -61,7 +61,33 @@ Here is an example Json response you may get from this API:
 
 ```
 where
-`key`|`value`
+* activity
+
+  Description of the suggested activity.
+* type
+
+  Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
+* participants
+
+  The number of people from 1 to many that this activity will involve. 
+
+* price
+
+  A price indicator describing the cost of the activity from [0.0, 1.0] with 0 being free and 1 extremely expensive
+
+* link
+  
+  The URL related to this activity. This information is optional.
+
+* key
+
+  A unique numeric ID for this activity from [1000000, 9999999].
+
+* accessibility
+
+  An indicator from [0.0, 1.0] describing how easy or challenging an activity is with 0 being very easy and 1 extremely challenging.
+
+key|value
 --- | --- 
 activity | Description of the suggested activity
 type | Type of the activity from one of the 9 categories: ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
@@ -69,7 +95,8 @@ participants |The number of people from 1 to many that this activity will involv
 price | A price indicator describing the cost of the activity from [0.0, 1.0] with 0 being free and 1 extremely expensive
 link | The URL related to this activity. This information is optional.
 key |A unique numeric ID for this activity from [1000000, 9999999]
-accessibility | An indicator from [0.0, 1.0] describing how easy or challenging an activity is with 0 being very easy and 1 extremely challenging
+accessibility | An indicator from [0.0, 1.0] describing how easy or challenging an activity is with 0 being very easy and 1 extremely challenging |
+
 
 
 ## Use cases

@@ -36,7 +36,7 @@ If you do want to install and deploy this project on your own host, follow the s
     npm install
     npm start
     ```
-    
+
 4. The Bored API starts on https://hostname:8080.
 
 

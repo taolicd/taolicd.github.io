@@ -42,7 +42,7 @@ If you do want to install and deploy this project on your own host, follow the s
 
 ## Endpoints
 
-This API supports HTTP `GET` on one endpoint: `/api/activity`.  Refer to a separate interactive document called [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details on the endpoint and available parameters[^1]. 
+This API supports HTTP `GET` on the endpoint: `/api/activity`.  Refer to a separate interactive document called [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) for details on the endpoint and available parameters[^1]. 
 
 [^1]: The [swagger.yaml](https://github.com/taolicd/swagger-for-bored-api/blob/master/swagger.yaml) file was created by Tao and the [Bored Swagger UI](https://taolicd.github.io/swagger-for-bored-api/) is hosted under Tao's personal GitHub Pages.
 

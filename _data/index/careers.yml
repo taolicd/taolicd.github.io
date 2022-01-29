@@ -1,19 +1,35 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: Amazon
+    i18n: company_0
+  desc:
+    detail: Alexa docs team
+    i18n: company0_desc
+  date:
+    detail: Jan 2022 - present
+    i18n: company_0_date
+  job:
+    detail: Programming Writer
+    i18n: company_0_job
+  icon: fa-plus-square
+  present: true
+
 - name:
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: SS&C Algorithmics Risk Analytics documentation including authoring configuration and deployment guides, API references, user guides, and release notes
+    detail: SS&C Algorithmics Risk Analytics documentation 
     i18n: company_a_desc
   date:
-    detail: Dec 1 2019 - present
+    detail: Dec 1 2019 - Jan 2022
     i18n: company_a_date
   job:
     detail: Senior Technical Writer
     i18n: company_a_job
   icon: fa-plus-square
-  present: true
+  
 
 - name:
     detail: IBM 

@@ -57,3 +57,17 @@
     detail: Technical Writer
     i18n: company_c_job
   icon: fa-plus-square
+
+- name:
+    detail: CCI
+    i18n: company_d
+  desc:
+    detail: Toronto
+    i18n: company_d_desc
+  date:
+    detail: July 2000 - Dec 2005
+    i18n: company_d_date
+  job:
+    detail: Technical Writer/Instructional Designer
+    i18n: company_d_job
+  icon: fa-plus-square

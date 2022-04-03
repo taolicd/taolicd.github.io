@@ -1,6 +1,6 @@
 # skills section data
 
 label: Ability
-id : cs
-aspects:  XML/DITA, API documentation, Markdown/AsciiDoc, Linux, Git, DevOps Tools, HTML/CSS/JavaScript, Python/Java Code Reading,  Docker 
-percentage: 100, 90, 90, 90, 90, 80, 70, 80, 60
+id: cs
+aspects: XML/DITA, API documentation, Markdown/AsciiDoc, Linux, Git, DevOps Tools, HTML/CSS/JavaScript, Python reading,  Docker
+percentage: 100, 90, 90, 90, 90, 80, 70, 70, 50

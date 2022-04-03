@@ -5,7 +5,7 @@
     detail: Amazon
     i18n: company_0
   desc:
-    detail: Alexa docs team working on developer documenation for the Alexa Skills Kit
+    detail: Working on developer documenation for the Alexa Skills Kit
     i18n: company0_desc
   date:
     detail: Jan 2022 - present
@@ -20,7 +20,7 @@
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: SS&C Algorithmics Risk Analytics Lead Tech Writer 
+    detail: SS&C Algorithmics Risk Analytics Lead Tech Writer
     i18n: company_a_desc
   date:
     detail: Dec 1 2019 - Jan 2022
@@ -29,10 +29,9 @@
     detail: Senior Technical Writer
     i18n: company_a_job
   icon: fa-plus-square
-  
 
 - name:
-    detail: IBM 
+    detail: IBM
     i18n: company_b
   desc:
     detail: Worked in Toronto since Jan 1 2012 and moved to Silicon Valley since July 2013
@@ -55,7 +54,6 @@
     detail: October 2005 - Dec 2011
     i18n: company_c_date
   job:
-    detail: Technical Writer 
+    detail: Technical Writer
     i18n: company_c_job
   icon: fa-plus-square
-

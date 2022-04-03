@@ -5,13 +5,13 @@
     detail: Amazon
     i18n: company_0
   desc:
-    detail: Working on developer documenation for the Alexa Skills Kit
+    detail: Write developer documenation for the Alexa Skills Kit
     i18n: company0_desc
   date:
     detail: Jan 2022 - present
     i18n: company_0_date
   job:
-    detail: Programming Writer
+    detail: Programming Writer, Sunnyvale, California
     i18n: company_0_job
   icon: fa-plus-square
   present: true
@@ -20,13 +20,13 @@
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: SS&C Algorithmics Risk Analytics Lead Tech Writer
+    detail: Worked on documentation for SS&C Algorithmics Risk Analytics solutions
     i18n: company_a_desc
   date:
     detail: Dec 1 2019 - Jan 2022
     i18n: company_a_date
   job:
-    detail: Senior Technical Writer
+    detail: Senior Technical Writer, San Jose, California
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -34,13 +34,13 @@
     detail: IBM
     i18n: company_b
   desc:
-    detail: Worked in Toronto since Jan 1 2012 and moved to Silicon Valley since July 2013
+    detail: Wrote tech doc for financial risk management software
     i18n: company_b_desc
   date:
     detail: Jan 1 2012 - Nov 30 2019
     i18n: company_b_date
   job:
-    detail: Senior Technical Writer
+    detail: Senior Technical Writer, Toronto and San Jose
     i18n: company_b_job
   icon: fa-plus-square
 
@@ -48,13 +48,13 @@
     detail: Algorithmics
     i18n: company_c
   desc:
-    detail: Toronto
+    detail: Wrote technical documentation for Algorithmics products
     i18n: company_c_desc
   date:
     detail: October 2005 - Dec 2011
     i18n: company_c_date
   job:
-    detail: Technical Writer
+    detail: Technical Writer, Toronto
     i18n: company_c_job
   icon: fa-plus-square
 
@@ -62,12 +62,12 @@
     detail: CCI
     i18n: company_d
   desc:
-    detail: Toronto
+    detail: E-learning courseware curricula and content development
     i18n: company_d_desc
   date:
     detail: July 2000 - October 2005
     i18n: company_d_date
   job:
-    detail: Technical Writer/Instructional Designer
+    detail: Technical Writer, Toronto
     i18n: company_d_job
   icon: fa-plus-square

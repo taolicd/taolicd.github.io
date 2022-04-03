@@ -5,7 +5,7 @@
     detail: Amazon
     i18n: company_0
   desc:
-    detail: Write developer documenation for the Alexa Skills Kit
+    detail: Developer documenation for the Alexa Skills Kit
     i18n: company0_desc
   date:
     detail: Jan 2022 - present
@@ -20,7 +20,7 @@
     detail: SS&C Technologies
     i18n: company_a
   desc:
-    detail: Worked on documentation for SS&C Algorithmics Risk Analytics solutions
+    detail: Technical documentation for SS&C Algorithmics Risk Analytics solutions
     i18n: company_a_desc
   date:
     detail: Dec 1 2019 - Jan 2022
@@ -34,7 +34,7 @@
     detail: IBM
     i18n: company_b
   desc:
-    detail: Wrote tech doc for financial risk management software
+    detail: Technical documenation for financial risk management software
     i18n: company_b_desc
   date:
     detail: Jan 1 2012 - Nov 30 2019
@@ -48,7 +48,7 @@
     detail: Algorithmics
     i18n: company_c
   desc:
-    detail: Wrote technical documentation for Algorithmics products
+    detail: Technical documentation for Algorithmics products
     i18n: company_c_desc
   date:
     detail: October 2005 - Dec 2011

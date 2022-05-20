@@ -5,7 +5,7 @@
     detail: Amazon
     i18n: company_0
   desc:
-    detail: Developer documenation for the Alexa Skills Kit
+    detail: Developer documenation for the Alexa Skills Kit and Alexa Voice Service
     i18n: company0_desc
   date:
     detail: Jan 2022 - present

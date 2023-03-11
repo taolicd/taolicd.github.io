@@ -29,7 +29,7 @@ The steps below focus on MacOS and assume you have admin right to install softwa
    git clone https://github.com/errata-ai/vale-boilerplate.git
    ```
    
-5. In your Visual Studio Code, click the Manage button at the bottom left corner and then choose **Settings**, locate Vale setting and configure the **Vale CLI** to point to the absolute path of the Vale config file `.vale.ini` you get in step 5.0. For example, I cloned the repo in step 4 to `/Users/taoli/` so I configured mine as `/Users/taoli/vale-boilerplate/.vale.ini`
-
+5. In your Visual Studio Code, click the **Manage** button at the bottom left corner and then choose **Settings**. Locate Vale setting and configure the **Vale CLI** to point to the absolute path of the Vale config file `.vale.ini` you get in step 4. For example, I cloned the repo in step 4 to `/Users/taoli/` so I configured mine as `/Users/taoli/vale-boilerplate/.vale.ini`. You can customize this `.vale.ini` file to specify where the style rules are, which file types you want Vale to lint. Vale supports Markdown, HTML, TXT, and AsciiDoc files. For details about this `.vale.ini` file, see [the official Vale configuration topic](https://vale.sh/docs/topics/config/).
+   
 6. Exit Visual Studio Code and start it again. Open a Markdown file and you should see the Vale linter working with wiggle lines flagging the sentences. 
 

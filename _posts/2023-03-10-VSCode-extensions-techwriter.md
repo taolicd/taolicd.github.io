@@ -6,7 +6,7 @@ date: 2023-03-10
 
 ---
 
-This post lists Visual Studio Code extensions that technical writers may find useful. 
+This post lists Visual Studio(VS) Code extensions that technical writers may find useful. 
 
 ### Version control
 
@@ -16,9 +16,9 @@ You can do all Git-related commands within the VS Code terminal. I find the foll
 
 * **GitLens**: This is super powerful and popular.
 
-For more Git related extensions, see [The best VS Code extensions to supercharge Git](https://dev.to/jamieswift90/the-best-vs-code-extensions-to-supercharge-git-yes-there-s-more-than-gitlens-4588)
+For more Git related extensions, see [The best VS Code extensions to supercharge Git](https://dev.to/jamieswift90/the-best-vs-code-extensions-to-supercharge-git-yes-there-s-more-than-gitlens-4588).
 
-In VS Code, you do not need a separate extension to resolve Git merge conflict.
+VS Code comes with a tool to resolve Git merge conflicts, which means you do not need a separate extension for handling Git merge conflicts.
 
 ### Graphing tools
 
@@ -28,27 +28,33 @@ In VS Code, you do not need a separate extension to resolve Git merge conflict.
   
 * **Mermaid Preview**: Mermaid diagram preview in VS Code.
   
-### Style and spell checking
+### Style and spell checkers and readability checker
 
-* **Vale**: Vale is an excellent style and grammar linter. For configuration steps, see my 2023-03-09 post [Install and Configure the Vale CLI to work with Visual Studio Code](https://taolicd.github.io/2023/03/09/configure-vale-for-VSCode.html).
+* **Vale**: Vale is an excellent style and grammar linter. For installation configuration steps, see my 2023-03-09 post [Install and Configure the Vale CLI to work with Visual Studio Code](https://taolicd.github.io/2023/03/09/configure-vale-for-VSCode.html).
   
 * **Code Spell Checker**: This tool is helpful for catching spelling errors in code blocks. Vale ignores code blocks as far as I know.
 
-### Other useful extensions
+* **Readability check**: To display the readability score of text in plain text or Markdown files.
 
-* **Swagger Viewer**: For preview Swagger and OpenAPI YML files in VS Code.
-  
-* **Word Count**: For counting the number of words in your file.
-  
-* **Office Viewer**: To view MS Word, Excel etc in VS Code.
+### Formatter and converter 
   
 * **Prettier**: Code formatter.
   
-* **Thunder client**: Lightweight REST API client in VS Code.
-  
-* **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install Pandoc separately as the prerequisite.
-  
-* **Readability check**: To display the readability score of text in plain text or Markdown files.
+* **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install [Pandoc](https://pandoc.org/installing.html) separately as the prerequisite.
 
-### Caveat
-Do not install too many extensions. Having too many extensions might slow down the performance drastically. 
+### REST API doc related extensions
+
+* **Swagger Viewer**: For preview Swagger and OpenAPI YML files in VS Code.
+  
+* **Thunder client**: Lightweight REST API client in VS Code. 
+### Other useful extensions
+
+* **Word Count**: For counting the number of words in your file.
+  
+* **Office Viewer**: To view Microsoft Word, Excel etc in VS Code.
+
+
+  
+
+#### Caveat
+Do not install too many extensions. Having too many extensions might slow down the performance of your VS Code. 

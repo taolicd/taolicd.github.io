@@ -29,18 +29,25 @@ In VS Code, you do not need a separate extension to resolve Git merge conflict.
   
 ### Style and spell checking
 
-* **Vale**: For configuration steps, see my 2023-03-09 post "Install and Configure the Vale CLI to work with Visual Studio Code".
+* **Vale**: Vale is an excellent style and grammar linter. For configuration steps, see my 2023-03-09 post [Install and Configure the Vale CLI to work with Visual Studio Code](https://taolicd.github.io/2023/03/09/configure-vale-for-VSCode.html).
+  
 * **Code Spell Checker**: This tool is helpful for catching spelling errors in code blocks. Vale ignores code blocks as far as I know.
 
 ### Other useful extensions
 
-* **Swagger Viewer**: For preview Swagger and OpenAPI yml files in VS Code.
+* **Swagger Viewer**: For preview Swagger and OpenAPI YML files in VS Code.
+* 
 * **Word Count**: For counting the number of words in your file.
+* 
 * **Office Viewer**: To view MS Word, Excel etc in VS Code.
+* 
 * **Prettier**: Code formatter.
+* 
 * **Thunder client**: Lightweight REST API client in VS Code.
+* 
 * **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install pandoc separately as the prerequisite.
+* 
 * **Readability check**: To display the readability score of text in plain text or Markdown files.
 
 ### Caveat
-Do not install too many extensions. Having too many extensions might slow down the performance drastically. At one point, I had to un-install VS Code including all the extensions and reinstall it to resolve the performance issue.
+Do not install too many extensions. Having too many extensions might slow down the performance drastically. 

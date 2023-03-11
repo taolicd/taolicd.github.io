@@ -42,11 +42,12 @@ VS Code comes with a tool to resolve Git merge conflicts, which means you do not
   
 * **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install [Pandoc](https://pandoc.org/installing.html) separately as the prerequisite.
 
-### REST API doc related extensions
+### REST API related extensions
 
 * **Swagger Viewer**: For preview Swagger and OpenAPI YML files in VS Code.
   
 * **Thunder client**: Lightweight REST API client in VS Code. 
+  
 ### Other useful extensions
 
 * **Word Count**: For counting the number of words in your file.
@@ -54,7 +55,5 @@ VS Code comes with a tool to resolve Git merge conflicts, which means you do not
 * **Office Viewer**: To view Microsoft Word, Excel etc in VS Code.
 
 
-  
-
-#### Caveat
-Do not install too many extensions. Having too many extensions might slow down the performance of your VS Code. 
+--------------
+**Caveat**: Do not install too many extensions. Having too many extensions might slow down the performance of your VS Code. 

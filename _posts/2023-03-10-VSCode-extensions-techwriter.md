@@ -25,6 +25,7 @@ In VS Code, you do not need a separate extension to resolve Git merge conflict.
 * **PlantUML**: Create and preview UML diagrams in VS Code. Alternatively, you can use Amazon's internal online version.
 
 * **Draw.io**: Draw and preview draw.io style diagrams. Alternatively, you can use Amazon's internal draw.io online version.
+  
 * **Mermaid Preview**: Mermaid diagram preview in VS Code.
   
 ### Style and spell checking
@@ -36,17 +37,17 @@ In VS Code, you do not need a separate extension to resolve Git merge conflict.
 ### Other useful extensions
 
 * **Swagger Viewer**: For preview Swagger and OpenAPI YML files in VS Code.
-* 
+  
 * **Word Count**: For counting the number of words in your file.
-* 
+  
 * **Office Viewer**: To view MS Word, Excel etc in VS Code.
-* 
+  
 * **Prettier**: Code formatter.
-* 
+  
 * **Thunder client**: Lightweight REST API client in VS Code.
-* 
-* **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install pandoc separately as the prerequisite.
-* 
+  
+* **VSCode-Pandoc**: To render PDF, Word, or HTML in VS Code. You still need to install Pandoc separately as the prerequisite.
+  
 * **Readability check**: To display the readability score of text in plain text or Markdown files.
 
 ### Caveat

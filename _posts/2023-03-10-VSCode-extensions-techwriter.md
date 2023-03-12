@@ -6,11 +6,11 @@ date: 2023-03-10
 
 ---
 
-This post lists Visual Studio(VS) Code extensions that technical writers may find useful. 
+Technical writers may find the following Visual Studio(VS) Code extensions useful.
 
 ### Version control
 
-You can do all Git-related commands within the VS Code terminal. I find the following extensions useful.
+You can do all Git-related commands within the VS Code terminal. VS Code comes with a tool to resolve Git merge conflicts, which means you do not need a separate extension for handling Git merge conflicts. I find the following extensions useful.
 
 * **Git Graph**: Visual and easy to use. I use it for cherry-picking so I do not need to use git log to see the checksum.
 
@@ -18,19 +18,18 @@ You can do all Git-related commands within the VS Code terminal. I find the foll
 
 For more Git related extensions, see [The best VS Code extensions to supercharge Git](https://dev.to/jamieswift90/the-best-vs-code-extensions-to-supercharge-git-yes-there-s-more-than-gitlens-4588).
 
-VS Code comes with a tool to resolve Git merge conflicts, which means you do not need a separate extension for handling Git merge conflicts.
 
 ### Graphing tools
 
-* **PlantUML**: Create and preview UML diagrams in VS Code. Alternatively, you can use Amazon's internal online version.
+* **PlantUML**: Create and preview UML diagrams in VS Code. 
 
-* **Draw.io**: Draw and preview draw.io style diagrams. Alternatively, you can use Amazon's internal draw.io online version.
+* **Draw.io**: Draw and preview draw.io style diagrams. 
   
 * **Mermaid Preview**: Mermaid diagram preview in VS Code.
   
 ### Style and spell checkers and readability checker
 
-* **Vale**: Vale is an excellent style and grammar linter. For installation configuration steps, see my 2023-03-09 post [Install and Configure the Vale CLI to work with Visual Studio Code](https://taolicd.github.io/2023/03/09/configure-vale-for-VSCode.html).
+* **Vale**: Vale is an excellent style and grammar linter. For installation configuration steps, see my post [Install and Configure the Vale CLI to work with Visual Studio Code](https://taolicd.github.io/2023/03/09/configure-vale-for-VSCode.html).
   
 * **Code Spell Checker**: This tool is helpful for catching spelling errors in code blocks. Vale ignores code blocks as far as I know.
 

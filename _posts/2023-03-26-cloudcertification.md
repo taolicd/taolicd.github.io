@@ -8,17 +8,19 @@ date: 2023-03-26
 
 still work in progress
 
-Starting from Nov 2022, I decided to upskill in the cloud space. I want to share experience, resources I have gathered  and  tips I have learned with anybody who is interested in getting  cloud certified. 
+Starting from Nov 2022, I decided to upskill in the cloud space. I want to share my experience, resources I have gathered and tips I have learned with anybody who is interested in getting cloud certified. 
 
 ## Background required  to get cloud certifed 
 
-You don't need much prior knowledge to start your cloud certification. You don't need to know any programming language. It is a plus if you have basic web technology knowledge such as understanding HTTP, IP, SSH. Even if you have no prior web tech knowledge at all, as long as you are willing to learn, you can start from the beginning and get an entry level certification such as [Certified AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) in one month. 
+You don't need any prior knowledge to start your cloud certification. You don't need to know any programming language. It is a plus if you have basic web technology knowledge such as understanding HTTP, TCP/IP, and SSH. Even if you have no prior web tech knowledge at all, as long as you are willing to learn, you can start from the beginning and get an entry level certification such as [Certified AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) in one month. 
 
 ## How much does it cost?
 
-You need to pay a fee to register for the cloud exams. The cost ranges from 
+You may need to pay two types of cost: 
 
-The cost varies from 100 up to thousands of dollars depending on how 
+1. You need to pay a fee to register for cloud certification exams. The exam cost ranges from 100 up to a few hundred dollars depending on which certification you want.
+
+2. Many free resources and online classes are available especially for entry level certifications. People may choose to get access to paid online courses, which may cost from 10 dollars to hundreds of dollars. I will share more details on this later in the [Resources] (#resources) section.
 
 
 ## Which cloud certification to start with

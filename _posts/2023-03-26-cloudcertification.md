@@ -6,16 +6,19 @@ date: 2023-03-26
 
 ---
 
-work in progress
+still work in progress
 
-Starting from Nov 2022, I took an interest in upskilling in the cloud space. A friend is asking me to share tips and thoughts on getting cloud certified. I have gathered these my experiences and resources through this journey.
+Starting from Nov 2022, I decided to upskill in the cloud space. I want to share experience, resources I have gathered  and  tips I have learned with anybody who is interested in getting  cloud certified. 
 
-## What background do I need to have to start my cloud certification 
+## Background required  to get cloud certifed 
 
-You don't need much prior knowledge to start your cloud certification. You don't need to know any programming language. If you have some basic web technology knowledge such as understanding HTTP, IP, SSH, your journey will be a bit easier. Even if you have no prior web tech knowledge at all, as long as you are willing to learn, you can start from the beginning and get an entry level certification in one month. 
+You don't need much prior knowledge to start your cloud certification. You don't need to know any programming language. It is a plus if you have basic web technology knowledge such as understanding HTTP, IP, SSH. Even if you have no prior web tech knowledge at all, as long as you are willing to learn, you can start from the beginning and get an entry level certification such as [Certified AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) in one month. 
 
 ## How much does it cost?
 
+You need to pay a fee to register for the cloud exams. The cost ranges from 
+
+The cost varies from 100 up to thousands of dollars depending on how 
 
 
 ## Which cloud certification to start with

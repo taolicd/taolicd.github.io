@@ -33,7 +33,7 @@ The most popular cloud solutions are:
 
 (Statistics from https://aag-it.com/the-latest-cloud-computing-statistics/ as of March 2023)
 
-If I were to choose, I'd go with either 1 AWS or 2 Microsoft and skip 3 from Google. As far as I know, GCP is still not profitable after Google has invested in it for so many years. 
+If I were to choose, I'd go with either 1 AWS or 2 Microsoft and skip 3 from Google. As far as I know, GCP is still [not profitable](https://www.sdxcentral.com/articles/news/will-google-cloud-ever-be-profitable/2023/02/) after Google has invested in it [since 2008](https://en.wikipedia.org/wiki/Google_Cloud_Platform). 
 
 For AWS, the most popular certificate is [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 

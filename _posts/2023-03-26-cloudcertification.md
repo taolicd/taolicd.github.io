@@ -6,7 +6,7 @@ date: 2023-03-26
 
 ---
 
-Starting from end of Nov 2022, I decided to get certified in AWS. This blog shares my experience, resources I have gathered, and tips I have learned during my cloud certification journey. 
+ In Nov 2022, I decided to get certified in AWS. This blog shares the resources I have gathered, and tips I have learned during my cloud certification journey. 
 
 ## Background required to get started with cloud certification
 

@@ -36,7 +36,7 @@ You need to budget two types of cost:
 
 * Many free resources are available for entry and mid level exams. You may choose to buy online recorded courses, which may cost from 10 dollars to hundreds of dollars. See details on the study resources below.
 
-### Resources for AWS Cloud Practitioner exam
+### Resources for the AWS Cloud Practitioner exam
 
 * Estimated preparation time for newbies: from 1 week to 4 weeks. 
   
@@ -61,7 +61,7 @@ You need to budget two types of cost:
 
 * Highly recommend: [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
   
-### Resources for Certified AWS Solution Architect Associate 
+### Resources for the AWS Solution Architect Associate exam
 
 * Estimated preparation time for newbies: from 2 weeks up to 6 months. 
   

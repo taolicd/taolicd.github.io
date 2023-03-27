@@ -104,7 +104,7 @@ I mainly used Stephane Maarek's video courses and Tutorial Dojo's practice exams
   
 * You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did both [my Cloud Practitioner](https://www.credly.com/badges/5bd9a734-b3fa-4563-bd1a-3d7f3270d012/) and [Solution Architect Associate](https://www.credly.com/badges/f4c482ea-c4a9-4c59-8800-b082b8ff2758/) tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
 
-* AWS certification runs different types of promotions throughout the year. For example, currently t here is a promotion on [free retake before May 31](https://home.pearsonvue.com/Clients/Amazon-Web-Services/free-retake.aspx).
+* AWS certification runs different types of promotions throughout the year. For example, right now (March 2023), PearsonVue, which is the organization that runs the AWS tests, is providing a promotion on [free retake before May 31](https://home.pearsonvue.com/Clients/Amazon-Web-Services/free-retake.aspx).
 
 * Register your exam ahead of the time and make your study plan according to the target exam date. This way you have a deadline to work with. You can reschedule the exam 2 times. After 2 reschedules, if you are still not ready, you can cancel the exam 24 hours prior the exam and get a full refund. 
 

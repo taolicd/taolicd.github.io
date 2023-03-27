@@ -88,7 +88,7 @@ You need to budget two types of cost:
 * Highly recommend: [Udemy Tutorials Dojo Solution Architect practice exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/). Wait until it is on sale for 9.99 or 12.99.  
 
 
-**Other reputable AWS paid training courses**
+**Other reputable paid training courses**
 
 I mainly used Stephane Maarek's video courses and Tutorial Dojo's practice exams for preparation. The following two cloud training resources are also highly recommended by many AWS exam takers.
 

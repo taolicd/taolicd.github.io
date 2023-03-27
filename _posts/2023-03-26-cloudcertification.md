@@ -23,7 +23,7 @@ The most popular cloud solutions are: (Statistics from [this post](https://aag-i
 
  As far as I know, GCP is still [not profitable](https://www.sdxcentral.com/articles/news/will-google-cloud-ever-be-profitable/2023/02/) even though Google has invested in it [since 2008](https://en.wikipedia.org/wiki/Google_Cloud_Platform). Probably I would want to skip GCP and consider either AWS or Azure. 
 
-For AWS, the most popular and widely accepted certificate is [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/). As of March 2023, AWS provides [12 certificates](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm). You don't need to take the exams in any specific order. 
+For AWS, the most popular and widely accepted certificate is [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/). As of March 2023, AWS provides [12 certificates](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm). 
 
 For Microsoft, the most popular certificate is [Azure Administrator Associate](https://learn.microsoft.com/en-us/certifications/azure-administrator/).
 
@@ -39,21 +39,40 @@ You need to budget two types of cost:
 
 ## Resources 
 
-This post focuses on the entry level AWS Cloud Practitioner certificate and the most popular mid level AWS Solution Architect Associate certificate.
+This post focuses on the beginner level AWS Cloud Practitioner certificate and the most popular mid level AWS Solution Architect Associate certificate.
 
 ### Cloud Practitioner
 
+Estimated preparation time: from 1 week to 4 weeks
+
+**Free resources**
+
+* [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc)
+  
+* 
+
+**Paid resources**
+
+* [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
+  
+*
+
+
 ### AWS Solution Architect Associate 
 
+Estimated preparation time: from 2 weeks to 2 months
 
 
-## AWS specific tips 
+
+
+
+## AWS certification tips 
 
 * After passing an exam, you will get a 50% off discount code for your next exam. For people who are new in cloud computing, my suggestion is to start with the $100 entry-level Solution Cloud Practitioner exam, which is much easier to pass than the $150 dollar Architect Associate exam. After you pass the Cloud Practitioner exam, you will get a half price off for the Architect Associate exam. This approach boosts your confidence and only costs you $25 extra dollars. Some people who already have AWS experience may choose to skip Cloud Practitioner and directly tackle the Solution Architect Associate level, which is also allowed.  
   
 * If English is not your native language, when you register the exam, you can [request to get extra 30 minutes](https://aws.amazon.com/certification/policies/before-testing/) for the exam. 
   
-* You can choose to take the online AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did two tests at home and both times things went well. Find a quiet place in your room and do the preparation requirements ahead of the time. 
+* You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did two tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
 
 
 

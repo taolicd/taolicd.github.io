@@ -39,15 +39,13 @@ You need to budget two types of cost:
 
 ### Resources for AWS Cloud Practitioner exam
 
-Estimated preparation time: from 1 week to 4 weeks
+Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2 weeks intensive study to pass the exam. 
 
 **Free resources**
 
-* [AWS Cloud Practitioner official study path](https://aws.amazon.com/training/learn-about/cloud-practitioner/)
-
-* [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc)
+* Must study:  [AWS Cloud Practitioner official study path](https://aws.amazon.com/training/learn-about/cloud-practitioner/)
   
-* Highly recommend:  [Free practice questions from Examtopics](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/)
+* Highly recommend:  [Free practice questions from Exam topics](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/)
 
 * Highly recommend: [Free practice questions on Youtube](https://youtu.be/IvvD13aNO68)
   
@@ -55,6 +53,9 @@ Estimated preparation time: from 1 week to 4 weeks
 
 * Recommend: [Digital Cloud AWS cheat sheets cloud practitioner](https://digitalcloud.training/category/aws-cheat-sheets/aws-cloud-practitioner/)
 
+
+* [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc) I did not try this course so I cannot comment if it is good. I chose the 10 dollars course from Stephane Maarek on Udemy below. 
+* 
 **Paid resources**
 
 * Highly recommend: [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
@@ -62,13 +63,29 @@ Estimated preparation time: from 1 week to 4 weeks
 
 ### Resources for Certified AWS Solution Architect Associate 
 
-Estimated preparation time: from 2 weeks to 2 months
+Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me one month intensive study to pass the exam.
 
 **Free resources**
 
+* Must study: [AWS solution architect associate official study path](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+
+  
+* Highly recommend:  [Free practice questions from Exam topics](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/)
+
+* Highly recommend: [Free practice questions on Youtube](https://youtu.be/IvvD13aNO68)
+  
+* Recommend: [Digital Cloud AWS cheat sheets solution architect associate](https://digitalcloud.training/category/aws-cheat-sheets/aws-solutions-architect-associate/)
+
+* Recommend: Official AWS docs related FAQ pages, for example, [AWS EC2 FAQs](https://aws.amazon.com/ec2/faqs/).
+
+* [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc)
+
 **Paid resources**
 
-
+* Highly recommend: [Udemy Stephane Maarek AWS Solution Architect Associate course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/). Wait until it is on sale for 9.99 or 12.99.
+  
+* Highly recommend: [Udemy Tutorials Dojo Solution Architect practice exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/). Wait until it is on sale  for 9.99 or 12.99.  
 
 
 ## AWS certification tips 
@@ -78,6 +95,8 @@ Estimated preparation time: from 2 weeks to 2 months
 * If English is not your native language, when you register the exam, you can [request to get extra 30 minutes](https://aws.amazon.com/certification/policies/before-testing/) for the exam. 
   
 * You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did both [my Cloud Practitioner](https://www.credly.com/badges/5bd9a734-b3fa-4563-bd1a-3d7f3270d012/) and [Solution Architect Associate](https://www.credly.com/badges/f4c482ea-c4a9-4c59-8800-b082b8ff2758/) tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
+
+* AWS certification runs different types of promotions throughout the year. For example, currently t here is a promotion on [free retake before May 31](https://home.pearsonvue.com/Clients/Amazon-Web-Services/free-retake.aspx).
 
 
 

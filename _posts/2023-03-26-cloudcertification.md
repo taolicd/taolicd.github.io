@@ -90,7 +90,7 @@ You need to budget two types of cost:
 
 **Other reputable AWS paid training courses**
 
-I mainly used Stephane Maarek's video courses and Tutorial Dojo's exams for preparation. The following two cloud training resources are also highly recommended by many AWS exam takers.
+I mainly used Stephane Maarek's video courses and Tutorial Dojo's practice exams for preparation. The following two cloud training resources are also highly recommended by many AWS exam takers.
 
 * [Adrian Cantril's Video Courses](https://learn.cantrill.io)
   

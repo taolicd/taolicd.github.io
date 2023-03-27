@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thoughts and resources on getting cloud certification"
+title: "Tips and resources on getting cloud certification"
 date: 2023-03-26
 ---
 
@@ -67,11 +67,11 @@ Estimated preparation time: from 2 weeks to 2 months
 
 ## AWS certification tips 
 
-* For people who are new with AWS, my suggestion is to start with the $100 entry-level Solution Cloud Practitioner exam, which is much easier to pass than the $150 dollar Solution Architect Associate exam. After you pass the Cloud Practitioner exam, you get a 50% off for the Architect Associate exam. This approach boosts your confidence. Compared with the approach to directly tackle the Solution Architect Associate, you only need to pay $25 extra dollars and you get one more certificate. 
+* For people who are new with AWS, my suggestion is to start with the $100 entry-level Solution Cloud Practitioner exam, which is much easier to pass than the $150 dollar Solution Architect Associate exam. After you pass the Cloud Practitioner exam, you get a 50% off for the Architect Associate exam. This approach boosts your confidence. Compared with the approach to directly tackle the Solution Architect Associate, you only pay $25 extra and you get one more certificate. 
   
 * If English is not your native language, when you register the exam, you can [request to get extra 30 minutes](https://aws.amazon.com/certification/policies/before-testing/) for the exam. 
   
-* You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did two tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
+* You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did both [my Cloud Practitioner](https://www.credly.com/badges/5bd9a734-b3fa-4563-bd1a-3d7f3270d012/) and [Solution Architect Associate](https://www.credly.com/badges/f4c482ea-c4a9-4c59-8800-b082b8ff2758/) tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
 
 
 

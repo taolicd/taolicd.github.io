@@ -12,7 +12,6 @@ Starting from end of Nov 2022, I decided to get certified in AWS. This blog shar
 
 You don't need any prior knowledge to get started. You don't need to know any programming language. If you have some basic IT or web technology knowledge such as understanding HTTP/HTTPS, TCP/IP, and SSH, that is a plus. Even if you have no prior IT knowledge, as long as you are willing to learn and spend enough time and effort, you can pass an entry level certification such as [Certified AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) in one month. 
 
-
 ## Which cloud certification to start with
 
 The most popular cloud solutions are (statistics from [this post](https://aag-it.com/the-latest-cloud-computing-statistics/) as of March 2023):
@@ -33,13 +32,15 @@ This post focuses on AWS. In general, it is better to stick with one company's s
 
 You need to budget two types of cost: 
 
-* You pay a fee to register for cloud certification exams. For AWS, the exams cost 100 for entry level, 150 for mid level, and 300 for pro level. The good news after you pass one exam, you get a 50% off discount code for the next exam. 
+* You pay an exam fee for cloud certification. For AWS, the exams cost 100 for entry level, 150 for mid level, and 300 for pro level. The good news is, after you pass one exam, you get a 50% off discount code for the next exam. 
 
-* Many free resources are available especially for entry and mid level exams. You may choose to buy online courses, which may cost from 10 dollars to hundreds of dollars. I will share details on the study resources below.
+* Many free resources are available for entry and mid level exams. You may choose to buy online recorded courses, which may cost from 10 dollars to hundreds of dollars. See details on the study resources below.
 
 ### Resources for AWS Cloud Practitioner exam
 
-Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2.5 weeks intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
+* Estimated preparation time for newbies: from 1 week to 4 weeks. 
+  
+  It took me 2.5 weeks intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
 
 **Free resources**
 
@@ -53,16 +54,18 @@ Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2.5 w
 
 * Recommend: [Digital Cloud AWS cheat sheets cloud practitioner](https://digitalcloud.training/category/aws-cheat-sheets/aws-cloud-practitioner/)
 
-
 * [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc) I did not try this course so I cannot comment if it is good. I chose the 10 dollars course from Stephane Maarek on Udemy below. 
-* 
+
+
 **Paid resources**
 
 * Highly recommend: [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
   
 ### Resources for Certified AWS Solution Architect Associate 
 
-Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me one month intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
+* Estimated preparation time for newbies: from 2 weeks up to 6 months. 
+  
+  It took me one month intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
 
 **Free resources**
 
@@ -78,12 +81,11 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
 
 * Recommend: Official [AWS Well-Architected Framework](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome)
 
-
 **Paid resources**
 
 * Highly recommend: [Udemy Stephane Maarek AWS Solution Architect Associate course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/). Wait until it is on sale for 9.99 or 12.99.
   
-* Highly recommend: [Udemy Tutorials Dojo Solution Architect practice exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/). Wait until it is on sale  for 9.99 or 12.99.  
+* Highly recommend: [Udemy Tutorials Dojo Solution Architect practice exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/). Wait until it is on sale for 9.99 or 12.99.  
 
 
 **Other reputable AWS paid training courses**
@@ -91,6 +93,7 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
 I mainly used Stephane Maarek's video courses and Tutorial Dojo's exams for preparation. The following two cloud training resources are also highly recommended by many AWS exam takers.
 
 * [Adrian Cantril's Video Courses](https://learn.cantrill.io)
+  
 * [Neal Davis Digital Cloud Training](https://digitalcloud.training/)
 
 ## AWS certification tips 
@@ -103,7 +106,7 @@ I mainly used Stephane Maarek's video courses and Tutorial Dojo's exams for prep
 
 * AWS certification runs different types of promotions throughout the year. For example, currently t here is a promotion on [free retake before May 31](https://home.pearsonvue.com/Clients/Amazon-Web-Services/free-retake.aspx).
 
-* Register your exam and make your study plan towards to the target exam date. This way you have a deadline to work with. You can reschedule the exam 2 times. After 2 reschedules, if you are still not ready, you can cancel the exam 24 hours prior the exam and get a full refund. 
+* Register your exam ahead of the time and make your study plan according to the target exam date. This way you have a deadline to work with. You can reschedule the exam 2 times. After 2 reschedules, if you are still not ready, you can cancel the exam 24 hours prior the exam and get a full refund. 
 
 
 

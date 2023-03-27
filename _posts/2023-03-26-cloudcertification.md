@@ -60,7 +60,6 @@ Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2.5 w
 
 * Highly recommend: [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
   
-
 ### Resources for Certified AWS Solution Architect Associate 
 
 Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me one month intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
@@ -86,6 +85,13 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
   
 * Highly recommend: [Udemy Tutorials Dojo Solution Architect practice exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c03/). Wait until it is on sale  for 9.99 or 12.99.  
 
+
+**Other reputable AWS paid training courses**
+
+I mainly used Stephane Maarek's video courses and Tutorial Dojo's exams for preparation. The following two cloud training resources are also highly recommended by many AWS exam takers.
+
+* [Adrian Cantril's Video Courses](https://learn.cantrill.io)
+* [Neal Davis Digital Cloud Training](https://digitalcloud.training/)
 
 ## AWS certification tips 
 

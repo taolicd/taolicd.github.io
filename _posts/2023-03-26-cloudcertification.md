@@ -27,7 +27,7 @@ For AWS, the most popular and widely accepted certificate is [AWS Certified Solu
 
 For Microsoft, the most popular certificate is [Azure Administrator Associate](https://learn.microsoft.com/en-us/certifications/azure-administrator/).
 
-This post focuses on AWS. In general, it is better to stick with one company's solution and get an in-depth understanding before moving on to another solution. 
+This post focuses on AWS. In general, it is better to stick with one company's solution and get an in-depth understanding before moving on to another company's solution. 
 
 ## How much does it cost and where to find the study materials
 
@@ -35,7 +35,7 @@ You need to budget two types of cost:
 
 * You pay a fee to register for cloud certification exams. For AWS, the exams cost 100 for entry level, 150 for mid level, and 300 for pro level. The good news after you pass one exam, you get a 50% off discount code for the next exam. 
 
-* Many free resources are available especially for entry and mid level exams. You may choose to buy online courses, which may cost from 10 dollars to hundreds of dollars. I will share details on the choices below.
+* Many free resources are available especially for entry and mid level exams. You may choose to buy online courses, which may cost from 10 dollars to hundreds of dollars. I will share details on the study resources below.
 
 ### Resources for AWS Cloud Practitioner exam
 
@@ -69,17 +69,14 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
 
 * Must study: [AWS solution architect associate official study path](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
+* Highly recommend:  [Free practice questions from Exam topics](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/)
 
-  
-* Highly recommend:  [Free practice questions from Exam topics](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/)
-
-* Highly recommend: [Free practice questions on Youtube](https://youtu.be/IvvD13aNO68)
+* Highly recommend: [Free practice questions on Youtube](https://www.youtube.com/watch?v=bWjA4MagDSc&list=PL_0RK_1F4sTCdiXliNXqcRRnpiDiXhQLV&index=2)
   
 * Recommend: [Digital Cloud AWS cheat sheets solution architect associate](https://digitalcloud.training/category/aws-cheat-sheets/aws-solutions-architect-associate/)
 
 * Recommend: Official AWS docs related FAQ pages, for example, [AWS EC2 FAQs](https://aws.amazon.com/ec2/faqs/).
 
-* [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc)
 
 **Paid resources**
 

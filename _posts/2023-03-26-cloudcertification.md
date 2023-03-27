@@ -21,23 +21,23 @@ The most popular cloud solutions are (statistics from [this post](https://aag-it
 2. [Microsoft Azure](https://azure.microsoft.com/en-us/) with about 23% market share
 3. [Google Cloud Platform](https://cloud.google.com/) (GCP) with about 11% market share
 
- As far as I know, GCP is still [not profitable](https://www.sdxcentral.com/articles/news/will-google-cloud-ever-be-profitable/2023/02/) even though Google has invested in it [since 2008](https://en.wikipedia.org/wiki/Google_Cloud_Platform). Probably I would want to skip GCP and focus either AWS or Azure. 
+ As far as I know, GCP is still [not profitable](https://www.sdxcentral.com/articles/news/will-google-cloud-ever-be-profitable/2023/02/) even though Google has invested in it [since 2008](https://en.wikipedia.org/wiki/Google_Cloud_Platform). Probably I would want to skip GCP and focus on AWS or Azure. 
 
 For AWS, the most popular and widely accepted certificate is [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/). As of March 2023, AWS provides [12 certificates](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm). 
 
 For Microsoft, the most popular certificate is [Azure Administrator Associate](https://learn.microsoft.com/en-us/certifications/azure-administrator/).
 
-This post focuses on AWS. In general, it is better to stick with one company's solution (either AWS or Azure) and get an in-depth understanding before moving on to another solution. 
+This post focuses on AWS. In general, it is better to stick with one company's solution and get an in-depth understanding before moving on to another solution. 
 
-## How much does it cost?
+## How much does it cost and where to find the study materials
 
 You need to budget two types of cost: 
 
-* You pay a fee to register for cloud certification exams. For AWS, the exam costs 100 for entry level, 150 for mid level, and 300 for pro level exams. The good news after you pass one exam, you get a 50% off discount code for the next exam. 
+* You pay a fee to register for cloud certification exams. For AWS, the exams cost 100 for entry level, 150 for mid level, and 300 for pro level. The good news after you pass one exam, you get a 50% off discount code for the next exam. 
 
-* Many free resources are available especially for entry and mid level exams. You may choose to buy online courses, which may cost from 10 dollars to hundreds of dollars. I will share more details on the choices in the Resources section below.
+* Many free resources are available especially for entry and mid level exams. You may choose to buy online courses, which may cost from 10 dollars to hundreds of dollars. I will share details on the choices below.
 
-## Resources for AWS Cloud Practitioner exam
+### Resources for AWS Cloud Practitioner exam
 
 Estimated preparation time: from 1 week to 4 weeks
 
@@ -54,7 +54,7 @@ Estimated preparation time: from 1 week to 4 weeks
 *
 
 
-## Resources for Certified AWS Solution Architect Associate 
+### Resources for Certified AWS Solution Architect Associate 
 
 Estimated preparation time: from 2 weeks to 2 months
 

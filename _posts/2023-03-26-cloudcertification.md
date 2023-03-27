@@ -6,7 +6,7 @@ date: 2023-03-26
 
 ---
 
-Starting from Nov 2022, I decided to get certified in AWS. This blog shares my experience, resources I have gathered, and tips I have learned during my cloud certification journey. 
+Starting from end of Nov 2022, I decided to get certified in AWS. This blog shares my experience, resources I have gathered, and tips I have learned during my cloud certification journey. 
 
 ## Background required to get started with cloud certification
 
@@ -39,7 +39,7 @@ You need to budget two types of cost:
 
 ### Resources for AWS Cloud Practitioner exam
 
-Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2 weeks intensive study to pass the exam. 
+Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2.5 weeks intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
 
 **Free resources**
 
@@ -63,7 +63,7 @@ Estimated preparation time for newbies: from 1 week to 4 weeks. It took me 2 wee
 
 ### Resources for Certified AWS Solution Architect Associate 
 
-Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me one month intensive study to pass the exam.
+Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me one month intensive study to pass the exam. If you can get 70-80% of the practice questions correct, you are ready for the test. 
 
 **Free resources**
 
@@ -76,6 +76,8 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
 * Recommend: [Digital Cloud AWS cheat sheets solution architect associate](https://digitalcloud.training/category/aws-cheat-sheets/aws-solutions-architect-associate/)
 
 * Recommend: Official AWS docs related FAQ pages, for example, [AWS EC2 FAQs](https://aws.amazon.com/ec2/faqs/).
+
+* Recommend: Official [AWS Well-Architected Framework](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome)
 
 
 **Paid resources**
@@ -94,6 +96,8 @@ Estimated preparation time for newbies: from 2 weeks up to 6 months. It took me 
 * You can choose to take the AWS certification exam at home with a proctor monitoring you remotely or go to a test center. I did both [my Cloud Practitioner](https://www.credly.com/badges/5bd9a734-b3fa-4563-bd1a-3d7f3270d012/) and [Solution Architect Associate](https://www.credly.com/badges/f4c482ea-c4a9-4c59-8800-b082b8ff2758/) tests at home and both went well. Find a quiet place in your house and do the preparation requirements ahead of the time. 
 
 * AWS certification runs different types of promotions throughout the year. For example, currently t here is a promotion on [free retake before May 31](https://home.pearsonvue.com/Clients/Amazon-Web-Services/free-retake.aspx).
+
+* Register your exam and make your study plan towards to the target exam date. This way you have a deadline to work with. You can reschedule the exam 2 times. After 2 reschedules, if you are still not ready, you can cancel the exam 24 hours prior the exam and get a full refund. 
 
 
 

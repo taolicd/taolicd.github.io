@@ -43,16 +43,22 @@ Estimated preparation time: from 1 week to 4 weeks
 
 **Free resources**
 
+* [AWS Cloud Practitioner official study path](https://aws.amazon.com/training/learn-about/cloud-practitioner/)
+
 * [Youtube AWS Certified Cloud Practitioner full course from freecodecamp](https://www.youtube.com/watch?v=SOTamWNgDKc)
   
-* 
+* Highly recommend:  [Free practice questions from Examtopics](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/)
+
+* Highly recommend: [Free practice questions on Youtube](https://youtu.be/IvvD13aNO68)
+  
+* Highly recommend: [Tutorials Dojo free cloud practitioner practice exams](https://portal.tutorialsdojo.com/courses/free-aws-certified-cloud-practitioner-practice-exams-sampler/)
+
+* Recommend: [Digital Cloud AWS cheat sheets cloud practitioner](https://digitalcloud.training/category/aws-cheat-sheets/aws-cloud-practitioner/)
 
 **Paid resources**
 
-* [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
+* Highly recommend: [Udemy Stephane Maarek AWS Certified Cloud Practitioner course](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/). Wait until it is on sale for 9.99. 
   
-*
-
 
 ### Resources for Certified AWS Solution Architect Associate 
 

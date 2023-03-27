@@ -77,7 +77,7 @@ You need to budget two types of cost:
   
 * Recommend: [Digital Cloud AWS cheat sheets solution architect associate](https://digitalcloud.training/category/aws-cheat-sheets/aws-solutions-architect-associate/)
 
-* Recommend: Official AWS docs related FAQ pages, for example, [AWS EC2 FAQs](https://aws.amazon.com/ec2/faqs/).
+* Recommend: Official AWS FAQ pages, for example, [AWS EC2 FAQs](https://aws.amazon.com/ec2/faqs/) and [AWS S3 FAQs](https://aws.amazon.com/s3/faqs/).
 
 * Recommend: Official [AWS Well-Architected Framework](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome)
 

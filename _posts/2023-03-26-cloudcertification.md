@@ -34,7 +34,7 @@ You need to budget two types of cost:
 
 * You pay an exam fee for cloud certification. For AWS, the exams cost 100 for entry level, 150 for mid level, and 300 for pro level. The good news is, after you pass one exam, you get a 50% off discount code for the next exam. 
 
-* Many free resources are available for entry and mid level exams. You may choose to buy online recorded courses, which may cost from 10 dollars to hundreds of dollars. See details on the study resources below.
+* Many free study materials are available for entry and mid level exams. You may choose to buy recorded video courses, which may cost from 10 dollars to hundreds of dollars. See details below.
 
 ### Resources for the AWS Cloud Practitioner exam
 

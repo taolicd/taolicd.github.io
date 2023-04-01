@@ -108,6 +108,8 @@ I mainly used Stephane Maarek's video courses and Tutorial Dojo's practice exams
 
 * Register your exam ahead of the time and make your study plan according to the target exam date. This way you have a deadline to work with. You can reschedule the exam 2 times. After 2 reschedules, if you are still not ready, you can cancel the exam 24 hours prior the exam and get a full refund. 
 
+* Each certificate is valid for three years. If you pass a higher level certificate and earlier you passed a lower level certificate, you automatically get the earlier certificate renewed. For example, if you pass the AWS Solutions Architect Professional exam on March 31 2023 and you passed the AWS Solutions Architect Associate exam in 2022, you automatically get your Solutions Architect Associate certificate expiration date extended to be the same date as your Solutions Architect Professional expiration date.  
+
 
 
 

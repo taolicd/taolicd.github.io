@@ -2,6 +2,7 @@
 layout: post
 title: "Tips and resources on getting cloud certification"
 date: 2023-03-26
+comments: true
 ---
 
 ---

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Technical Writer Core Competencies in the age of Generative AI"
+date: 2023-04-02
+---
+
 I asked the following question to ChatGPT and Bard and here are the answers. 
 
 ## Prompt 

@@ -57,8 +57,8 @@ The role of the technical writer is evolving as generative AI becomes more sophi
 
 ## My two cents
 
-ChatGPT seemed to be able to generate more versions of the answers while Bard only gave me three versions. I like ChatGPT's answer better. The reason is ChatGPT mentioned one competency that Bard ignored: user empathy. 
-
 Both ChatGPT and Bard provided a solid summary of the key competencies required for technical writers to survive and thrive in the age of generative AI.
 
-Which version of the answer do you like better?
+ChatGPT was able to generate more versions of the answers while Bard only gave me three versions. I like ChatGPT's answer better because it is more succinct and to the point while Bard's answer is more cliche and sounds more like from a template. 
+
+Which answer do you like better?

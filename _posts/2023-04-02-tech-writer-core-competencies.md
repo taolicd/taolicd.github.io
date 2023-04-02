@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technical Writer Core Competencies in the age of Generative AI"
+title: "Technical Writer Core Competencies in the Age of Generative AI"
 date: 2023-04-02
 ---
 

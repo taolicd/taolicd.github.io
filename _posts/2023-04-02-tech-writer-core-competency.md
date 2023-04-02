@@ -1,9 +1,8 @@
 I asked the following question to ChatGPT and Bard and here are the answers. 
 
-
 ## Prompt 
 
-Describe the core competency of a technical writer in the age of generative AI. 
+Describe the core competencies of a technical writer in the age of generative AI. 
 
 ## ChatGPT
 
@@ -49,3 +48,11 @@ In addition to these core competencies, technical writers in the age of generati
 * Be able to communicate effectively with both technical and non-technical audiences.
 
 The role of the technical writer is evolving as generative AI becomes more sophisticated. Technical writers will need to be able to use generative AI tools to create high-quality, user-friendly technical documentation. They will also need to be able to stay up-to-date on the latest generative AI technologies and how they can be used to improve technical documentation.
+
+## My two cents
+
+ChatGPT seemed to be able to generate more versions of the answers while Bard only gave me three versions to choose from. I like ChatGPT's answer better. The reason is ChatGPT mentioned one competency that Bard ignored: User empathy. 
+
+Overall, both ChatGPT and Bard provided a solid summary of the key competencies required for technical writers to survive and thrive in the age of generative AI.
+
+Which version of the answer do you like better?

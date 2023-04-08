@@ -42,7 +42,7 @@ JSON is also a popular format for DevOp configurations.
 
 ## YAML (or YML)
 
-YAML stands for Yet Another Markup Language. YAML is a data serialization language and it is more human readable than XML and JSON. YML allows you to put comments in it. YML is widely used in pipeline and workflow configurations such as in GitLab CI configurations or GitHub Actions configurations. 
+YAML stands for Yet Another Markup Language. YAML is a data serialization language and it is more human readable than XML and JSON. YML allows you to put comments in it. YML is widely used in pipeline and workflow configurations such as in GitLab CI configurations. 
 
 
 ## Markdown

@@ -67,4 +67,29 @@ So what are the main differences and similarities among the above formats?
   
 * YML is widely used for pipeline configurations and static site generator configurations. 
 
+---------
+
+Updates on April 7, 2023
+
+I asked ChatGPT this question:
+### Prompt: Compare HTML, XML, XHTML, JSON, YML, and Markdown.
+
+### Following is ChatGPT's answer
+
+HTML, XML, XHTML, JSON, YML, and Markdown are all different markup languages used for different purposes. Here is a brief comparison between them:
+
+    HTML: HTML (Hypertext Markup Language) is a markup language used to create web pages. It is used to structure content, define headings, paragraphs, links, images, and other elements that make up a web page.
+
+    XML: XML (Extensible Markup Language) is a markup language used for data exchange and storage. It is used to describe data and metadata and is commonly used in web services and APIs.
+
+    XHTML: XHTML (Extensible Hypertext Markup Language) is a markup language similar to HTML, but it is stricter and follows the rules of XML. It is used for web pages that need to be more compliant with XML standards.
+
+    JSON: JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy to read and write for both humans and machines. It is commonly used to transmit data between a server and a web application, as well as for storing and exchanging data.
+
+    YML: YML (YAML Ain't Markup Language) is a human-readable data serialization format that is often used for configuration files. It is commonly used in software development and system administration.
+
+    Markdown: Markdown is a lightweight markup language used to format plain text. It is commonly used in documentation, readme files, and other places where simple formatting is required.
+
+In summary, HTML and XHTML are used for creating web pages, XML is used for data exchange and storage, JSON is used for data transmission and exchange, YML is used for configuration files, and Markdown is used for simple formatting of plain text.
+
 

@@ -75,7 +75,7 @@ I asked ChatGPT 4 to write a blog for me.
 Write a blog post as a senior technical writer with 15 years experience on HTML, XML, XHTML, JSON, YML, and Markdown.
 ### GPT4 answer
 
- ### My Journey as a Senior Technical Writer: 15 Years of Markup Language Mastery
+ **My Journey as a Senior Technical Writer: 15 Years of Markup Language Mastery**
 
 Hello, fellow tech enthusiasts! Today, I want to share my journey as a senior technical writer with a focus on my experience with markup languages like HTML, XML, XHTML, JSON, YML, and Markdown. Over the past 15 years, I have seen the evolution of these languages and how they have shaped the way we create, store, and share information on the internet. So, let's dive into the world of markup languages and discover how they have impacted my career as a technical writer.
 

@@ -69,7 +69,7 @@ So what are the main differences and similarities among the above formats?
 
 ### Updates on April 8, 2023
 
-I asked ChatGPT 4 to write a blog for me.
+I asked ChatGPT 4 to write this blog for me.
 
 ### Prompt
 Write a blog post as a senior technical writer with 15 years experience on HTML, XML, XHTML, JSON, YML, and Markdown.
@@ -118,7 +118,7 @@ I hope that my journey has provided you with valuable insights into the world of
 --------------
 ### Updates on April 7, 2023
 
-I asked ChatGPT3.5 (free version) to write this blog for me
+I asked ChatGPT 3.5 (free version) to write this blog for me
 ### Prompt: Compare HTML, XML, XHTML, JSON, YML, and Markdown.
 
 ### Following is ChatGPT's answer

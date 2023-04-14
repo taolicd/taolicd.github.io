@@ -4,7 +4,7 @@ title: "Technical Writer Core Competencies in the Age of Generative AI"
 date: 2023-04-02
 ---
 
-I asked the following question to ChatGPT 3, ChatGPT 3.5 and Bard and here are the answers. 
+I asked the following question to ChatGPT 4, ChatGPT 3.5 and Bard and here are the answers. 
 
 ## Prompt 
 

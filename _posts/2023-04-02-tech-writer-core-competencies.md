@@ -4,13 +4,39 @@ title: "Technical Writer Core Competencies in the Age of Generative AI"
 date: 2023-04-02
 ---
 
-I asked the following question to ChatGPT and Bard and here are the answers. 
+I asked the following question to ChatGPT 3, ChatGPT 3.5 and Bard and here are the answers. 
 
 ## Prompt 
 
 Describe the core competencies of a technical writer in the age of generative AI. 
 
-## ChatGPT
+## ChatGPT 4
+
+In the age of generative AI, the role of a technical writer has evolved to complement AI capabilities. Core competencies include:
+
+1. **AI collaboration**: Effectively using AI tools to streamline writing, editing, and research tasks, while also recognizing the limitations of AI and knowing when human intervention is required.
+
+2. **Critical thinking**: Evaluating information from various sources, including AI-generated content, to ensure accuracy, relevance, and reliability.
+
+3. **Adaptability**: Staying up-to-date with emerging technologies and adapting writing strategies to best leverage new tools and capabilities.
+
+4. **Audience analysis**: Identifying target audiences and tailoring content to meet their specific needs, preferences, and levels of technical understanding.
+
+5. **Information architecture**: Organizing and structuring content in a logical, user-friendly manner that facilitates easy navigation and comprehension.
+
+6. **Visual communication**: Designing and incorporating visuals, such as diagrams, charts, and infographics, to enhance understanding and retention of complex technical concepts.
+
+7. **Revision and editing**: Refining and polishing content to ensure clarity, coherence, and consistency in language, style, and tone, while maintaining a focus on usability.
+
+8. **Project management**: Coordinating with cross-functional teams, managing deadlines, and efficiently allocating resources to ensure timely delivery of high-quality documentation.
+
+9. **Ethics and legal compliance**: Adhering to ethical principles, such as intellectual property rights, privacy, and accessibility, while also ensuring compliance with industry-specific laws and regulations.
+
+10. **Communication**: Effectively communicating with subject matter experts, team members, and stakeholders to gather information, address concerns, and solicit feedback throughout the documentation process.
+
+Technical writers in the age of generative AI must be able to harness the power of AI tools while maintaining the human touch needed to create clear, concise, and engaging content that meets the needs of diverse audiences.
+
+## ChatGPT 3.5
 
 The core competency of a technical writer in the age of generative AI is the ability to create high-quality technical documentation that is accurate, clear, and easily understandable for the intended audience. While generative AI has the potential to automate some aspects of technical writing, such as generating basic documentation or user guides, it cannot replace the expertise and judgment of a skilled technical writer.
 
@@ -57,7 +83,7 @@ The role of the technical writer is evolving as generative AI becomes more sophi
 
 ## My two cents
 
-Both ChatGPT and Bard provided a solid summary of the key competencies required for technical writers to survive and thrive in the age of generative AI.
+GPT 4 is more comprehensive and cohesive. Both ChatGPT and Bard provided a solid summary of the key competencies required for technical writers to survive and thrive in the age of generative AI.
 
 ChatGPT was able to generate more versions of the answers while Bard only gave me three versions. I like ChatGPT's answer better because it is more succinct and to the point while Bard's answer is more cliche and sounds more like from a template. 
 

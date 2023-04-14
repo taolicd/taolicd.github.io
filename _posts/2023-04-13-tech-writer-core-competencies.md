@@ -86,4 +86,4 @@ The role of the technical writer is evolving as generative AI becomes more sophi
 
 ## My two cents
 
-I like Claude's answer the best. Which answer do you like the most?
+I like Claude's answer the best. Which answer do you like?

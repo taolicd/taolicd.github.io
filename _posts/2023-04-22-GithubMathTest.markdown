@@ -1,12 +1,22 @@
 ---
-layout: default
-title:  "Test Github Math support"
+layout: post
+title:  "Test Github Math and mermaid support"
 date:   2023-04-22
 ---
 
-This post is for testing Github's Math support. 
+This post is for testing Github's Math support and Mermaid support.
 
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$.
+
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 
 # Motivating Examples
 

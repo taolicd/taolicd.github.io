@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Jupyter/iPython Notebook page with LaTex syntax"
 date:   2019-04-01
 use_math: true

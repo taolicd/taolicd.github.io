@@ -2,7 +2,7 @@
 layout: post
 title:  "Jupyter/iPython Notebook page with LaTex syntax"
 date:   2019-04-01
-use_math: true
+katex: true
 ---
 
 The content below is converted from an iPython Notebook format to Markdown. It is purely for testing purposes to see whether the formulas can be displayed properly. 

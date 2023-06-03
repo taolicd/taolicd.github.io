@@ -24,7 +24,7 @@ layout: compress
 
     {% if page.title != 'index' %}
         {% include head.html %}
-        {% include custom-head.html %}
+        {% include datatables.html %}
     {% else %}
         {% include index_head.html %}
     {% endif %}
@@ -33,7 +33,6 @@ layout: compress
 
     {% if page.title != 'index' %}
         {% include blog_header.html %}
-        {% include custom-head.html %}
     {% endif %}
 
     {{ content }}

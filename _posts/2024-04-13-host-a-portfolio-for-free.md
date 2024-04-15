@@ -16,22 +16,22 @@ To create a free portfolio on clippings.me:
 1. Go to the [Clippings website](https://www.clippings.me) and click [**Sign Up**](https://www.clippings.me/users/sign_up).
 2. Follow the instructions. Your portfolio will have a URL that resembles `www.clippings.me/<username>`. For example, this is [my short portfolio](https://www.clippings.me/taolicd) on clippings.me. 
 
-If you are not very technical, this is an excellent platform to showcase your work. If you are a technical writer, I don't recommend that you use clippings.me as the only platform for your portfolio. It is just too simple to demonstrate your "tech" skills. As a technical writer, your demonstrated proficiency in leveraging version control systems like GitHub and GitLab and efficiently deploying applications on platforms such as Netlify showcases your strong technical skills and quick learning capability.
+If you are not very technical, this is an excellent platform to showcase your work. If you are a technical writer, I don't recommend that you use clippings.me as the only platform for your portfolio. It is just too simple to demonstrate your **tech** skills. As a technical writer, your demonstrated proficiency in leveraging version control systems like GitHub and GitLab and efficiently deploying applications on platforms such as Netlify demonstrates your strong technical skills and quick learning capability.
 
 
 
 ##  Creating a portfolio on GitHub, GitLab, or Netlify
 
-GitHub and GitLab are two popular platforms for hosting and collaborating on Git repositories for source code management. Both have very similar functionality and workflows. GitHub is Microsoft-owned and seems to be more popular. 
+GitHub and GitLab are two popular platforms for hosting and collaborating on Git repositories for source code management. Both have very similar functionality and workflows. GitHub is owned by Microsoft and seems to be more popular. 
 
-Netlify is a platform that automates the build, deployment, and hosting of modern web projects. Netlify can ingest projects with source code stored on GitHub or GitLab. 
+Netlify is a platform that automates the build, deployment, and hosting of web projects. Netlify can ingest projects with source code stored on GitHub or GitLab. 
 
 For personal projects, you can host them for free on all the three platforms. 
 
 To create and host a portfolio, you typically go through the following steps:
 
 1. Choose a static site generator (SSG). An SSG makes it easy for you to create a professional looking website using established mechanisms and templates. See [Step 1 Choose an SSG](#step-1-choose-an-ssg).
-2. Choose a theme. A theme defines the look and feel of a site and provides basic structure and functionalities that you can customize. See [Step 2 Choose a theme](#step-2-choose-a-theme).
+2. Choose a theme for your SSG. A theme defines the look and feel of a site and provides basic structure and functionalities that you can customize. See [Step 2 Choose a theme](#step-2-choose-a-theme).
 3. Choose where to host your portfolio. See [Step 3 Choose where to host your portfolio](#step-3-choose-where-to-host-your-portfolio).
 4. Configure your portfolio and deploy it. See [Step 4 Configure the portfolio and deploy it](#step-4-configure-the-portfolio-and-then-deploy-it).
 

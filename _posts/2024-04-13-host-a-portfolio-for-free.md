@@ -4,7 +4,8 @@ title: Creating and hosting a portfolio for free
 date: 2024-04-13
 ---
 
-Building an online portfolio has become essential for professionals such as journalists, technical writers, software developers, and UX designers to showcase their work.
+Building an online portfolio has become essential for professionals across fields — from journalists and technical writers to software developers and UX designers — to effectively showcase their work and skills.
+
 This blog walks you through the process of creating portfolios on Clippings.me, GitHub, GitLab, or Netlify for free. 
 
 ## Creating a portfolio on Clippings.me
@@ -17,8 +18,6 @@ To create a free portfolio on clippings.me:
 2. Follow the instructions. Your portfolio will have a URL that resembles `www.clippings.me/<username>`. For example, this is [my short portfolio](https://www.clippings.me/taolicd) on clippings.me. 
 
 If you are not very technical, this is an excellent platform to showcase your work. If you are a technical writer, I don't recommend that you use clippings.me as the only platform for your portfolio. It is just too simple to demonstrate your **tech** skills. As a technical writer, your demonstrated proficiency in leveraging version control systems like GitHub and GitLab and efficiently deploying applications on platforms such as Netlify demonstrates your strong technical skills and quick learning capability.
-
-
 
 ##  Creating a portfolio on GitHub, GitLab, or Netlify
 
